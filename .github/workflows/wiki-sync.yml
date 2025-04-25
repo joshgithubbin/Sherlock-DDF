@@ -6,7 +6,7 @@ on:
       - 'Catalogue Plotting/Code/wikipages/**'
     branches:
       - main
-
+  workflow_dispatch: 
 jobs:
   sync-wiki:
     runs-on: ubuntu-latest
