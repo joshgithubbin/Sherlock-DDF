@@ -6,16 +6,6 @@ The Canada-France-Hawaii Telescope Legacy Survey (CFHTLS) has been conducted ove
 
 ## Catalogue Schema
 
-
-## Spectroscopic Redshift 
- 
-*:*  
- 
-
-## Photometric Redshift 
- 
-*:*  
- 
 <details>
 <summary>cfhqsir.dat</summary>
 

@@ -6,16 +6,6 @@ The COSMOS survey is a multiwavelength survey aimed to study the evolution of ga
 
 ## Catalogue Schema
 
-
-## Spectroscopic Redshift 
- 
-*:*  
- 
-
-## Photometric Redshift 
- 
-*:*  
- 
 <details>
 <summary>catalog.dat</summary>
 

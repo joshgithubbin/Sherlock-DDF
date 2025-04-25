@@ -4,18 +4,18 @@
 
 We present an X-ray point-source catalogue from the XMM-Large Scale Structure (XMM-LSS) survey region, one of the XMM-Spitzer Extragalactic Representative Volume Survey (XMM-SERVS) fields. We target the XMM-LSS region with 1.3Ms of new XMM-Newton AO-15 observations, transforming the archival X-ray coverage in this region into a 5.3deg^2^ contiguous field with uniform X-ray coverage totaling 2.7Ms of flare-filtered exposure, with a 46ks median PN exposure time. We provide an X-ray catalogue of 5242 sources detected in the soft (0.5-2keV), hard (2-10keV), and/or full (0.5-10keV) bands with a 1 per cent expected spurious fraction determined from simulations. A total of 2381 new X-ray sources are detected compared to previous source catalogues in the same area. Our survey has flux limits of 1.7x10^-15^, 1.3x10^-14^, and 6.5x10^-15^erg/cm^2^/s over 90 per cent of its area in the soft, hard, and full bands, respectively, which is comparable to those of the XMM-COSMOS survey. We identify multiwavelength counterpart candidates for 99.9 per cent of the X-ray sources, of which 93 per cent are considered as reliable based on their matching likelihood ratios. The reliabilities of these high-likelihood-ratio counterparts are further confirmed to be ~=97 per cent reliable based on deep Chandra coverage over ~=5 per cent of the XMM-LSS region. Results of multiwavelength identifications are also included in the source catalogue, along with basic optical-to-infrared photometry and spectroscopic redshifts from publicly available surveys. We compute photometric redshifts for X-ray sources in 4.5 deg^2^ of our field where forced-aperture multiband photometry is available; >70 per cent of the X-ray sources in this subfield have either spectroscopic or high-quality photometric redshifts.
 
-## Catalogue Schema
-
-
 ## Spectroscopic Redshift 
  
-*zsp:* ?=-99 Spectroscopic redshift (ZSEPC) 
+**zsp:** ?=-99 Spectroscopic redshift (ZSEPC) 
  
 
 ## Photometric Redshift 
  
-*zph:* Photometric redshift (ZPHOT) 
+**zph:** Photometric redshift (ZPHOT) 
  
+
+## Catalogue Schema
+
 <details>
 <summary>table2.dat</summary>
 

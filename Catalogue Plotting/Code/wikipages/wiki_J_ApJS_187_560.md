@@ -4,18 +4,18 @@
 
 We present reliable multiwavelength identifications and high-quality photometric redshifts for the 462 X-ray sources in the ~2Ms Chandra Deep Field-South (CDF-S) survey (Cat. J/ApJS/179/19). Source identifications are carried out using deep optical-to-radio multiwavelength catalogs, and are then combined to create lists of primary and secondary counterparts for the X-ray sources. We identified reliable counterparts for 442 (95.7%) of the X-ray sources, with an expected false-match probability of ~6.2%; we also selected four additional likely counterparts. The majority of the other 16 X-ray sources appear to be off-nuclear sources, sources associated with galaxy groups and clusters, high-redshift active galactic nuclei (AGNs), or spurious X-ray sources. A likelihood-ratio method is used for source matching, which effectively reduces the false-match probability at faint magnitudes compared to a simple error-circle matching method. We construct a master photometric catalog for the identified X-ray sources including up to 42 bands of UV-to-infrared data, and then calculate their photometric redshifts (photo-z's). The typical photo-z accuracy is ~6%-7%.
 
-## Catalogue Schema
-
-
 ## Spectroscopic Redshift 
  
-*zs:* ?=-1 Spectroscopic redshift 
+**zs:** ?=-1 Spectroscopic redshift 
  
 
 ## Photometric Redshift 
  
-*zp:* ?=-1 ZEBRA derived photometric redshift (3) 
+**zp:** ?=-1 ZEBRA derived photometric redshift (3) 
  
+
+## Catalogue Schema
+
 <details>
 <summary>table1.dat</summary>
 

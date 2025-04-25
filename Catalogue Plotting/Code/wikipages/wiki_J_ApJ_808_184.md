@@ -4,18 +4,18 @@
 
 We present the initial results and the source catalog from the Nuclear Spectroscopic Telescope Array (NuSTAR) survey of the Extended Chandra Deep Field South (hereafter, ECDFS) --currently the deepest contiguous component of the NuSTAR extragalactic survey program. The survey covers the full ~30'x30' area of this field to a maximum depth of ~360ks (~220ks when corrected for vignetting at 3-24keV), reaching sensitivity limits of ~1.3x10^-14^erg/s/cm^2^ (3-8keV), ~3.4x10^-14^erg/s/cm^2^ (8-24keV), and ~3.0x10^-14^erg/s/cm^2^ (3-24keV). A total of 54 sources are detected over the full field, although five of these are found to lie below our significance threshold once contaminating flux from neighboring (i.e., blended) sources is taken into account. Of the remaining 49 that are significant, 19 are detected in the 8-24keV band. The 8-24 to 3-8keV band ratios of the 12 sources that are detected in both bands span the range 0.39-1.7, corresponding to a photon index range of {Gamma}~0.5-2.3, with a median photon index of {Gamma}{bar}=1.70+/-0.52. The redshifts of the 49 sources in our main sample span the range z=0.21-2.7, and their rest-frame 10-40keV luminosities (derived from the observed 8-24keV fluxes) span the range L_10-40keV_~(0.7-300)x10^43^erg/s, sampling below the "knee" of the X-ray luminosity function out to z~0.8-1. Finally, we identify one NuSTAR source that has neither a Chandra nor an XMM-Newton counterpart, but that shows evidence of nuclear activity at infrared wavelengths and thus may represent a genuine, new X-ray source detected by NuSTAR in the ECDFS.
 
-## Catalogue Schema
-
-
 ## Spectroscopic Redshift 
  
-*Czsp:* [0.1/2.8]? Spectroscopic redshift of the 
+**Czsp:** [0.1/2.8]? Spectroscopic redshift of the 
  
 
 ## Photometric Redshift 
  
-*Czph:* [0.09/2.8]? Photometric redshift of the 
+**Czph:** [0.09/2.8]? Photometric redshift of the 
  
+
+## Catalogue Schema
+
 <details>
 <summary>catalog.dat</summary>
 

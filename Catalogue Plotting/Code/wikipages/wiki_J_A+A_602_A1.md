@@ -6,16 +6,6 @@ We present the VLA-COSMOS 3GHz Large Project based on 384 hours of observations 
 
 ## Catalogue Schema
 
-
-## Spectroscopic Redshift 
- 
-*:*  
- 
-
-## Photometric Redshift 
- 
-*:*  
- 
 <details>
 <summary>table1.dat</summary>
 

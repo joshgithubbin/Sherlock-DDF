@@ -4,18 +4,13 @@
 
 zCOSMOS is a large-redshift survey that is being undertaken in the COSMOS field using 600hr of observation with the VIMOS spectrograph on the 8m VLT. The survey is designed to characterize the environments of COSMOS galaxies from the 100kpc scales of galaxy groups up to the 100Mpc scale of the cosmic web and to produce diagnostic information on galaxies and active galactic nuclei. The zCOSMOS survey consists of two parts: (1) zCOSMOS-bright, a magnitude-limited I-band I_AB_<22.5 sample of about 20000 galaxies with 0.1<z<1.2 covering the whole 1.7deg^2^ COSMOS ACS field, for which the survey parameters at z~0.7 are designed to be directly comparable to those of the 2dFGRS at z~0.1; and (2) zCOSMOS-deep, a survey of approximately 10000 galaxies selected through color-selection criteria to have 1.4<z<3.0, within the central 1deg^2^. This paper describes the survey design and the construction of the target catalogs and briefly outlines the observational program and the data pipeline. In the first observing season, spectra of 1303 zCOSMOS-bright targets and 977 zCOSMOS-deep targets have been obtained.
 
-## Catalogue Schema
-
-
 ## Spectroscopic Redshift 
  
-*z:* ?=- Redshift (REDSHIFT) 
+**z:** ?=- Redshift (REDSHIFT) 
  
 
-## Photometric Redshift 
- 
-*:*  
- 
+## Catalogue Schema
+
 <details>
 <summary>zcosmos3.dat</summary>
 

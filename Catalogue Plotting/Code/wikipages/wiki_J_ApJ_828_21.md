@@ -4,18 +4,13 @@
 
 We present an overview and the first data release of ZFIRE, a spectroscopic redshift survey of star-forming galaxies that utilizes the MOSFIRE instrument on Keck-I to study galaxy properties in rich environments at 1.5<z<2.5. ZFIRE measures accurate spectroscopic redshifts and basic galaxy properties derived from multiple emission lines. The galaxies are selected from a stellar mass limited sample based on deep near infrared imaging (K_AB_<25) and precise photometric redshifts from the ZFOURGE and UKIDSS surveys as well as grism redshifts from 3DHST. Between 2013 and 2015, ZFIRE has observed the COSMOS and UDS legacy fields over 13 nights and has obtained 211 galaxy redshifts over 1.57<z<2.66 from a combination of nebular emission lines (such as H{alpha}, [NII], H{beta}, [OII], [OIII], and [SII]) observed at 1-2{mu}m. Based on our medium-band near infrared photometry, we are able to spectrophotometrically flux calibrate our spectra to ~10% accuracy. ZFIRE reaches 5{sigma} emission line flux limits of ~3x10^-18^erg/s/cm^2^ with a resolving power of R=3500 and reaches masses down to ~10^9^M_{sun}_. We confirm that the primary input survey, ZFOURGE, has produced photometric redshifts for star-forming galaxies (including highly attenuated ones) accurate to {Delta}z/(1+z_spec_)=0.015 with 0.7% outliers. We measure a slight redshift bias of <0.001, and we note that the redshift bias tends to be larger at higher masses. We also examine the role of redshift on the derivation of rest-frame colors and stellar population parameters from SED fitting techniques. The ZFIRE survey extends spectroscopically confirmed z~2 samples across a richer range of environments, here we make available the first public release of the data for use by the community.
 
-## Catalogue Schema
-
-
 ## Spectroscopic Redshift 
  
-*zsp:*  
+**zsp:**  
  
 
-## Photometric Redshift 
- 
-*:*  
- 
+## Catalogue Schema
+
 <details>
 <summary>zfire*.dat</summary>
 

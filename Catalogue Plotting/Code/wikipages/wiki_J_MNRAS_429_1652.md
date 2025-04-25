@@ -6,16 +6,6 @@ We present the final release of the multiwavelength XMM-Large Scale Structure (L
 
 ## Catalogue Schema
 
-
-## Spectroscopic Redshift 
- 
-*:*  
- 
-
-## Photometric Redshift 
- 
-*:*  
- 
 <details>
 <summary>2xlss.dat</summary>
 

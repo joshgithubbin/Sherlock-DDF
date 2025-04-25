@@ -4,18 +4,13 @@
 
 The K20 survey is a near infrared-selected, deep (Ks<20) redshift survey targeting galaxies in two independent regions of the sky, the Chandra Deep Field South and the field around the quasar 0055-2659, for a total area of 52arcmin^2^. The total Ks-selected sample includes 545 objects. Low-resolution (R~300-600) optical spectra for 525 of them have been obtained with the FORS1/FORS2 spectrographs at the ESO/VLT, providing 501 spectroscopic identifications (including 12 type-1 AGN and 45 stars); consequently, we were able to measure redshifts and identify stars in 96% of the observed objects, whereas the spectroscopic completeness with respect to the total photometrically selected sample is 92% (501/545). The K20 survey is therefore the most complete spectroscopic survey of a near infrared-selected sample to date. The K20 survey contains 444 spectroscopically identified galaxies, covering a redshift range of 0.05<z<2.73, with a mean redshift <z>=0.75; excluding the 32 "low-quality" redshifts does not significantly change these values.
 
-## Catalogue Schema
-
-
 ## Spectroscopic Redshift 
  
-*z:* ? Spectroscopic redshift 
+**z:** ? Spectroscopic redshift 
  
 
-## Photometric Redshift 
- 
-*:*  
- 
+## Catalogue Schema
+
 <details>
 <summary>catalog.dat</summary>
 

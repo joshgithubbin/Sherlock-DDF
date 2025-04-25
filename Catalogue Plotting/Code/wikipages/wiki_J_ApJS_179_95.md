@@ -4,18 +4,18 @@
 
 We present the optical and infrared identifications of the 266 radio sources detected at 20cm with the Very Large Array in the Chandra Deep Field-South. Using deep i-band Advanced Camera for Surveys, R-band Wide Field Imager, K-band SOFI NTT, K-band ISAAC VLT and Spitzer imaging data, we are able to find reliable counterparts for 254 (~95%) VLA sources. Twelve radio sources remain unidentified, and three of them are "empty fields". Using literature and our own data we are able to assign redshifts to 186 (~70%) radio sources: 108 are spectroscopic redshifts and 78 are reliable photometric redshifts. Based on the rest-frame colors and morphological distributions of the host galaxies, we find evidences for a change in the submillijansky radio source population: (1) above ~0.08mJy early-type galaxies are dominating and (2) at flux densities below ~0.08mJy, starburst galaxies become dominant.
 
-## Catalogue Schema
-
-
 ## Spectroscopic Redshift 
  
-*zsp:* ? Spectroscopic redshift of counterpart 
+**zsp:** ? Spectroscopic redshift of counterpart 
  
 
 ## Photometric Redshift 
  
-*zph:* ? Photometric redshift of counterpart 
+**zph:** ? Photometric redshift of counterpart 
  
+
+## Catalogue Schema
+
 <details>
 <summary>table[34].dat</summary>
 

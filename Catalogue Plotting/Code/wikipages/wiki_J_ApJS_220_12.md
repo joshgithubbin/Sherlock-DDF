@@ -4,18 +4,13 @@
 
 We present a spectroscopic survey of galaxies in the COSMOS field using the Fiber Multi-object Spectrograph (FMOS), a near-infrared instrument on the Subaru Telescope. Our survey is specifically designed to detect the H{alpha} emission line that falls within the H-band (1.6-1.8{mu}m) spectroscopic window from star-forming galaxies with 1.4<z<1.7 and M_stellar_>~10^10^M_{sun}_. With the high multiplex capability of FMOS, it is now feasible to construct samples of over 1000 galaxies having spectroscopic redshifts at epochs that were previously challenging. The high-resolution mode (R~2600) effectively separates H{alpha} and [NII]{lambda}6585, thus enabling studies of the gas-phase metallicity and photoionization state of the interstellar medium. The primary aim of our program is to establish how star formation depends on stellar mass and environment, both recognized as drivers of galaxy evolution at lower redshifts. In addition to the main galaxy sample, our target selection places priority on those detected in the far-infrared by Herschel/PACS to assess the level of obscured star formation and investigate, in detail, outliers from the star formation rate (SFR)--stellar mass relation. Galaxies with H{alpha} detections are followed up with FMOS observations at shorter wavelengths using the J-long (1.11-1.35{mu}m) grating to detect H{beta} and [OIII]{lambda}5008 which provides an assessment of the extinction required to measure SFRs not hampered by dust, and an indication of embedded active galactic nuclei. With 460 redshifts measured from 1153 spectra, we assess the performance of the instrument with respect to achieving our goals, discuss inherent biases in the sample, and detail the emission-line properties. Our higher-level data products, including catalogs and spectra, are available to the community.
 
-## Catalogue Schema
-
-
 ## Spectroscopic Redshift 
  
-*z:* [0.7/2.5]?=-99 Best measurement of redshift 
+**z:** [0.7/2.5]?=-99 Best measurement of redshift 
  
 
-## Photometric Redshift 
- 
-*:*  
- 
+## Catalogue Schema
+
 <details>
 <summary>table6.dat</summary>
 

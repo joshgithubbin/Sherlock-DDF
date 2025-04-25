@@ -1,16 +1,6 @@
 Abstract section not found.
 ## Catalogue Schema
 
-
-## Spectroscopic Redshift 
- 
-*:*  
- 
-
-## Photometric Redshift 
- 
-*:*  
- 
 <details>
 <summary>table3.dat</summary>
 

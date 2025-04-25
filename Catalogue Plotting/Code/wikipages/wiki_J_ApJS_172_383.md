@@ -4,18 +4,13 @@
 
 We present spectroscopic redshifts for the first 466 X-ray and radio-selected AGN targets in the 2deg^2^ COSMOS field. Spectra were obtained with the IMACS instrument on the Magellan (Baade) telescope, using the nod-and-shuffle technique. We identify a variety of type 1 and type 2 AGNs, as well as red galaxies with no emission lines. Our redshift yield is 72% down to i_AB_=24, although the yield is >90% for i_AB_<22. We expect the completeness to increase as the survey continues. When our survey is complete and additional redshifts from the zCOSMOS project are included, we anticipate ~1100 AGNs with redshifts over the entire COSMOS field. Our redshift survey is consistent with an obscured AGN population that peaks at z~0.7, although further work is necessary to disentangle the selection effects.
 
-## Catalogue Schema
-
-
 ## Spectroscopic Redshift 
  
-*z:* ?=-1.00000 Redshift 
+**z:** ?=-1.00000 Redshift 
  
 
-## Photometric Redshift 
- 
-*:*  
- 
+## Catalogue Schema
+
 <details>
 <summary>table2.dat</summary>
 

@@ -4,18 +4,13 @@
 
 We have revised the Spitzer Wide-Area Infrared Extragalactic survey (SWIRE) Photometric Redshift Catalogue to take account of new optical photometry in several of the SWIRE areas, and incorporating Two Micron All Sky Survey (2MASS) and UKIRT Infrared Deep Sky Survey (UKIDSS) near-infrared data. Aperture matching is an important issue for combining near-infrared and optical data, and we have explored a number of methods of doing this. The increased number of photometric bands available for the redshift solution results in improvements both in the rms error and, especially, in the outlier rate. We have also found that incorporating the dust torus emission into the quasi-stellar object (QSO) templates improves the performance for QSO redshift estimation. Our revised redshift catalogue contains over 1 million extragalactic objects, of which 26 288 are QSOs.
 
-## Catalogue Schema
-
-
 ## Spectroscopic Redshift 
  
-*zsp:* ?=0.00000 Spectroscopic redshift 
+**zsp:** ?=0.00000 Spectroscopic redshift 
  
 
-## Photometric Redshift 
- 
-*:*  
- 
+## Catalogue Schema
+
 <details>
 <summary>zcatrev.dat</summary>
 

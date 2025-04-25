@@ -6,16 +6,6 @@ We present a UV to mid-infrared multi-wavelength catalog in the CANDELS/GOODS-S 
 
 ## Catalogue Schema
 
-
-## Spectroscopic Redshift 
- 
-*:*  
- 
-
-## Photometric Redshift 
- 
-*:*  
- 
 <details>
 <summary>catalog.dat</summary>
 

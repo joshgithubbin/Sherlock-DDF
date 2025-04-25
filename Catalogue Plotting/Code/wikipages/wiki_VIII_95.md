@@ -6,16 +6,6 @@ The Herschel Multi-tiered Extragalactic Survey (HerMES) is a legacy programme de
 
 ## Catalogue Schema
 
-
-## Spectroscopic Redshift 
- 
-*:*  
- 
-
-## Photometric Redshift 
- 
-*:*  
- 
 <details>
 <summary>merge.dat</summary>
 

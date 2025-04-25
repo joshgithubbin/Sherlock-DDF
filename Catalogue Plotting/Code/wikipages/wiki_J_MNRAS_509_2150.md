@@ -6,16 +6,6 @@ MIGHTEE is a galaxy evolution survey using simultaneous radio continuum, spectro
 
 ## Catalogue Schema
 
-
-## Spectroscopic Redshift 
- 
-*:*  
- 
-
-## Photometric Redshift 
- 
-*:*  
- 
 <details>
 <summary>cosmosl1.dat</summary>
 

@@ -6,16 +6,6 @@ UltraVISTA is an ultra-deep near-infrared survey of the central region of the CO
 
 ## Catalogue Schema
 
-
-## Spectroscopic Redshift 
- 
-*:*  
- 
-
-## Photometric Redshift 
- 
-*:*  
- 
 <details>
 <summary>catalog.dat</summary>
 

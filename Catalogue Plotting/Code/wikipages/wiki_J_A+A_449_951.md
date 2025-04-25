@@ -4,18 +4,18 @@
 
 We present a high quality multiwavelength (from 0.3 to 8.0 micron) catalog of the large and deep area in the GOODS Southern Field covered by the deep near-IR observations obtained with the ESO VLT. The catalog is entirely based on public data: in our analysis, we have included the F435W, F606W, F775W and F850LP ACS images, the JHKs VLT data, the Spitzer data provided by IRAC instrument (3.6, 4.5, 5.8 and 8.0 micron), and publicly available U-band data from the 2.2ESO and VLT-VIMOS. We describe in detail the procedures adopted to obtain this multiwavelength catalog. In particular, we developed a specific software for the accurate "PSF-matching" of space and ground-based images of different resolution and depth (ConvPhot), of which we analyse performances and limitations. We have included both z-selected, as well as Ks-selected objects, yielding a unique, self-consistent catalog. The largest fraction of the sample is 90% complete at z~26 or Ks~23.8 (AB scale). Finally, we cross-correlated our data with all the spectroscopic catalogs available to date, assigning a spectroscopic redshift to more than 1000 sources. The final catalog is made up of 14847 objects, at least 72 of which are known stars, 68 are AGNs, and 928 galaxies with spectroscopic redshift (668 galaxies with reliable redshift determination). We applied our photometric redshift code to this data set, and the comparison with the spectroscopic sample shows that the quality of the resulting photometric redshifts is excellent, with an average scatter of only 0.06. The full catalog, which we named GOODS-MUSIC (MUltiwavelength Southern Infrared Catalog), including the spectroscopic information, is made publicly available, together with the software specifically designed to this end.
 
-## Catalogue Schema
-
-
 ## Spectroscopic Redshift 
  
-*zspec:*  
+**zspec:**  
  
 
 ## Photometric Redshift 
  
-*zphot:*  
+**zphot:**  
  
+
+## Catalogue Schema
+
 <details>
 <summary>table5.dat</summary>
 

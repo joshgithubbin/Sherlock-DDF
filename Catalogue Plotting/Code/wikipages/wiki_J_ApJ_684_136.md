@@ -4,18 +4,13 @@
 
 We present the broadband SEDs of the largest available highly complete (72%) spectroscopic sample of MIR-selected galaxies and AGNs at intermediate redshift. The sample contains 203 extragalactic sources from the 15um ELAIS-SWIRE survey, all with measured spectroscopic redshift. Most of these sources have full multiwavelength coverage from the FUV (GALEX) to the FIR (Spitzer) and lie in the redshift range 0.1<z<1.3. This large sample allows us for the first time to characterize the spectral properties of sources responsible for the strong evolution observed in the MIR. Based on SED-fitting, we have classified the MIR sources, identifying AGN signatures in about 50% of them. This fraction is significantly higher than that derived from optical spectroscopy (~29%) and is due in particular to the identification of AGN activity in objects spectroscopically classified as galaxies (the spectroscopic classification may be somewhat unreliable because of host galaxy dilution in the optical). It is likely that in most of our objects, the AGN is either obscured or low luminosity, and thus dominates the energetic output only in the MIR, showing up just in the range where the host galaxy SED has a minimum. The fraction of AGNs strongly depends on flux density, with that derived through the SED-fitting about 20% at S_15um_~0.5-1mJy and gradually increasing to 100% at S_15um_>10mJy, while that obtained from optical spectroscopy is never >30%, even at higher flux densities.
 
-## Catalogue Schema
-
-
 ## Spectroscopic Redshift 
  
-*zsp:* Spectroscopic redshift (6)(4) 
+**zsp:** Spectroscopic redshift (6)(4) 
  
 
-## Photometric Redshift 
- 
-*:*  
- 
+## Catalogue Schema
+
 <details>
 <summary>table1.dat</summary>
 

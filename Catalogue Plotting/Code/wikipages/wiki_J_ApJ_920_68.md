@@ -6,16 +6,6 @@ We investigate the performance of machine-learning techniques in classifying act
 
 ## Catalogue Schema
 
-
-## Spectroscopic Redshift 
- 
-*:*  
- 
-
-## Photometric Redshift 
- 
-*:*  
- 
 <details>
 <summary>table7.dat</summary>
 

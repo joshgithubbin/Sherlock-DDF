@@ -6,16 +6,6 @@ Classification of stars and galaxies is a well-known astronomical problem that h
 
 ## Catalogue Schema
 
-
-## Spectroscopic Redshift 
- 
-*:*  
- 
-
-## Photometric Redshift 
- 
-*:*  
- 
 <details>
 <summary>tablea1.dat</summary>
 

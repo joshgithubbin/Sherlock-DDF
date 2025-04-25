@@ -4,18 +4,13 @@
 
 Based on the photometry of 10 near-ultraviolet, optical, and near-infrared bands of the Chandra Deep Field-South, we estimate the photometric redshifts for 342 X-ray sources, which constitute ~99% of all the detected X-ray sources in the field.
 
-## Catalogue Schema
-
-
-## Spectroscopic Redshift 
- 
-*:*  
- 
-
 ## Photometric Redshift 
  
-*z:* Redshift 
+**z:** Redshift 
  
+
+## Catalogue Schema
+
 <details>
 <summary>table1.dat</summary>
 

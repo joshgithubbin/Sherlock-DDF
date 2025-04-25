@@ -6,16 +6,6 @@ The Franco-Italian VIRMOS project has delivered the VIMOS spectrograph for the E
 
 ## Catalogue Schema
 
-
-## Spectroscopic Redshift 
- 
-*:*  
- 
-
-## Photometric Redshift 
- 
-*:*  
- 
 <details>
 <summary>morph.dat</summary>
 
