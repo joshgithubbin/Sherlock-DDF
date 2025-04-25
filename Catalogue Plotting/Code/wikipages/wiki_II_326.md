@@ -1,11 +1,23 @@
-## Summary
+**Authors:** Gonzalez-Solares E., Vaccari M., Marchetti L., <Mon. Not. R. Astron. Soc., 428, 1958-1967 (2013)>, =2013MNRAS.428.1958R, =2013yCat.2336....0R
+
+## Summary: Revised SWIRE photometric redshifts 
 
 We have revised the Spitzer Wide-Area Infrared Extragalactic survey (SWIRE) Photometric Redshift Catalogue to take account of new optical photometry in several of the SWIRE areas, and incorporating Two Micron All Sky Survey (2MASS) and UKIRT Infrared Deep Sky Survey (UKIDSS) near-infrared data. Aperture matching is an important issue for combining near-infrared and optical data, and we have explored a number of methods of doing this. The increased number of photometric bands available for the redshift solution results in improvements both in the rms error and, especially, in the outlier rate. We have also found that incorporating the dust torus emission into the quasi-stellar object (QSO) templates improves the performance for QSO redshift estimation. Our revised redshift catalogue contains over 1 million extragalactic objects, of which 26 288 are QSOs.
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*zsp:* ?=0.00000 Spectroscopic redshift 
+ 
+
+## Photometric Redshift 
+ 
+*:*  
+ 
 <details>
-<summary>zcatrev.dat catalogue schema</summary>
+<summary>zcatrev.dat</summary>
 
 | Bytes    | Format   | Units       | Label    | Explanations                                  |
 |:---------|:---------|:------------|:---------|:----------------------------------------------|

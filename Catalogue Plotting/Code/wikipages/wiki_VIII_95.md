@@ -1,11 +1,23 @@
-## Summary
+**Authors:** Bock J., Altieri B., Amblard A., Arumugam V., Aussel H.,, Babbedge T., Beelen A., Bethermin M., Blain A., Boselli A., Bridge C.,, Brisbin D., Buat V., Burgarella D., Castro-Rodriguez N., Cava A.,, Chanial P., Cirasuolo M., Clements D.L., Conley A., Conversi L., Cooray A.,, Dowell C.D., Dubois E.N., Dwek E., Dye S., Eales S., Elbaz D., Farrah D.,, Feltre A., Ferrero P., Fiolet N., Fox M., Franceschini A., Gear W.,, Giovannoli E., Glenn J., Gong Y., Gonzalez Solares E.A., Griffin M.,, Halpern M., Harwit M., Hatziminaoglou E., Heinis S., Hurley P., Hwang H.S.,, Hyde A., Ibar E., Ilbert O., Isaak K., Ivison R.J., Lagache G.,, Le Floc'h E., Levenson L., Faro B.L., Lu N., Madden S., Maffei B.,, Magdis G., Mainetti G., Marchetti L., Marsden G., Marshall J.,, Mortier A.M.J., Nguyen H.T., O'Halloran B., Omont A., Page M.J.,, Panuzzo P., Papageorgiou A., Patel H., Pearson C.P., Perez-Fournon I.,, Pohlen M., Rawlings J.I., Raymond G., Rigopoulou D., Riguccini L.,, Rizzo D., Rodighiero G., Roseboom I.G., Rowan-Robinson M.,, Sanchez Portal M., Schulz B., Scott D., Seymour N., Shupe D.L.,, Smith A.J., Stevens J.A., Symeonidis M., Trichas M., Tugwell K.E.,, Vaccari M., Valtchanov I., Vieira J.D., Viero M., Vigroux L., Wang L.,, Ward R., Wardlow J., Wright G., Xu C.K., Zemcov M., <Mon. Not. R. Astron. Soc. 424, 1614-1635 (2012)>, =2012MNRAS.424.1614O, +2012MNRAS.419..377S, =2014yCat.8095....0O
+
+## Summary: Herschel Multi-tiered Extragalactic Survey 
 
 The Herschel Multi-tiered Extragalactic Survey (HerMES) is a legacy programme designed to map a set of nested fields totalling ~380deg^2^. Fields range in size from 0.01 to ~20deg^2^, using the Herschel-Spectral and Photometric Imaging Receiver (SPIRE) (at 250, 350 and 500um) and the Herschel-Photodetector Array Camera and Spectrometer (PACS) (at 100 and 160um), with an additional wider component of 270deg^2^ with SPIRE alone. These bands cover the peak of the redshifted thermal spectral energy distribution from interstellar dust and thus capture the reprocessed optical and ultraviolet radiation from star formation that has been absorbed by dust, and are critical for forming a complete multiwavelength understanding of galaxy formation and evolution.
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*:*  
+ 
+
+## Photometric Redshift 
+ 
+*:*  
+ 
 <details>
-<summary>merge.dat catalogue schema</summary>
+<summary>merge.dat</summary>
 
 | Bytes   | Format   | Units   | Label   | Explanations                                                    |
 |:--------|:---------|:--------|:--------|:----------------------------------------------------------------|
@@ -35,7 +47,7 @@ The Herschel Multi-tiered Extragalactic Survey (HerMES) is a legacy programme de
 </details>
 
 <details>
-<summary>sf???.dat catalogue schema</summary>
+<summary>sf???.dat</summary>
 
 | Bytes   | Format   | Units   | Label   | Explanations                                                   |
 |:--------|:---------|:--------|:--------|:---------------------------------------------------------------|
@@ -57,7 +69,7 @@ The Herschel Multi-tiered Extragalactic Survey (HerMES) is a legacy programme de
 </details>
 
 <details>
-<summary>sx???.dat catalogue schema</summary>
+<summary>sx???.dat</summary>
 
 | Bytes   | Format   | Units   | Label   | Explanations                                     |
 |:--------|:---------|:--------|:--------|:-------------------------------------------------|
@@ -84,7 +96,7 @@ The Herschel Multi-tiered Extragalactic Survey (HerMES) is a legacy programme de
 </details>
 
 <details>
-<summary>img.dat catalogue schema</summary>
+<summary>img.dat</summary>
 
 | Bytes   | Format   | Units      | Label    | Explanations                          |
 |:--------|:---------|:-----------|:---------|:--------------------------------------|

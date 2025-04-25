@@ -1,11 +1,23 @@
-## Summary
+**Authors:** Franx M., Van Dokkum P.G., Quadri R.F., Gawiser E., Bell E.F.,, Barrientos L.F., Blanc G.A., Castander F.J., Damen M., Gonzalez-Perez V.,, Hall P.B., Herrera D., Hildebrandt H., Kriek M., Labbe I., Lira P.,, Maza J., Rudnick G., Treister E., Urry C.M., Willis J.P., Wuyts S., <Astrophys. J. Suppl. Ser., 183, 295-319 (2009)>, =2009ApJS..183..295T
+
+## Summary: A K-selected catalog of the ECDFS from MUSYC 
 
 We present a new, K-selected, optical-to-near infrared photometric catalog of the Extended Chandra Deep Field South (ECDFS), making it publicly available to the astronomical community. The data set is founded on publicly available imaging, supplemented by original z'JK imaging data collected as part of the MUltiwavelength Survey by Yale-Chile (MUSYC). The final photometric catalog consists of photometry derived from UU_38_BVRIz'JK imaging covering the full 1/2x1/2{deg} of the ECDFS, plus H-band photometry for approximately 80% of the field. The 5{sigma} flux limit for point sources is K^(AB)^_tot_=22.0. This is also the nominal completeness and reliability limit of the catalog: the empirical completeness for 21.75<K<22.00 is >~85%. We have verified the quality of the catalog through both internal consistency checks, and comparisons to other existing and publicly available catalogs. As well as the photometric catalog, we also present catalogs of photometric redshifts and rest-frame photometry derived from the 10-band photometry. We have collected robust spectroscopic redshift determinations from published sources for 1966 galaxies in the catalog. Based on these sources, we have achieved a (1{sigma}) photometric redshift accuracy of {Delta}z/(1+z)=0.036, with an outlier fraction of 7.8%. Most of these outliers are X-ray sources. Finally, we describe and release a utility for interpolating rest-frame photometry from observed spectral energy distributions, dubbed InterRest available via http://www.strw.leidenuniv.nl/~ent/InterRest
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*zs:*  
+ 
+
+## Photometric Redshift 
+ 
+*RFGz:* ?=-99.000 Rest-frame photometry for 
+ 
 <details>
-<summary>photcat.dat catalogue schema</summary>
+<summary>photcat.dat</summary>
 
 | Bytes   | Format   | Units    | Label   | Explanations                                            |
 |:--------|:---------|:---------|:--------|:--------------------------------------------------------|
@@ -128,7 +140,7 @@ Note (8): For each spectroscopic redshift determination, we have evaluated a
 </details>
 
 <details>
-<summary>zphot.dat catalogue schema</summary>
+<summary>zphot.dat</summary>
 
 | Bytes   | Format   | Units   | Label   | Explanations                                    |
 |:--------|:---------|:--------|:--------|:------------------------------------------------|
@@ -152,7 +164,7 @@ Note (8): For each spectroscopic redshift determination, we have evaluated a
 </details>
 
 <details>
-<summary>restfr.dat catalogue schema</summary>
+<summary>restfr.dat</summary>
 
 | Bytes   | Format   | Units   | Label    | Explanations                                  |
 |:--------|:---------|:--------|:---------|:----------------------------------------------|

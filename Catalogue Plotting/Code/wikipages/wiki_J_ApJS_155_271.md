@@ -1,11 +1,13 @@
-## Summary
+**Authors:** Bergeron J., Hasinger G., Lehmann I., Kewley L., Mainieri V.,, Nonino M., Rosati P., Giacconi R., Gilli R., Gilmozzi R., Norman C.,, Romaniello M., Schreier E., Tozzi P., Wang J.X., Zheng W., Zirm A., <Astrophys. J. Suppl. Ser., 155, 271-349 (2004)>, =2004ApJS..155..271S
+
+## Summary: Chandra Deep Field-South: Optical spectroscopy 
 
 We present the results of our spectroscopic follow-up program of the X-ray sources detected in the 942ks exposure of the Chandra Deep Field-South (CDFS). A total of 288 possible counterparts were observed at the VLT with the FORS1/FORS2 spectrographs for 251 of the 349 Chandra sources (including three additional faint X-ray sources). Spectra and R-band images are shown for all the observed sources and R-K colors are given for most of them. Spectroscopic redshifts were obtained for 168 X-ray sources, of which 137 have both reliable optical identification and redshift estimate (including 16 external identifications). The R<24 observed sample comprises 161 X-ray objects (181 optical counterparts), and 126 of them have unambiguous spectroscopic identification.
 
 ## Catalogue Schema
 
 <details>
-<summary>table4.dat catalogue schema</summary>
+<summary>table4.dat</summary>
 
 | Bytes   | Format   | Units   | Label       | Explanations                                  |
 |:--------|:---------|:--------|:------------|:----------------------------------------------|
@@ -38,7 +40,7 @@ We present the results of our spectroscopic follow-up program of the X-ray sourc
 </details>
 
 <details>
-<summary>table5.dat catalogue schema</summary>
+<summary>table5.dat</summary>
 
 | Bytes   | Format   | Units   | Label     | Explanations                             |
 |:--------|:---------|:--------|:----------|:-----------------------------------------|
@@ -69,7 +71,7 @@ We present the results of our spectroscopic follow-up program of the X-ray sourc
 </details>
 
 <details>
-<summary>table8.dat catalogue schema</summary>
+<summary>table8.dat</summary>
 
 | Bytes   | Format   | Units   | Label       | Explanations                               |
 |:--------|:---------|:--------|:------------|:-------------------------------------------|
@@ -92,7 +94,7 @@ We present the results of our spectroscopic follow-up program of the X-ray sourc
 </details>
 
 <details>
-<summary>table9.dat catalogue schema</summary>
+<summary>table9.dat</summary>
 
 | Bytes   | Format   | Units   | Label   | Explanations                                  |
 |:--------|:---------|:--------|:--------|:----------------------------------------------|

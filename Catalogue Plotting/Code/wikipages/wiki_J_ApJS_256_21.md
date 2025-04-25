@@ -1,11 +1,23 @@
-## Summary
+**Authors:** Brandt W.N., Chen C.-T., Luo B., Nyland K., Yang G., Zou F.,, Aird J., Alexander D.M., Bauer F.E., Lacy M., Lehmer B.D., Mallick L.,, Salvato M., Schneider D.P., Tozzi P., Traulsen I., Vaccari M., Vignali C.,, Vito F., Xue Y., Banerji M., Chow K., Comastri A., Del Moro A., Gilli R.,, Mullaney J., Paolillo M., Schwope A., Shemmer O., Sun M., Timlin Iii J.D.,, Trump J.R., <Astrophys. J. Suppl. Ser., 256, 21-21 (2021)>, =2021ApJS..256...21N (SIMBAD/NED BibCode)
+
+## Summary: XMM-SERVS survey: X-ray sources for W-CDF-S & ELAIS-S1 
 
 We present the X-ray point-source catalogs in two of the XMM-Spitzer Extragalactic Representative Volume Survey (XMM-SERVS) fields, W-CDF-S (4.6deg^2^) and ELAIS-S1 (3.2deg^2^), aiming to fill the gap between deep pencil-beam X-ray surveys and shallow X-ray surveys over large areas. The W-CDF-S and ELAIS-S1 regions were targeted with 2.3 and 1.0Ms of XMM-Newton observations, respectively; 1.8 and 0.9Ms exposures remain after flare filtering. The survey in W-CDF-S has a flux limit of 1.0x10^-14^erg/cm^2^/s over 90% of its area in the 0.5-10keV band; 4053 sources are detected in total. The survey in ELAIS-S1 has a flux limit of 1.3x10^-14^erg/cm^2^/s over 90% of its area in the 0.5-10keV band; 2630 sources are detected in total. Reliable optical-to-IR multiwavelength counterpart candidates are identified for ~89% of the sources in W-CDF-S and ~87% of the sources in ELAIS-S1. A total of 3129 sources in W-CDF-S and 1957 sources in ELAIS-S1 are classified as active galactic nuclei (AGNs). We also provide photometric redshifts for X-ray sources; ~84% of the 3319/2001 sources in W-CDF-S/ELAIS-S1 with optical-to-near-IR forced photometry available have either spectroscopic redshifts or high-quality photometric redshifts. The completion of the XMM-Newton observations in the W-CDF-S and ELAIS-S1 fields marks the end of the XMM-SERVS survey data gathering. The ~12000 pointlike X-ray sources detected in the whole ~13deg^2^ XMM-SERVS survey will benefit future large-sample AGN studies.
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*zsp:* [0.00013/4.05]?=-99 Spectroscopic 
+ 
+
+## Photometric Redshift 
+ 
+*zphot:* [0.01/4.27]?=-99 Suggested photometric 
+ 
 <details>
-<summary>table2.dat catalogue schema</summary>
+<summary>table2.dat</summary>
 
 | Bytes   | Format       | Units   | Label   | Explanations                                       |
 |:--------|:-------------|:--------|:--------|:---------------------------------------------------|
@@ -25,7 +37,7 @@ We present the X-ray point-source catalogs in two of the XMM-Spitzer Extragalact
 </details>
 
 <details>
-<summary>table6.dat catalogue schema</summary>
+<summary>table6.dat</summary>
 
 | Bytes      | Format       | Units        | Label           | Explanations                                                                 |
 |:-----------|:-------------|:-------------|:----------------|:-----------------------------------------------------------------------------|
@@ -286,7 +298,7 @@ Note (4): Flag for broad-line (BL) AGN candidates as follows:
 </details>
 
 <details>
-<summary>table7.dat catalogue schema</summary>
+<summary>table7.dat</summary>
 
 | Bytes      | Format       | Units        | Label           | Explanations                                                                   |
 |:-----------|:-------------|:-------------|:----------------|:-------------------------------------------------------------------------------|

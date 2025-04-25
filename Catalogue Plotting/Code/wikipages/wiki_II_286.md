@@ -1,11 +1,23 @@
-## Summary
+**Authors:** III. ESO/WFI deep U-band imaging of the 0226-04 deep field., IV. Near-infrared observations., V. The K-band follow-up in the 0226-04 field., McCracken H.J., Radovich M., Iovino A., Temporin S.,, Adami C., Arnaboldi M., Arnouts S., Bardelli S., Bertin E., Bolzonella M.,, Bondi M., Bongiorno A., Bottini D., Brinchmann J., Busarello G., Cappi A.,, Charlot S., Ciliegi P., Contini T., Cucciati O., Cuillandre J.-C.,, Dantel-Fort M., De La Torre S., Foucaud S., Franzetti P., Garilli B.,, Gavignaud I., Gregorini L., Guzzo L., Gwyn S., Ilbert O., Lamareille F.,, Le Brun V., Le Fevre O., MacCagni D., Marano B., Marinoni C., Massarotti M.,, Mathez G., Mazure A., Mellier Y., Meneux B., Merighi R., Merluzzi P.,, Paioro L., Paltani S., Pello R., Picat J.P., Pollo A., Pozzetti L.,, Ripepi V., Rizzo D., Saracco P., Scaramella R., Scodeggio M., Tresse L.,, Vergani D., Vettolani G., Walcher C.J., Zamorani G., Zanichelli A., Zucca E., <Astron. Astrophys., 410, 17-32 (2003); 417, 51-60 (2004);, 442, 423-436 (2005); 482, 81-95 (2008)>, =2003A&A...410...17M, =2004A&A...417...51R, =2005A&A...442..423I, =2008A&A...482...81T
+
+## Summary: Unknown Title 
 
 The Franco-Italian VIRMOS project has delivered the VIMOS spectrograph for the European Southern Observatory Very Large Telescope (ESO-VLT). VIMOS is a VIsible imaging Multi-Object Spectrograph with outstanding multiplex capabilities: with 10 arcsec slits, spectra can be taken of 600 objects simultaneously. In integral field mode, a 6400-fibre Integral Field Unit (IFU) provides spectroscopy for all objects covering a 54x54arcsec^2^ area.
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*:*  
+ 
+
+## Photometric Redshift 
+ 
+*:*  
+ 
 <details>
-<summary>morph.dat catalogue schema</summary>
+<summary>morph.dat</summary>
 
 | Bytes   | Format   | Units    | Label   | Explanations                                  |
 |:--------|:---------|:---------|:--------|:----------------------------------------------|
@@ -43,7 +55,7 @@ The Franco-Italian VIRMOS project has delivered the VIMOS spectrograph for the E
 </details>
 
 <details>
-<summary>ucat.dat catalogue schema</summary>
+<summary>ucat.dat</summary>
 
 | Bytes   | Format   | Units       | Label     | Explanations                                   |
 |:--------|:---------|:------------|:----------|:-----------------------------------------------|
@@ -95,7 +107,7 @@ The Franco-Italian VIRMOS project has delivered the VIMOS spectrograph for the E
 </details>
 
 <details>
-<summary>[bvrijk]cat.dat catalogue schema</summary>
+<summary>[bvrijk]cat.dat</summary>
 
 | Bytes   | Format   | Units       | Label    | Explanations                                   |
 |:--------|:---------|:------------|:---------|:-----------------------------------------------|

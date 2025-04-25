@@ -1,11 +1,23 @@
-## Summary
+**Authors:** McCracken H.J., Hudelot W., Rouberol O., Herent O., Mellier Y.,, Dunlop J., Le Fevre O., Franx M., Fynbo J., Bowler R., Caputi K.,, Kauffmann O., Milvang-Jensen B., Gonzalez-Fernandez C., Gonzalez-Solares E.,, Irwin M., Lewis J., Blake R., Cross N., Read M., Sutorius E., <Institut d'Astrophysique de Paris, UltraVISTA, Cambridge Astronomical, Survey Unit (CASU) and Wide Field Astronomy Unit (WFAU), 2019>, =2023yCat.2373....0M, =2012A&A...544A.156M
+
+## Summary: The fourth UltraVISTA data release (DR4) 
 
 UltraVISTA is an ultra-deep near-infrared survey of the central region of the COSMOS field (Scoville+ 2007ApJS..172..196K). In this fourth release (DR4) we provide five stacked images and their corresponding weight maps for Y JHKs and NB118 narrow-band data taken during the first seven years of UltraVISTA survey operations. In addition, single band individual source lists and source lists created in dual-image mode (using the Ks image as a detection image) are provided (note that in ESO terminology, single-band tabular data are referred to as "Source lists" and multi-band merged data are referred to as catalogues). We also provide a five-band catalogue that meets the requirement for a catalogue in the Phase 3 framework. The data volume is ~90GB as in DR3. The total survey area is close to 1.9deg^2^.
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*:*  
+ 
+
+## Photometric Redshift 
+ 
+*:*  
+ 
 <details>
-<summary>catalog.dat catalogue schema</summary>
+<summary>catalog.dat</summary>
 
 | Bytes    | Format   | Units   | Label      | Explanations                                  |
 |:---------|:---------|:--------|:-----------|:----------------------------------------------|

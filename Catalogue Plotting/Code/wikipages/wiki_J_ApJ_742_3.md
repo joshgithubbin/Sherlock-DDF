@@ -1,11 +1,23 @@
-## Summary
+**Authors:** Brandt W.N., Alexander D.M., Xue Y.Q., Bauer F.E.,, Lehmer B.D., Luo B., Papovich C., <Astrophys. J., 742, 3 (2011)>, =2011ApJ...742....3R
+
+## Summary: Photometric catalogs for ECDF-S and CDF-N 
 
 We present an analysis of deep multiwavelength data for z~0.3-3 starburst galaxies selected by their 70um emission in the Extended-Chandra Deep Field-South and Extended Groth Strip. We identify active galactic nuclei (AGNs) in these infrared sources through their X-ray emission and quantify the fraction that host an AGN. Lastly, we investigate the ratio between the supermassive black hole accretion rate (inferred from the AGN X-ray luminosity) and the bulge growth rate of the host galaxy (approximated as the SFR) and find that, for sources with detected AGNs and star formation (and neglecting systems with low star formation rates to which our data are insensitive), this ratio in distant starbursts agrees well with that expected from the local scaling relation assuming the black holes and bulges grew at the same epoch. These results imply that black holes and bulges grow together during periods of vigorous star formation and AGN activity.
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*zsp:* [0.0/5.5]?=-1 Spectroscopic redshift 
+ 
+
+## Photometric Redshift 
+ 
+*b_zph:* Lower 68% confidence interval on zph 
+ 
 <details>
-<summary>table2.dat catalogue schema</summary>
+<summary>table2.dat</summary>
 
 | Bytes   | Format   | Units      | Label     | Explanations                                                  |
 |:--------|:---------|:-----------|:----------|:--------------------------------------------------------------|
@@ -164,7 +176,7 @@ Note (6): From the SIMPLE Spitzer IRAC catalog (Damen et al.
 </details>
 
 <details>
-<summary>table3.dat catalogue schema</summary>
+<summary>table3.dat</summary>
 
 | Bytes   | Format   | Units    | Label    | Explanations                                    |
 |:--------|:---------|:---------|:---------|:------------------------------------------------|

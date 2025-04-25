@@ -1,11 +1,23 @@
-## Summary
+**Authors:** Hsieh B.-C., Wang W.-H., Lin Y.-T., Lim C.-F., Toba Y.,, Zhong Y.,Chang S.-Y., <Astrophys. J., 920, 68 (2021)>, =2021ApJ...920...68C
+
+## Summary: Machine learning predicted AGNs in HSC-Wide region 
 
 We investigate the performance of machine-learning techniques in classifying active galactic nuclei (AGNs), including X-ray-selected AGNs (XAGNs), infrared-selected AGNs (IRAGNs), and radio-selected AGNs (RAGNs). Using the known physical parameters in the Cosmic Evolution Survey (COSMOS) field, we are able to create quality training samples in the region of the Hyper Suprime-Cam (HSC) survey. We compare several Python packages (e.g., scikit- learn, Keras, and XGBoost) and use XGBoost to identify AGNs and show the performance (e.g., accuracy, precision, recall, F1 score, and AUROC). Our results indicate that the performance is high for bright XAGN and IRAGN host galaxies. The combination of the HSC (optical) information with the Wide-field Infrared Survey Explorer band 1 and band 2 (near-infrared) information performs well to identify AGN hosts. For both type 1 (broad-line) XAGNs and type 1 (unobscured) IRAGNs, the performance is very good by using optical-to-infrared information. These results can apply to the five-band data from the wide regions of the HSC survey and future all-sky surveys.
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*:*  
+ 
+
+## Photometric Redshift 
+ 
+*:*  
+ 
 <details>
-<summary>table7.dat catalogue schema</summary>
+<summary>table7.dat</summary>
 
 | Bytes   | Format   | Units      | Label   | Explanations                                       |
 |:--------|:---------|:-----------|:--------|:---------------------------------------------------|

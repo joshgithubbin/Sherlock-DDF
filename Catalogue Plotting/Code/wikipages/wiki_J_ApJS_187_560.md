@@ -1,11 +1,23 @@
-## Summary
+**Authors:** Brandt W.N., Xue Y.Q., Brusa M., Alexander D.M., Bauer F.E.,, Comastri A., Koekemoer A., Lehmer B.D., Mainieri V., Rafferty D.A.,, Schneider D.P., Silverman J.D., Vignali C., <Astrophys. J. Suppl. Ser., 187, 560-580 (2010)>, =2010ApJS..187..560L
+
+## Summary: Photometric redshifts of the 2Ms CDF-S 
 
 We present reliable multiwavelength identifications and high-quality photometric redshifts for the 462 X-ray sources in the ~2Ms Chandra Deep Field-South (CDF-S) survey (Cat. J/ApJS/179/19). Source identifications are carried out using deep optical-to-radio multiwavelength catalogs, and are then combined to create lists of primary and secondary counterparts for the X-ray sources. We identified reliable counterparts for 442 (95.7%) of the X-ray sources, with an expected false-match probability of ~6.2%; we also selected four additional likely counterparts. The majority of the other 16 X-ray sources appear to be off-nuclear sources, sources associated with galaxy groups and clusters, high-redshift active galactic nuclei (AGNs), or spurious X-ray sources. A likelihood-ratio method is used for source matching, which effectively reduces the false-match probability at faint magnitudes compared to a simple error-circle matching method. We construct a master photometric catalog for the identified X-ray sources including up to 42 bands of UV-to-infrared data, and then calculate their photometric redshifts (photo-z's). The typical photo-z accuracy is ~6%-7%.
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*zs:* ?=-1 Spectroscopic redshift 
+ 
+
+## Photometric Redshift 
+ 
+*zp:* ?=-1 ZEBRA derived photometric redshift (3) 
+ 
 <details>
-<summary>table1.dat catalogue schema</summary>
+<summary>table1.dat</summary>
 
 | Bytes   | Format   | Units    | Label   | Explanations                                                          |
 |:--------|:---------|:---------|:--------|:----------------------------------------------------------------------|
@@ -55,7 +67,7 @@ Note (7): Defined as the expected number of true counterparts (Nid-Nfalse)
 </details>
 
 <details>
-<summary>table[23].dat catalogue schema</summary>
+<summary>table[23].dat</summary>
 
 | Bytes   | Format   | Units   | Label     | Explanations                                  |
 |:--------|:---------|:--------|:----------|:----------------------------------------------|
@@ -75,7 +87,7 @@ Note (7): Defined as the expected number of true counterparts (Nid-Nfalse)
 </details>
 
 <details>
-<summary>table4a.dat catalogue schema</summary>
+<summary>table4a.dat</summary>
 
 | Bytes   | Format   | Units   | Label   | Explanations                               |
 |:--------|:---------|:--------|:--------|:-------------------------------------------|
@@ -90,7 +102,7 @@ Note (7): Defined as the expected number of true counterparts (Nid-Nfalse)
 </details>
 
 <details>
-<summary>table4.dat catalogue schema</summary>
+<summary>table4.dat</summary>
 
 | Bytes   | Format   | Units   | Label      | Explanations                                            |
 |:--------|:---------|:--------|:-----------|:--------------------------------------------------------|
@@ -305,7 +317,7 @@ Note (2): the flag has the values:
 </details>
 
 <details>
-<summary>table5.dat catalogue schema</summary>
+<summary>table5.dat</summary>
 
 | Bytes   | Format   | Units     | Label            | Explanations                                                              |
 |:--------|:---------|:----------|:-----------------|:--------------------------------------------------------------------------|

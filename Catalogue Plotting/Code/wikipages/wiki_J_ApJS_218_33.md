@@ -1,11 +1,13 @@
-## Summary
+**Authors:** Ashby M.L.N., Willner S.P., Fazio G.G., Dunlop J.S., Egami E., Faber S.M.,, Ferguson H.C., Grogin N.A., Hora J.L., Huang J.-S., Koekemoer A.M.,, Labbe I., Wang Z., <Astrophys. J. Suppl. Ser., 218, 33 (2015)>, =2015ApJS..218...33A
+
+## Summary: Spitzer-CANDELS catalog within 5 deep fields 
 
 The Spitzer-Cosmic Assembly Near-infrared Deep Extragalactic Legacy Survey (S-CANDELS; PI G.Fazio) is a Cycle 8 Exploration Program designed to detect galaxies at very high redshifts (z>5). To mitigate the effects of cosmic variance and also to take advantage of deep coextensive coverage in multiple bands by the Hubble Space Telescope (HST) Multi-cycle Treasury Program CANDELS, S-CANDELS was carried out within five widely separated extragalactic fields: the UKIDSS Ultra-deep Survey, the Extended Chandra Deep Field South, COSMOS, the HST Deep Field North, and the Extended Groth Strip. S-CANDELS builds upon the existing coverage of these fields from the Spitzer Extended Deep Survey (SEDS), a Cycle 6 Exploration Program, by increasing the integration time from SEDS' 12hr to a total of 50hr but within a smaller area, 0.16deg^2^. The additional depth significantly increases the survey completeness at faint magnitudes. This paper describes the S-CANDELS survey design, processing, and publicly available data products. We present Infrared Array Camera (IRAC) dual-band 3.6+4.5{mu}m catalogs reaching to a depth of 26.5 AB mag. Deep IRAC counts for the roughly 135000 galaxies detected by S-CANDELS are consistent with models based on known galaxy populations. The increase in depth beyond earlier Spitzer/IRAC surveys does not reveal a significant additional contribution from discrete sources to the diffuse Cosmic Infrared Background (CIB). Thus it remains true that only roughly half of the estimated CIB flux from COBE/DIRBE is resolved.
 
 ## Catalogue Schema
 
 <details>
-<summary>table1.dat catalogue schema</summary>
+<summary>table1.dat</summary>
 
 | Bytes   | Format   | Units         | Label    | Explanations                             |
 |:--------|:---------|:--------------|:---------|:-----------------------------------------|
@@ -29,7 +31,7 @@ The Spitzer-Cosmic Assembly Near-infrared Deep Extragalactic Legacy Survey (S-CA
 </details>
 
 <details>
-<summary>table[789].dat catalogue schema</summary>
+<summary>table[789].dat</summary>
 
 | Bytes   | Format   | Units     | Label      | Explanations                                                    |
 |:--------|:---------|:----------|:-----------|:----------------------------------------------------------------|

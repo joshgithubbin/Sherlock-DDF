@@ -1,11 +1,23 @@
-## Summary
+**Authors:** Novak M., Bondi M., Ciliegi P., Mooley K.P., Schinnerer E.,, Zamorani G., Navarrete F., Bourke S., Karim A., Vardoulaki E., Leslie S.,, Delhaize J., Carilli C.L., Myers S.T., Baran N., Delvecchio I.,, Miettinen O., Banfield J., Balokovic M., Bertoldi F., Capak P., Frail D.A.,, Hallinan G., Hao H., Herrera Ruiz N., Horesh A., Ilbert O., Intema H.,, Jelic V., Klockner H-R., Krpan J., Kulkarni S.R., McCracken H., Laigle C.,, Middleberg E., Murphy E., Sargent M., Scoville N.Z., Sheth K., <Astron. Astrophys. 602, A1 (2017)>, =2017A&A...602A...1S (SIMBAD/NED BibCode)
+
+## Summary: VLA-COSMOS 3 GHz Large Project 
 
 We present the VLA-COSMOS 3GHz Large Project based on 384 hours of observations with the Karl G. Jansky Very Large Array (VLA) at 3GHz (10cm) toward the two square degree Cosmic Evolution Survey (COSMOS) field. The final mosaic reaches a median rms of 2.3 uJy/beam over the two square degrees at an angular resolution of 0.75". To fully account for the spectral shape and resolution variations across the broad (2GHz) band, we image all data with a multiscale, multifrequency synthesis algorithm. We present a catalog of 10,830 radio sources down to 5{sigma}, out of which 67 are combined from multiple components. Comparing the positions of our 3GHz sources with those from the Very Long Baseline Array (VLBA)-COSMOS survey, we estimate that the astrometry is accurate to 0.01" at the bright end (signal-to-noise ratio, S/N_3GHz_>20). Survival analysis on our data combined with the VLA-COSMOS 1.4GHz Joint Project catalog yields an expected median radio spectral index of {alpha}=-0.7. We compute completeness corrections via Monte Carlo simulations to derive the corrected 3GHz source counts. Our counts are in agreement with previously derived 3GHz counts based on single-pointing (0.087 square degrees) VLA data. In summary, the VLA-COSMOS 3GHz Large Project simultaneously provides the largest and deepest radio continuum survey at high (0.75") angular resolution to date, bridging the gap between last-generation and next-generation surveys.
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*:*  
+ 
+
+## Photometric Redshift 
+ 
+*:*  
+ 
 <details>
-<summary>table1.dat catalogue schema</summary>
+<summary>table1.dat</summary>
 
 | Bytes   | Format   | Units    | Label      | Explanations                              |
 |:--------|:---------|:---------|:-----------|:------------------------------------------|

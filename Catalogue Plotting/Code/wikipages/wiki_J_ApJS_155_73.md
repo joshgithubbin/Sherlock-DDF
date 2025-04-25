@@ -1,11 +1,23 @@
-## Summary
+**Authors:** Mikles V.J., Mainieri V., Hasinger G., Rosati P., Wolf C.,, Norman C., Szokoly G., Gilli R., Tozzi P., Wang J.X., Zirm A., Giacconi R., <Astrophys. J. Suppl. Ser., 155, 73-87 (2004)>, =2004ApJS..155...73Z
+
+## Summary: Photometric redshifts of X-ray sources in CDF-S 
 
 Based on the photometry of 10 near-ultraviolet, optical, and near-infrared bands of the Chandra Deep Field-South, we estimate the photometric redshifts for 342 X-ray sources, which constitute ~99% of all the detected X-ray sources in the field.
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*:*  
+ 
+
+## Photometric Redshift 
+ 
+*z:* Redshift 
+ 
 <details>
-<summary>table1.dat catalogue schema</summary>
+<summary>table1.dat</summary>
 
 | Bytes   | Format   | Units         | Label         | Explanations                                    |
 |:--------|:---------|:--------------|:--------------|:------------------------------------------------|

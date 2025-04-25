@@ -1,11 +1,23 @@
-## Summary
+**Authors:** Capak P., Salvato M., Barger A.J., Cowie L.L., Faisst A.,, Hemmati S., Kakazu Y., Kartaltepe J., Masters D., Mobasher B., Nayyeri H.,, Sanders D., Scoville N.Z., Suh H., Steinhardt C., Yang F., <Astrophys. J., 858, 77 (2018)>, =2018ApJ...858...77H
+
+## Summary: DEIMOS 10K spectroscopic survey in COSMOS field 
 
 We present a catalog of 10718 objects in the COSMOS field, observed through multi-slit spectroscopy with the Deep Imaging Multi-Object Spectrograph (DEIMOS) on the Keck II telescope in the wavelength range ~5500-9800{AA}. The catalog contains 6617 objects with high-quality spectra (two or more spectral features), and 1798 objects with a single spectroscopic feature confirmed by the photometric redshift. For 2024 typically faint objects, we could not obtain reliable redshifts. The objects have been selected from a variety of input catalogs based on multi-wavelength observations in the field, and thus have a diverse selection function, which enables the study of the diversity in the galaxy population. The magnitude distribution of our objects is peaked at I_AB_~23 and K_AB_~21, with a secondary peak at K_AB_~24. We sample a broad redshift distribution in the range 0<z<6, with one peak at z~1, and another one around z~4. We have identified 13 redshift spikes at z>0.65 with chance probabilities <4x10^-4^, some of which are clearly related to protocluster structures of sizes >10Mpc. An object-to-object comparison with a multitude of other spectroscopic samples in the same field shows that our DEIMOS sample is among the best in terms of fraction of spectroscopic failures and relative redshift accuracy. We have determined the fraction of spectroscopic blends to about 0.8% in our sample. This is likely a lower limit and at any rate well below the most pessimistic expectations. Interestingly, we find evidence for strong lensing of Ly{alpha} background emitters within the slits of 12 of our target galaxies, increasing their apparent density by about a factor of 4.
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*zspec:* [0/6.7]? Spectroscopic redshift 
+ 
+
+## Photometric Redshift 
+ 
+*:*  
+ 
 <details>
-<summary>table2.dat catalogue schema</summary>
+<summary>table2.dat</summary>
 
 | Bytes   | Format   | Units   | Label    | Explanations                              |
 |:--------|:---------|:--------|:---------|:------------------------------------------|
@@ -36,7 +48,7 @@ We present a catalog of 10718 objects in the COSMOS field, observed through mult
 </details>
 
 <details>
-<summary>table3.dat catalogue schema</summary>
+<summary>table3.dat</summary>
 
 | Bytes   | Format   | Units       | Label         | Explanations                                                         |
 |:--------|:---------|:------------|:--------------|:---------------------------------------------------------------------|

@@ -1,11 +1,23 @@
-## Summary
+**Authors:** Basa S., Cuby J.-G., Cuillandre J.-C.,, Willott C., Moutard T., Chatron J., Arnouts S., Hudelot P., <Astron. Astrophys. 616, A55 (2018)>, =2018A&A...616A..55P (SIMBAD/NED BibCode)
+
+## Summary: CFHQSIR survey 
 
 The Canada-France-Hawaii Telescope Legacy Survey (CFHTLS) has been conducted over a five-year period at the CFHT with the MegaCam instrument, totaling 450 nights of observations. The Wide Synoptic Survey is one component of the CFHTLS, covering 155 square degrees in four patches of 23 to 65 square degrees through the whole MegaCam filter set (u*, g', r', i', z') down to i'_{AB} = 24.5. With the motivation of searching for high-redshift quasars at redshifts above 6.5, we extend the multi-wavelength CFHTLS-Wide data in the Y-band down to magnitudes of {sim} 22.5 for point sources (5{sigma}). We observed the four CFHTLS-Wide fields (except one quarter of the W3 field) in the Y-band with the WIRCam instrument (Wide-field InfraRed Camera) at the CFHT. Each field was visited twice, at least three weeks apart. Each visit consisted of two dithered exposures. The images are reduced with the Elixir software used for the CFHTLS and modified to account for the properties of near-InfraRed (IR) data. Two series of image stacks are subsequently produced: four-image stacks for each WIRCam pointing, and one-square- degree tiles matched to the format of the CFHTLS data release. Photometric calibration is performed on stars by fitting stellar spectra to their CFHTLS photometric data and extrapolating their Y-band magnitudes. After corrections accounting for correlated noise, we measure a limiting magnitude of Y_{AB}~=22.4 for point sources (5{sigma}) in an aperture diameter of 0.93 arcsecs, over 130 square degrees. We produce a multi-wavelength catalogue combining the CFHTLS-Wide optical data with our CFHQSIR (Canada-France High-z quasar survey in the near-InfraRed) Y-band data. We derive the Y-band number counts and compare them to the Vista Deep Extragalactic Observations survey (VIDEO). We find that the addition of the CFHQSIR Y-band data to the CFHTLS optical data increases the accuracy of photometric redshifts and reduces the outlier rate from 13.8% to 8.8% in the redshift range 1.05<~z<~1.2. The images and the catalogue for 8.6 million sources down to [(z'>=23.5) {lor} (Y>=23.0)] are released and available at the following URL: http://apps.canfar.net/storage/list/cjw/cfhqsir
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*:*  
+ 
+
+## Photometric Redshift 
+ 
+*:*  
+ 
 <details>
-<summary>cfhqsir.dat catalogue schema</summary>
+<summary>cfhqsir.dat</summary>
 
 | Bytes   | Format   | Units            | Label       | Explanations                                                     |
 |:--------|:---------|:-----------------|:------------|:-----------------------------------------------------------------|

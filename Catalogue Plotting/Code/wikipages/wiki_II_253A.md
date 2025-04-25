@@ -1,11 +1,18 @@
-## Summary
-
 Abstract section not found.
-
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*:*  
+ 
+
+## Photometric Redshift 
+ 
+*:*  
+ 
 <details>
-<summary>table3.dat catalogue schema</summary>
+<summary>table3.dat</summary>
 
 | Bytes   | Format   | Units       | Label     | Explanations                               |
 |:--------|:---------|:------------|:----------|:-------------------------------------------|

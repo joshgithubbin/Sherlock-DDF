@@ -1,11 +1,23 @@
-## Summary
+**Authors:** La Franca F., Feruglio C., Fiore F., Puccetti S., Cocchia F.,, Berta S., Brusa M., Cimatti A., Comastri A., Franceschini A., Gruppioni C.,, Maiolino R., Matute I., Polletta M., Pozzetti L., Pozzi F., Vignali C.,, Zamorani G., Oliver S., Rowan-Robinson M., Smith G., Lonsdale C., <Astrophys. J., 703, 1778-1790 (2009)>, =2009ApJ...703.1778S
+
+## Summary: Spitzer sources in SWIRE/XMM/ELAIS-S1 field 
 
 We present a catalog of optical spectroscopic identifications of sources detected by Spitzer at 3.6 or 24um down to ~10 and ~280uJy, respectively, in the SWIRE/XMM-Newton/ELAIS-S1 field and classified via line width analysis and diagnostic diagrams. A total of 1376 sources down to R~24.2mag have been identified (1362 detected at 3.6um, 419 at 24um, and 405 at both) by low-resolution optical spectroscopy carried out with FORS2, VIMOS, and EFOSC2 at the Very Large Telescope and 3.6m ESO telescope. The spectroscopic campaigns have been carried out over the central 0.6deg^2^ area of ELAIS-S1 which, in particular, has also been observed by XMM-Newton and Chandra. We find the first direct optical spectroscopic evidence that the fraction of active galactic nuclei (AGNs; mostly AGN2) increases with increasing F(24um)/F(R) ratio, reaching values of 70(+/-20)% in the range 316<F(24um)/F(R)<1000. We present an Infrared Array Camera-Multiband Imaging Photometer color-color diagram able to separate AGN1 from obscured AGN2 candidates. After having corrected for the spectroscopic incompleteness of our sample, the result is that the AGN fraction at F(24um)~0.8mJy is ~22(+/-7)% and decreases slowly to ~19(+/-5)% down to F(24um)~0.3mJy.
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*z:* Redshift (spectroscopic) 
+ 
+
+## Photometric Redshift 
+ 
+*:*  
+ 
 <details>
-<summary>table2.dat catalogue schema</summary>
+<summary>table2.dat</summary>
 
 | Bytes   | Format   | Units         | Label      | Explanations                                       |
 |:--------|:---------|:--------------|:-----------|:---------------------------------------------------|

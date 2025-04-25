@@ -1,11 +1,23 @@
-## Summary
+**Authors:** Spitler L.R., Quadri R.F., Labbe I., Glazebrook K.,, Persson S.E., Papovich C., Tran K.-V., Brammer G.B., Cowley M., Tomczak A.,, Nanayakkara T., Alcorn L., Allen R., Broussard A., van Dokkum P.,, Forrest B., van Houdt J., Kacprzak G.G., Kawinwanichakij L., Kelson D.D.,, Lee J., McCarthy P.J., Mehrtens N., Monson A., Murphy D., Rees G.,, Tilvi V., Whitaker K.E., <Astrophys. J., 830, 51-51 (2016)>, =2016ApJ...830...51S (SIMBAD/NED BibCode)
+
+## Summary: FourStar galaxy evolution survey (ZFOURGE) 
 
 The FourStar galaxy evolution survey (ZFOURGE) is a 45 night legacy program with the FourStar near-infrared camera on Magellan and one of the most sensitive surveys to date. ZFOURGE covers a total of 400arcmin^2^ in cosmic fields CDFS, COSMOS and UDS, overlapping the CANDELS fields.
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*zspec:* [0.06/6.2]?=-99 Spectroscopic redshift 
+ 
+
+## Photometric Redshift 
+ 
+*zpk:*  
+ 
 <details>
-<summary>zf_cdfs.dat catalogue schema</summary>
+<summary>zf_cdfs.dat</summary>
 
 | Bytes     | Format             | Units     | Label     | Explanations                               |
 |:----------|:-------------------|:----------|:----------|:-------------------------------------------|
@@ -285,7 +297,7 @@ Note (2): Same meaning as column "Use" (see Note (G3)) but without the
 </details>
 
 <details>
-<summary>cdfszout.dat catalogue schema</summary>
+<summary>cdfszout.dat</summary>
 
 | Bytes   | Format   | Units   | Label    | Explanations                                                                   |
 |:--------|:---------|:--------|:---------|:-------------------------------------------------------------------------------|
@@ -312,7 +324,7 @@ Note (2): Same meaning as column "Use" (see Note (G3)) but without the
 </details>
 
 <details>
-<summary>*zsp.dat catalogue schema</summary>
+<summary>*zsp.dat</summary>
 
 | Bytes   | Format   | Units   | Label   | Explanations                             |
 |:--------|:---------|:--------|:--------|:-----------------------------------------|
@@ -321,7 +333,7 @@ Note (2): Same meaning as column "Use" (see Note (G3)) but without the
 </details>
 
 <details>
-<summary>cdfsfout.dat catalogue schema</summary>
+<summary>cdfsfout.dat</summary>
 
 | Bytes   | Format   | Units     | Label   | Explanations                                 |
 |:--------|:---------|:----------|:--------|:---------------------------------------------|
@@ -339,7 +351,7 @@ Note (2): Same meaning as column "Use" (see Note (G3)) but without the
 </details>
 
 <details>
-<summary>*sfr.dat catalogue schema</summary>
+<summary>*sfr.dat</summary>
 
 | Bytes   | Format   | Units   | Label   | Explanations                                 |
 |:--------|:---------|:--------|:--------|:---------------------------------------------|
@@ -360,7 +372,7 @@ Note (2): Same meaning as column "Use" (see Note (G3)) but without the
 </details>
 
 <details>
-<summary>*3dhst.dat catalogue schema</summary>
+<summary>*3dhst.dat</summary>
 
 | Bytes   | Format   | Units   | Label   | Explanations                                      |
 |:--------|:---------|:--------|:--------|:--------------------------------------------------|
@@ -377,7 +389,7 @@ Note (2): Same meaning as column "Use" (see Note (G3)) but without the
 </details>
 
 <details>
-<summary>*agn.dat catalogue schema</summary>
+<summary>*agn.dat</summary>
 
 | Bytes   | Format          | Units                             | Label            | Explanations                                                       |
 |:--------|:----------------|:----------------------------------|:-----------------|:-------------------------------------------------------------------|
@@ -412,7 +424,7 @@ Note (3): X-ray AGN are selected using the Szokoly et al. (2004)
 </details>
 
 <details>
-<summary>*rest.dat catalogue schema</summary>
+<summary>*rest.dat</summary>
 
 | Bytes   | Format    | Units         | Label   | Explanations                                               |
 |:--------|:----------|:--------------|:--------|:-----------------------------------------------------------|
@@ -463,7 +475,7 @@ Note (3): X-ray AGN are selected using the Szokoly et al. (2004)
 </details>
 
 <details>
-<summary>*rad.dat catalogue schema</summary>
+<summary>*rad.dat</summary>
 
 | Bytes   | Format   | Units    | Label     | Explanations                           |
 |:--------|:---------|:---------|:----------|:---------------------------------------|
@@ -483,7 +495,7 @@ Note (2): The rest-frame radio luminosity is calculated using:
 </details>
 
 <details>
-<summary>*vdw.dat catalogue schema</summary>
+<summary>*vdw.dat</summary>
 
 | Bytes   | Format   | Units   | Label     | Explanations                                                 |
 |:--------|:---------|:--------|:----------|:-------------------------------------------------------------|
@@ -523,7 +535,7 @@ Note (3): Objects are <[SWM2014] GOODS-S NNNNN> or
 </details>
 
 <details>
-<summary>cdfsx.dat catalogue schema</summary>
+<summary>cdfsx.dat</summary>
 
 | Bytes   | Format   | Units    | Label   | Explanations                                   |
 |:--------|:---------|:---------|:--------|:-----------------------------------------------|
@@ -559,7 +571,7 @@ Note (3): The hardness ratio (HR) is calculated using: HR = (H-S)/(H+S)
 </details>
 
 <details>
-<summary>cdfs_her.dat catalogue schema</summary>
+<summary>cdfs_her.dat</summary>
 
 | Bytes   | Format   | Units   | Label   | Explanations                                 |
 |:--------|:---------|:--------|:--------|:---------------------------------------------|
@@ -583,7 +595,7 @@ Note (3): The hardness ratio (HR) is calculated using: HR = (H-S)/(H+S)
 </details>
 
 <details>
-<summary>zf_cosmos.dat catalogue schema</summary>
+<summary>zf_cosmos.dat</summary>
 
 | Bytes     | Format             | Units     | Label            | Explanations                                         |
 |:----------|:-------------------|:----------|:-----------------|:-----------------------------------------------------|
@@ -841,7 +853,7 @@ Note (3): The hardness ratio (HR) is calculated using: HR = (H-S)/(H+S)
 </details>
 
 <details>
-<summary>zf_uds.dat catalogue schema</summary>
+<summary>zf_uds.dat</summary>
 
 | Bytes     | Format      | Units     | Label    | Explanations                             |
 |:----------|:------------|:----------|:---------|:-----------------------------------------|

@@ -1,11 +1,23 @@
-## Summary
+**Authors:** Salvato M., Nandra K., Brusa M., Bender R., Buchner J.,, Donley J.L., Kocevski D.D., Guo Y., Hathi N.P., Rangel C., Willner S.P.,, Brightman M., Georgakakis A., Budavari T., Szalay A.S., Ashby M.L.N.,, Barro G., Dahlen T., Faber S.M., Ferguson H.C., Galametz A., Grazian A.,, Grogin N.A., Huang K.-H., Koekemoer A.M., Lucas R.A., Mcgrath E.,, Mobasher B., Peth M., Rosario D.J., Trump J.R., <Astrophys. J., 796, 60 (2014)>, =2014ApJ...796...60H (SIMBAD/NED BibCode)
+
+## Summary: ECDFS galaxies photometric redshifts & counterparts 
 
 We present photometric redshifts and associated probability distributions for all detected sources in the Extended Chandra Deep Field South (ECDFS). This work makes use of the most up-to-date data from the Cosmic Assembly Near-IR Deep Legacy Survey (CANDELS) and the Taiwan ECDFS Near-Infrared Survey (TENIS) in addition to other data. We also revisit multi-wavelength counterparts for published X-ray sources from the 4Ms CDFS and 250ks ECDFS surveys, finding reliable counterparts for 1207 out of 1259 sources (~96%). Data used for photometric redshifts include intermediate-band photometry deblended using the TFIT method, which is used for the first time in this work. Photometric redshifts for X-ray source counterparts are based on a new library of active galactic nuclei/galaxy hybrid templates appropriate for the faint X-ray population in the CDFS. Photometric redshift accuracy for normal galaxies is 0.010 and for X-ray sources is 0.014 and outlier fractions are 4% and 5.2%, respectively. The results within the CANDELS coverage area are even better, as demonstrated both by spectroscopic comparison and by galaxy-pair statistics. Intermediate-band photometry, even if shallow, is valuable when combined with deep broadband photometry. For best accuracy, templates must include emission lines.
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*zspec:* [0.001/4.8]?=-99 Spectroscopic redshift 
+ 
+
+## Photometric Redshift 
+ 
+*zphot:* [0/6.7]?=-99 The photo-z value (zp) as defined 
+ 
 <details>
-<summary>table8.dat catalogue schema</summary>
+<summary>table8.dat</summary>
 
 | Bytes   | Format   | Units   | Label     | Explanations                                      |
 |:--------|:---------|:--------|:----------|:--------------------------------------------------|
@@ -43,7 +55,7 @@ We present photometric redshifts and associated probability distributions for al
 </details>
 
 <details>
-<summary>table9.dat catalogue schema</summary>
+<summary>table9.dat</summary>
 
 | Bytes   | Format   | Units    | Label     | Explanations                                                                |
 |:--------|:---------|:---------|:----------|:----------------------------------------------------------------------------|
@@ -81,7 +93,7 @@ Note (4): Check the detail information in the photo-z catalog (table 11).
 </details>
 
 <details>
-<summary>table10.dat catalogue schema</summary>
+<summary>table10.dat</summary>
 
 | Bytes   | Format                         | Units              | Label         | Explanations                                                              |
 |:--------|:-------------------------------|:-------------------|:--------------|:--------------------------------------------------------------------------|
@@ -318,7 +330,7 @@ Note (2): Photometric data (table 1):
 </details>
 
 <details>
-<summary>table11[ab].dat catalogue schema</summary>
+<summary>table11[ab].dat</summary>
 
 | Bytes   | Format   | Units         | Label     | Explanations                                                            |
 |:--------|:---------|:--------------|:----------|:------------------------------------------------------------------------|

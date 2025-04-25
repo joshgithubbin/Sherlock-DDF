@@ -1,11 +1,23 @@
-## Summary
+**Authors:** Cooper M.C., Newman J.A., Moustakas L.A., Stern D.,, Comerford J.M., Davis M., Lotz J.M., Barden M., Conselice C.J., Capak P.L.,, Faber S.M., Kirkpatrick J.D., Koekemoer A.M., Koo D.C., Noeske K.G.,, Scoville N., Sheth K., Shopbell P., Willmer C.N.A., Weiner B., <Astrophys. J. Suppl. Ser., 200, 9 (2012)>, =2012ApJS..200....9G
+
+## Summary: The ACS-GC catalog 
 
 We present the Advanced Camera for Surveys General Catalog (ACS-GC), a photometric and morphological database using publicly available data obtained with the Advanced Camera for Surveys (ACS) instrument on the Hubble Space Telescope. The goal of the ACS-GC database is to provide a large statistical sample of galaxies with reliable structural and distance measurements to probe the evolution of galaxies over a wide range of look-back times. The ACS-GC includes approximately 470000 astronomical sources (stars + galaxies) derived from the AEGIS, COSMOS, GEMS, and GOODS surveys. Galapagos code (Hausler et al. 2011ASPC..442..155H) was used to construct photometric (SExtractor) and morphological (Galfit) catalogs. The analysis assumes a single Sersic model for each object to derive quantitative structural parameters. We include publicly available redshifts from the DEEP2, COMBO-17, TKRS, PEARS, ACES, CFHTLS, and zCOSMOS surveys to supply redshifts (spectroscopic and photometric) for a considerable fraction (~74%) of the imaging sample. The ACS-GC includes color postage stamps, Galfit residual images, and photometry, structural parameters, and redshifts combined into a single catalog.
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*zsp:*  
+ 
+
+## Photometric Redshift 
+ 
+*zph:*  
+ 
 <details>
-<summary>acs-gc.dat catalogue schema</summary>
+<summary>acs-gc.dat</summary>
 
 | Bytes   | Format              | Units       | Label    | Explanations                                                          |
 |:--------|:--------------------|:------------|:---------|:----------------------------------------------------------------------|
@@ -109,7 +121,7 @@ We present the Advanced Camera for Surveys General Catalog (ACS-GC), a photometr
 </details>
 
 <details>
-<summary>refs.dat catalogue schema</summary>
+<summary>refs.dat</summary>
 
 | Bytes   | Format   | Units   | Label   | Explanations                               |
 |:--------|:---------|:--------|:--------|:-------------------------------------------|

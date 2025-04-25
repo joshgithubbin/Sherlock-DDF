@@ -1,11 +1,13 @@
-## Summary
+**Authors:** Wang L., La Marca A., Gao F., Pearson W.J., Margalef-Bentabol B.,, Bethermin M., Bing L., Donnellan J., Hurley P.D., Oliver S.J., Hale C.L.,, Jarvis M.J., Marchetti L., Vaccari M., Whittam I.H., <Astron. Astrophys. 688, A20 (2024)>, =2024A&A...688A..20W (SIMBAD/NED BibCode)
+
+## Summary: COSMOS2020-MIPS-PACS-SPIRE-SCUBA catalog 
 
 Single-dish far-infrared (far-IR) and sub-millimetre (sub-mm) point source catalogues and their connections with galaxy catalogues at other wavelengths are of paramount importance to studying galaxy evolution. However, due to the large mismatch in spatial resolution, cross-matching galaxies detected at different wavelengths is not straightforward. This work aims to develop the next-generation deblended far-IR and sub-mm catalogues in deep extragalactic survey fields, by extracting photometry at the positions of known sources. We present the first application of our methodology in the COSMOS field. Our progressive deblending used the Monte Carlo Markov Chain (MCMC)-based Bayesian probabilistic framework known as XID+. The deblending process started from the Spitzer/MIPS 24um data, using an initial prior list composed of sources selected from the COSMOS2020 catalogue and radio catalogues from the VLA and the MeerKAT surveys, based on spectral energy distribution (SED) modelling which predicts fluxes of the known sources at the deblending wavelength. To speed up flux prediction, we made use of a neural network-based emulator. After deblending the 24um data, we proceeded to the Herschel PACS (100 & 160um) and SPIRE wavebands (250, 350 & 500um). Each time we constructed a tailor-made prior list based on the predicted fluxes of the known sources, taking into account the deblended photometry from the previous steps. Using simulated far-IR and sub-mm sky, we detailed the performance of our deblending pipeline. After validation with simulations, we then deblended the real observations from 24 to 500um and compared with blindly extracted catalogues and previous versions of deblended catalogues. As an additional test, we deblended the SCUBA-2 850um map and compared our deblended fluxes with ALMA measurements, demonstrating a higher level of flux accuracy compared to previous results. We publicly release our XID+ deblended point source catalogues, including best estimates and posterior probability distribution functions. These deblended long-wavelength data, which are cross-matched with multi-band photometry by construction, are crucial for studies such as deriving the fraction of dust-obscured star formation and better separation of quiescent galaxies from dusty star-forming galaxies.
 
 ## Catalogue Schema
 
 <details>
-<summary>master.dat catalogue schema</summary>
+<summary>master.dat</summary>
 
 | Bytes   | Format   | Units    | Label      | Explanations                            |
 |:--------|:---------|:---------|:-----------|:----------------------------------------|

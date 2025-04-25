@@ -1,11 +1,23 @@
-## Summary
+**Authors:** Mainieri V., Salvato M., Hasinger G., Bergeron J.,, Capak P., Szokoly G., Finoguenov A., Gilli R., Rosati P., Tozzi P.,, Vignali C., Alexander D.M., Brandt W.N., Lehmer B.D., Luo B., Rafferty D.,, Xue Y.Q., Balestra I., Bauer F.E., Brusa M., Comastri A., Kartaltepe J.,, Koekemoer A.M., Miyaji T., Schneider D.P., Treister E., Wisotski L.,, Schramm M., <Astrophys. J. Suppl. Ser., 191, 124-142 (2010)>, =2010ApJS..191..124S
+
+## Summary: Optical spectroscopy of ECDF-S X-ray sources 
 
 We present the results of a program to acquire high-quality optical spectra of X-ray sources detected in the Extended-Chandra Deep Field-South (E-CDF-S) and its central 2Ms area. New spectroscopic redshifts, up to z=4, are measured for 283 counterparts to Chandra sources with deep exposures (t~2-9hr per pointing) using multi-slit facilities on both VLT (VIMOS) and Keck (DEIMOS), thus bringing the total number of spectroscopically identified X-ray sources to over 500 in this survey field. Since our new spectroscopic identifications are mainly associated with X-ray sources in the shallower 250ks coverage, we provide a comprehensive catalog of X-ray sources detected in the E-CDF-S including the optical and near-infrared counterparts, determined by a likelihood routine, and redshifts (both spectroscopic and photometric), that incorporate published spectroscopic catalogs, thus resulting in a final sample with a high fraction (80%) of X-ray sources having secure identifications. Our redshift catalog includes 17 type-2 QSOs at 1<~z<~3.5. Based on our deepest (9 hr) VLT/VIMOS observation, we identify "elusive" optically faint galaxies (Rmag~25) at z~2-3 based upon the detection of interstellar absorption lines (e.g., OII+SiIV, CII], CIV).
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*zsp:* Spectroscopic redshift 
+ 
+
+## Photometric Redshift 
+ 
+*zph:*  
+ 
 <details>
-<summary>table4.dat catalogue schema</summary>
+<summary>table4.dat</summary>
 
 | Bytes   | Format   | Units   | Label     | Explanations                                                                   |
 |:--------|:---------|:--------|:----------|:-------------------------------------------------------------------------------|
@@ -51,7 +63,7 @@ Note (6): From Rafferty et al. (2010, in prep) and Luo et al. (2010,
 </details>
 
 <details>
-<summary>table7.dat catalogue schema</summary>
+<summary>table7.dat</summary>
 
 | Bytes   | Format   | Units   | Label   | Explanations                                   |
 |:--------|:---------|:--------|:--------|:-----------------------------------------------|
@@ -66,7 +78,7 @@ Note (6): From Rafferty et al. (2010, in prep) and Luo et al. (2010,
 </details>
 
 <details>
-<summary>table8.dat catalogue schema</summary>
+<summary>table8.dat</summary>
 
 | Bytes   | Format   | Units         | Label   | Explanations                                   |
 |:--------|:---------|:--------------|:--------|:-----------------------------------------------|

@@ -1,11 +1,23 @@
-## Summary
+**Authors:** Kauffmann O.B., Ilbert O., Mccracken H.J., Moneti A., Toft S.,, Brammer G., Shuntov M., Davidzon I., Hsieh B.C., Laigle C., Anastasiou A.,, Jespersen C.K., Vinther J., Capak P., Casey C.M., Mcpartland C.J.R.,, Milvang-Jensen B., Mobasher B., Sanders D.B., Zalesky L., Arnouts S.,, Aussel H., Dunlop J.S., Faisst A., Franx M., Furtak L.J., Fynbo J.P.U.,, Gould K.M.L., Greve T.R., Gwyn S., Kartaltepe J.S., Kashino D.,, Koekemoer A.M., Kokorev V., Le Fevre O., Lilly S., Masters D., Magdis G.,, Mehta V., Peng Y., Riechers D.A., Salvato M., Sawicki M., Scarlata C.,, Scoville N., Shirley R., Silverman J.D., Sneppen A., Smolcic V.,, Steinhardt C., Stern D., Tanaka M., Taniguchi Y., Teplitz H.I., Vaccari M.,, Wang W.-H., Zamorani G., <Astrophys. J. Suppl. Ser., 258, 11-11 (2022)>, =2022ApJS..258...11W (SIMBAD/NED BibCode)
+
+## Summary: The COSMOS2020 catalog 
 
 The Cosmic Evolution Survey (COSMOS) has become a cornerstone of extragalactic astronomy. Since the last public catalog in 2015, a wealth of new imaging and spectroscopic data have been collected in the COSMOS field. This paper describes the collection, processing, and analysis of these new imaging data to produce a new reference photometric redshift catalog. Source detection and multiwavelength photometry are performed for 1.7 million sources across the 2 deg^2^ of the COSMOS field, ~966000 of which are measured with all available broadband data using both traditional aperture photometric methods and a new profile-fitting photometric extraction tool, THE FARMER, which we have developed. A detailed comparison of the two resulting photometric catalogs is presented. Photometric redshifts are computed for all sources in each catalog utilizing two independent photometric redshift codes. Finally, a comparison is made between the performance of the photometric methodologies and of the redshift codes to demonstrate an exceptional degree of self-consistency in the resulting photometric redshifts. The i<21 sources have subpercent photometric redshift accuracy and even the faintest sources at 25<i<27 reach a precision of 5%. Finally, these results are discussed in the context of previous, current, and future surveys in the COSMOS field. Compared to COSMOS2015, it reaches the same photometric redshift precision at almost one magnitude deeper. Both photometric catalogs and their photometric redshift solutions and physical parameters will be made available through the usual astronomical archive systems (ESO Phase 3, IPAC-IRSA, and CDS).
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*:*  
+ 
+
+## Photometric Redshift 
+ 
+*lpzBEST:*  
+ 
 <details>
-<summary>classic.dat catalogue schema</summary>
+<summary>classic.dat</summary>
 
 | Bytes     | Format            | Units         | Label                | Explanations                                                                |
 |:----------|:------------------|:--------------|:---------------------|:----------------------------------------------------------------------------|
@@ -781,7 +793,7 @@ The Cosmic Evolution Survey (COSMOS) has become a cornerstone of extragalactic a
 </details>
 
 <details>
-<summary>farmer.dat catalogue schema</summary>
+<summary>farmer.dat</summary>
 
 | Bytes     | Format            | Units         | Label            | Explanations                                                         |
 |:----------|:------------------|:--------------|:-----------------|:---------------------------------------------------------------------|
@@ -1233,7 +1245,7 @@ The Cosmic Evolution Survey (COSMOS) has become a cornerstone of extragalactic a
 </details>
 
 <details>
-<summary>list.dat catalogue schema</summary>
+<summary>list.dat</summary>
 
 | Bytes   | Format   | Units      | Label    | Explanations                            |
 |:--------|:---------|:-----------|:---------|:----------------------------------------|

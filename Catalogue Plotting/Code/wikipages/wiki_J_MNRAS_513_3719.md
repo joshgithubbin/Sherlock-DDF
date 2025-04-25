@@ -1,11 +1,23 @@
-## Summary
+**Authors:** Jarvis M.J., Adams N., Bowler R.A.A., Haussler B.,, Duncan K.J., <Mon. Not. R. Astron. Soc., 513, 3719-3733 (2022)>, =2022MNRAS.513.3719H (SIMBAD/NED BibCode)
+
+## Summary: Photometric Redshifts in COSMOS and XMM-LSS 
 
 In this paper, we present photometric redshifts for 2.7 million galaxies in the XMM-LSS and COSMOS fields, both with rich optical and near-infrared data from VISTA and HyperSuprimeCam. Both template fitting (using galaxy and active galactic nuclei templates within LePhare) and machine learning (using gpz) methods are run on the aperture photometry of sources selected in the Ks-band. The resulting predictions are then combined using a Hierarchical Bayesian model, to produce consensus photometric redshift point estimates and probability distribution functions that outperform each method individually. Our point estimates have a root mean square error of ~0.08-0.09, and an outlier fraction of ~3-4 percent when compared to spectroscopic redshifts. We also compare our results to the COSMOS2020 photometric redshifts, which contain fewer sources, but had access to a larger number of bands and greater wavelength coverage, finding that comparable photo-z quality can be achieved (for bright and intermediate luminosity sources where a direct comparison can be made). Our resulting redshifts represent the most accurate set of photometric redshifts (for a catalogue this large) for these deep multisquare degree multiwavelength fields to date.
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*:*  
+ 
+
+## Photometric Redshift 
+ 
+*zphMLbest:* Machine learning (GPz) based photometric 
+ 
 <details>
-<summary>cosphotz.dat catalogue schema</summary>
+<summary>cosphotz.dat</summary>
 
 | Bytes   | Format   | Units    | Label       | Explanations                               |
 |:--------|:---------|:---------|:------------|:-------------------------------------------|
@@ -41,7 +53,7 @@ In this paper, we present photometric redshifts for 2.7 million galaxies in the 
 </details>
 
 <details>
-<summary>xmmphotz.dat catalogue schema</summary>
+<summary>xmmphotz.dat</summary>
 
 | Bytes   | Format   | Units    | Label       | Explanations                               |
 |:--------|:---------|:---------|:------------|:-------------------------------------------|

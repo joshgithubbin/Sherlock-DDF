@@ -1,11 +1,23 @@
-## Summary
+**Authors:** Aussel H., Ajiki M., McCracken H.J., Mobasher B., Scoville N.,, Shopbell P., Taniguchi Y., Thompson D., Tribiano S., Sasaki S., Blain A.W.,, Brusa M., Carilli C., Comastri A., Carollo C.M., Cassata P., Colbert J.,, Ellis R.S., Elvis M., Giavalisco M., Green W., Guzzo L., Hasinger G.,, Ilbert O., Impey C., Jahnke K., Kartaltepe J., Kneib J.-P., Koda J.,, Koekemoer A., Komiyama Y., Leauthaud A., Lefevre O., Lilly S., Liu C.,, Massey R., Miyazaki S., Murayama T., Nagao T., Peacock J.A., Pickles A.,, Porciani C., Renzini A., Rhodes J., Rich M., Salvato M., Sanders D.B.,, Scarlata C., Schiminovich D., Schinnerer E., Scodeggio M., Sheth K.,, Shioya Y., Tasca L.A.M., Taylor J.E., Yan L., Zamorani G., <Astrophys. J. Suppl. Ser., 172, 99-116 (2007)>, =2007ApJS..172...99C
+
+## Summary: COSMOS Multi-Wavelength Photometry Catalog 
 
 We present imaging data and photometry for the COSMOS survey in 15 photometric bands between 0.3 and 2.4m. These include data taken on the Subaru 8.3m telescope, the KPNO and CTIO 4m telescopes, and the CFHT 3.6m telescope. Special techniques are used to ensure that the relative photometric calibration is better than 1% across the field of view. The absolute photometric accuracy from standard-star measurements is found to be 6%. The absolute calibration is corrected using galaxy spectra, providing colors accurate to 2% or better. Stellar and galaxy colors and counts agree well with the expected values. Finally, as the first step in the scientific analysis of these data we construct panchromatic number counts which confirm that both the geometry of the universe and the galaxy population are evolving.
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*:*  
+ 
+
+## Photometric Redshift 
+ 
+*zphot:* Photometric Redshift from Mobasher et al. 
+ 
 <details>
-<summary>cosmos.dat catalogue schema</summary>
+<summary>cosmos.dat</summary>
 
 | Bytes   | Format   | Units     | Label   | Explanations                                    |
 |:--------|:---------|:----------|:--------|:------------------------------------------------|

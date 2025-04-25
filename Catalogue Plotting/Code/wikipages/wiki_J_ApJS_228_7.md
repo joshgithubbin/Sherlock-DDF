@@ -1,11 +1,23 @@
-## Summary
+**Authors:** Hemmati S., Mobasher B., Ferguson H.C., Cooray A., Barro G.,, Faber S.M., Dickinson M., Koekemoer A.M., Peth M., Salvato M.,, Ashby M.L.N., Darvish B., Donley J., Durbin M., Finkelstein S., Fontana A.,, Grogin N.A., Gruetzbauch R., Huang K., Khostovan A.A., Kocevski D.,, Kodra D., Lee B., Newman J., Pacifici C., Pforr J., Stefanon M.,, Wiklind T., Willner S.P., Wuyts S., Castellano M., Conselice C., Dolch T.,, Dunlop J.S., Galametz A., Hathi N.P., Lucas R.A., Yan H., <Astrophys. J. Suppl. Ser., 228, 7-7 (2017)>, =2017ApJS..228....7N (SIMBAD/NED BibCode)
+
+## Summary: Multi-wavelength data in CANDELS COSMOS field 
 
 We present a multi-wavelength photometric catalog in the COSMOS field as part of the observations by the Cosmic Assembly Near-infrared Deep Extragalactic Legacy Survey. The catalog is based on Hubble Space Telescope Wide Field Camera 3 (HST/WFC3) and Advanced Camera for Surveys observations of the COSMOS field (centered at RA:10:00:28, DEC:+02:12:21). The final catalog has 38671 sources with photometric data in 42 bands from UV to the infrared (~0.3-8{mu}m). This includes broadband photometry from HST, CFHT, Subaru, the Visible and Infrared Survey Telescope for Astronomy, and Spitzer Space Telescope in the visible, near-infrared, and infrared bands along with intermediate- and narrowband photometry from Subaru and medium-band data from Mayall NEWFIRM. Source detection was conducted in the WFC3 F160W band (at 1.6{mu}m) and photometry is generated using the Template FITting algorithm. We further present a catalog of the physical properties of sources as identified in the HST F160W band and measured from the multi-band photometry by fitting the observed spectral energy distributions of sources against templates.
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*zbest:* [0/10]?=-99 Best phot or spectroscopic 
+ 
+
+## Photometric Redshift 
+ 
+*zphotl68:* ?=-99 Lower 68% confidence level in zphot 
+ 
 <details>
-<summary>table9.dat catalogue schema</summary>
+<summary>table9.dat</summary>
 
 | Bytes    | Format   | Units   | Label      | Explanations                                                            |
 |:---------|:---------|:--------|:-----------|:------------------------------------------------------------------------|
@@ -123,7 +135,7 @@ Note (3): Photometry flag as follows:
 </details>
 
 <details>
-<summary>table10.dat catalogue schema</summary>
+<summary>table10.dat</summary>
 
 | Bytes   | Format      | Units               | Label      | Explanations                                          |
 |:--------|:------------|:--------------------|:-----------|:------------------------------------------------------|
@@ -193,7 +205,7 @@ Note (2): References for each of these model codes are provided in Table 7
 </details>
 
 <details>
-<summary>table11.dat catalogue schema</summary>
+<summary>table11.dat</summary>
 
 | Bytes   | Format   | Units   | Label     | Explanations                                     |
 |:--------|:---------|:--------|:----------|:-------------------------------------------------|

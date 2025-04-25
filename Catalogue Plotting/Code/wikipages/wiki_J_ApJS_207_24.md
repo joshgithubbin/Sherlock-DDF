@@ -1,11 +1,23 @@
-## Summary
+**Authors:** Ferguson H.C., Giavalisco M., Barro G., Willner S.P., Ashby M.L.N.,, Dahlen T., Donley J.L., Faber S.M., Fontana A., Galametz A., Grazian A.,, Huang K.-H., Kocevski D.D., Koekemoer A.M., Koo D.C., McGrath E.J.,, Peth M., Salvato M., Wuyts S., Castellano M., Cooray A.R., Dickinson M.E.,, Dunlop J.S., Fazio G.G., Gardner J.P., Gawiser E., Grogin N.A., Hathi N.P.,, Hsu L.-T., Lee K.-S., Lucas R.A., Mobasher B., Nandra K., Newman J.A.,, van der Wel A., <Astrophys. J. Suppl. Ser., 207, 24 (2013)>, =2013ApJS..207...24G
+
+## Summary: GOODS-S CANDELS multiwavelength catalog 
 
 We present a UV to mid-infrared multi-wavelength catalog in the CANDELS/GOODS-S field, combining the newly obtained CANDELS HST/WFC3 F105W, F125W, and F160W data with existing public data. The catalog is based on source detection in the WFC3 F160W band. The F160W mosaic includes the data from CANDELS deep and wide observations as well as previous ERS and HUDF09 programs. The mosaic reaches a 5{sigma} limiting depth (within an aperture of radius 0.17") of 27.4, 28.2, and 29.7 AB for CANDELS wide, deep, and HUDF regions, respectively. The catalog contains 34930 sources with the representative 50% completeness reaching 25.9, 26.6, and 28.1 AB in the F160W band for the three regions. In addition to WFC3 bands, the catalog also includes data from UV (U band from both CTIO/MOSAIC and VLT/VIMOS), optical (HST/ACS F435W, F606W, F775W, F814W, and F850LP), and infrared (HST/WFC3 F098M, VLT/ISAAC Ks, VLT/HAWK-I Ks, and Spitzer/IRAC 3.6, 4.5, 5.8, 8.0{mu}m) observations. The catalog is validated via stellar colors, comparison with other published catalogs, zero-point offsets determined from the best-fit templates of the spectral energy distribution of spectroscopically observed objects, and the accuracy of photometric redshifts. The catalog is able to detect unreddened star-forming (passive) galaxies with stellar mass of 10^10^M_{sun}_ at a 50% completeness level to z~3.4 (2.8), 4.6 (3.2), and 7.0 (4.2) in the three regions. As an example of application, the catalog is used to select both star-forming and passive galaxies at z~2-4 via the Balmer break. It is also used to study the color-magnitude diagram of galaxies at 0<z<4.
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*:*  
+ 
+
+## Photometric Redshift 
+ 
+*:*  
+ 
 <details>
-<summary>catalog.dat catalogue schema</summary>
+<summary>catalog.dat</summary>
 
 | Bytes   | Format     | Units            | Label        | Explanations                                                                  |
 |:--------|:-----------|:-----------------|:-------------|:------------------------------------------------------------------------------|

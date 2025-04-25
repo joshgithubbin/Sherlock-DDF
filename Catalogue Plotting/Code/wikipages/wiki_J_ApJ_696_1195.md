@@ -1,11 +1,23 @@
-## Summary
+**Authors:** Trump J.R., Impey C.D., Elvis M., McCarthy P.J., Huchra J.P., Brusa M.,, Salvato M., Capak P., Cappelluti N., Civano F., Comastri A., Gabor J.,, Hao H., Hasinger G., Jahnke K., Kelly B.C., Lilly S.J., Schinnerer E.,, Scoville N.Z., Smolcic V., <Astrophys. J., 696, 1195-1212 (2009)>, =2009ApJ...696.1195T
+
+## Summary: COSMOS AGN spectroscopic survey. I. 
 
 We present optical spectroscopy for an X-ray and optical flux-limited sample of 677 XMM-Newton selected targets covering the 2deg^2^ Cosmic Evolution Survey field, with a yield of 485 high-confidence redshifts. The majority of the spectra were obtained over three seasons (2005-2007) with the Inamori Magellan Areal Camera and Spectrograph instrument on the Magellan (Baade) telescope. We also include in the sample previously published Sloan Digital Sky Survey spectra and supplemental observations with MMT/Hectospec. We detail the observations and classification analyses. The survey is 90% complete to flux limits of f_0.5-10keV_>8x10^-16-^erg/cm^2^/s and i^+^_AB_<22, where over 90% of targets have high-confidence redshifts. Making simple corrections for incompleteness due to redshift and spectral type allows for a description of the complete population to i^+^_AB_<23. The corrected sample includes a 57% broad emission line (Type 1, unobscured) active galactic nucleus (AGN) at 0.13<z<4.26, 25% narrow emission line (Type 2, obscured) AGN at 0.07<z<1.29, and 18% absorption line (host-dominated, obscured) AGN at 0<z<1.22 (excluding the stars that made up 4% of the X-ray targets). We show that the survey's limits in X-ray and optical fluxes include nearly all X-ray AGNs (defined by L_0.5-10keV_>3x10^42^erg/s) to z<1, of both optically obscured and unobscured types.
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*z:* ?=-1 Spectroscopic redshift 
+ 
+
+## Photometric Redshift 
+ 
+*:*  
+ 
 <details>
-<summary>table2.dat catalogue schema</summary>
+<summary>table2.dat</summary>
 
 | Bytes   | Format   | Units           | Label    | Explanations                                                |
 |:--------|:---------|:----------------|:---------|:------------------------------------------------------------|

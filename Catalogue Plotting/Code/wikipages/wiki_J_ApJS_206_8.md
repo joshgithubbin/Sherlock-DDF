@@ -1,11 +1,23 @@
-## Summary
+**Authors:** Marchesini D., Stefanon M., Franx M., Milvang-Jensen B.,, Dunlop J.S., Fynbo J.P.U., Brammer G., Labbe I., van Dokkum P., <Astrophys. J. Suppl. Ser., 206, 8 (2013)>, =2013ApJS..206....8M (SIMBAD/NED BibCode)
+
+## Summary: COSMOS/UltraVISTA Ks-selected catalogs v4.1 
 
 We present a catalog covering 1.62deg^2^ of the COSMOS/UltraVISTA field with point-spread function (PSF) matched photometry in 30 photometric bands. The catalog covers the wavelength range 0.15-24{mu}m including the available GALEX, Subaru, Canada-France-Hawaii Telescope, VISTA, and Spitzer data. Catalog sources have been selected from the DR1 UltraVISTA K_s_ band imaging that reaches a depth of K_s,tot_=23.4 AB (90% completeness). The PSF-matched catalog is generated using position-dependent PSFs ensuring accurate colors across the entire field. Also included is a catalog of photometric redshifts (z_phot_) for all galaxies computed with the EAZY code. Comparison with spectroscopy from the zCOSMOS 10k bright sample shows that up to z~1.5 the z_phot_ are accurate to {Delta}z/(1+z)=0.013, with a catastrophic outlier fraction of only 1.6%. The z_phot_ also show good agreement with the z_phot_ from the NEWFIRM Medium Band Survey out to z~3. A catalog of stellar masses and stellar population parameters for galaxies determined using the FAST spectral energy distribution fitting code is provided for all galaxies. Also included are rest-frame U-V and V-J colors, L_2800_ and L_IR_. The UVJ color-color diagram confirms that the galaxy bi-modality is well-established out to z~2. Star-forming galaxies also obey a star-forming "main sequence" out to z~2.5, and this sequence evolves in a manner consistent with previous measurements. The COSMOS/UltraVISTA K_s_-selected catalog covers a unique parameter space in both depth, area, and multi-wavelength coverage and promises to be a useful tool for studying the growth of the galaxy population out to z~3-4.
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*zsp:*  
+ 
+
+## Photometric Redshift 
+ 
+*zpk:* [/6]?=-1 Photometric redshift from the peak of 
+ 
 <details>
-<summary>catalog.dat catalogue schema</summary>
+<summary>catalog.dat</summary>
 
 | Bytes   | Format       | Units       | Label         | Explanations                                                                |
 |:--------|:-------------|:------------|:--------------|:----------------------------------------------------------------------------|
@@ -126,7 +138,7 @@ Note (6): A simple switch for choosing galaxies with good photometry. Objects
 </details>
 
 <details>
-<summary>zout.dat catalogue schema</summary>
+<summary>zout.dat</summary>
 
 | Bytes   | Format   | Units   | Label   | Explanations                                       |
 |:--------|:---------|:--------|:--------|:---------------------------------------------------|
@@ -158,7 +170,7 @@ Note (6): A simple switch for choosing galaxies with good photometry. Objects
 </details>
 
 <details>
-<summary>bc03.dat catalogue schema</summary>
+<summary>bc03.dat</summary>
 
 | Bytes   | Format   | Units     | Label   | Explanations                                |
 |:--------|:---------|:----------|:--------|:--------------------------------------------|
@@ -182,7 +194,7 @@ Note (6): A simple switch for choosing galaxies with good photometry. Objects
 </details>
 
 <details>
-<summary>153-155.dat catalogue schema</summary>
+<summary>153-155.dat</summary>
 
 | Bytes   | Format   | Units                                    | Label       | Explanations                                                                  |
 |:--------|:---------|:-----------------------------------------|:------------|:------------------------------------------------------------------------------|
@@ -202,7 +214,7 @@ Note (6): A simple switch for choosing galaxies with good photometry. Objects
 </details>
 
 <details>
-<summary>155-161.dat catalogue schema</summary>
+<summary>155-161.dat</summary>
 
 | Bytes   | Format   | Units        | Label       | Explanations                                                                   |
 |:--------|:---------|:-------------|:------------|:-------------------------------------------------------------------------------|

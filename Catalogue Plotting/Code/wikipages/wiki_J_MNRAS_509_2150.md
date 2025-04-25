@@ -1,11 +1,23 @@
-## Summary
+**Authors:** Jarvis M.J., Hale C.L., Whittam I.H., Bester H.L., Hugo B.,, Kenyon J.S., Prescott M., Smirnov O.M., Tasse C., Afonso J.M., Best P.N.,, Collier J.D., Deane R.P., Frank B.S., Hardcastle M.J., Knowles K.,, Maddox N., Murphy E.J., Prandoni I., Randriamampandry S.M., Santos M.G.,, Sekhar S., Tabatabaei F., Taylor A.R., Thorat K., <Mon. Not. R. Astron. Soc. 509, 2150-2168>, =2022MNRAS.509.2150H (SIMBAD/NED BibCode)
+
+## Summary: MIGHTEE catalogues of COSMOS/XMM-LSS fields 
 
 MIGHTEE is a galaxy evolution survey using simultaneous radio continuum, spectropolarimetry, and spectral line observations from the South African MeerKAT telescope. When complete, the survey will image ~20 deg2 over the COSMOS, E-CDFS, ELAIS-S1, and XMM-Newton Large Scale Structure field (XMM-LSS) extragalactic deep fields with a central frequency of 1284 MHz. These were selected based on the extensive multiwavelength data sets from numerous existing and forthcoming observational campaigns. Here, we describe and validate the data processing strategy for the total intensity continuum aspect of MIGHTEE, using a single deep pointing in COSMOS (1.6 deg^2^) and a three-pointing mosaic in XMM-LSS (3.5 deg^2^). The processing includes the correction of direction-dependent effects, and results in thermal noise levels below 2 {mu}Jy.beam^-1^ in both fields, limited in the central regions by classical confusion at ~8 arcsec angular resolution, and meeting the survey specifications. We also produce images at ~5 arcsec resolution that are ~3 times shallower. The resulting image products form the basis of the Early Science continuum data release for MIGHTEE. From these images we extract catalogues containing 9896 and 20274 radio components in COSMOS and XMM-LSS, respectively. We also process a close-packed mosaic of 14 additional pointings in COSMOS and use these in conjunction with the Early Science pointing to investigate methods for primary beam correction of broad-band radio images, an analysis that is of relevance to all full-band MeerKAT continuum observations, and wide-field interferometric imaging in general. A public release of the MIGHTEE Early Science continuum data products accompanies this article.
 
 ## Catalogue Schema
 
+
+## Spectroscopic Redshift 
+ 
+*:*  
+ 
+
+## Photometric Redshift 
+ 
+*:*  
+ 
 <details>
-<summary>cosmosl1.dat catalogue schema</summary>
+<summary>cosmosl1.dat</summary>
 
 | Bytes   | Format   | Units    | Label      | Explanations                               |
 |:--------|:---------|:---------|:-----------|:-------------------------------------------|
@@ -42,7 +54,7 @@ MIGHTEE is a galaxy evolution survey using simultaneous radio continuum, spectro
 </details>
 
 <details>
-<summary>xmmlssl1.dat catalogue schema</summary>
+<summary>xmmlssl1.dat</summary>
 
 | Bytes   | Format   | Units    | Label      | Explanations                               |
 |:--------|:---------|:---------|:-----------|:-------------------------------------------|
