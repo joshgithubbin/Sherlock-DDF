@@ -16,7 +16,9 @@ jobs:
 
       - name: Clone wiki repo
         run: |
-          git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.wiki.git wiki
+          git clone "https://x-access-token:${{ secrets.PERSONAL_TOKEN }}@github.com/${{ github.repository_owner }}/$(basename ${{ github.repository }}).wiki.git" wiki
+
+
 
       - name: Copy markdown files
         run: |
