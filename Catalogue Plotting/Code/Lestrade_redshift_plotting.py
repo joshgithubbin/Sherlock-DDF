@@ -11,7 +11,7 @@ import numpy as np
 import itertools
 import matplotlib.animation as animation
 
-def plot_zhist(field,z,labels="",savefig=False,savename="field"):
+def plot_zhist(field,z,labels="",savefig=False,savename=""):
    
     plt.hist(z, label=labels, bins=np.arange(0,7.5,0.05).tolist(), edgecolor='black', alpha=0.7)
     
@@ -23,88 +23,12 @@ def plot_zhist(field,z,labels="",savefig=False,savename="field"):
     
     if savefig:
         
-        fn = f"../Plots/{field}/{savename}_histogram.png"
+        fn = savename
         
         plt.savefig(fn,dpi=savefig)
 
     plt.show()
 
-def plot_zhist_stacked_static(field, df, z, savefig=False, savename="field"):
-    import matplotlib.pyplot as plt
-    import numpy as np
-    
-    # Prepare the data for the histogram
-    data = [df[col].dropna() for col in z]  # Ensure NaN values are excluded
-    
-    # Compute the total counts for each category
-    counts = [len(col_data) for col_data in data]
-    
-    # Update the labels to include total counts
-    labels = [f"{col} (n={count})" for col, count in zip(z, counts)]
-    
-    # Create the stacked histogram
-    plt.hist(data, bins=np.arange(0, 7.5, 0.05).tolist(), edgecolor='black', alpha=0.7, label=labels, stacked=True)
-    
-    # Add title, labels, and legend
-    plt.title(f'{field} Redshifts', fontweight='bold')
-    plt.xlabel('Redshift')
-    plt.ylabel('Frequency')
-    plt.legend(loc='upper right')
-    
-    # Save the figure if savefig is True
-    if savefig:
-        fn = f"../Plots/{field}/{savename}_stacked_histogram.png"
-        plt.savefig(fn, dpi=savefig)
-
-    # Show the plot
-    plt.show()
-    
-def plot_zhist_stacked(field, df, z, savefig=False, savename="field"):
-    # Prepare the data for the histogram
-    data = [df[col].dropna() for col in z]  # Ensure NaN values are excluded
-    counts = [len(col_data) for col_data in data]  # Total counts per column
-    labels = [f"{col} (n={count})" for col, count in zip(z, counts)]
-    
-    # Create the figure and axis objects
-    fig, ax = plt.subplots(figsize=(8, 6))
-    
-    # Set the bins for the histogram
-    bins = np.arange(0, 7.5, 0.05).tolist()
-    
-    # Initialize the stacked histogram plot with empty data
-    hist_data = [np.zeros_like(bins[:-1]) for _ in z]
-    
-    # Function to update the plot
-    def update_hist(i):
-        # Update the data for the first i rows
-        updated_data = [df[col].dropna().iloc[:i] for col in z]
-        
-        # Reset the histogram counts
-        for idx, col_data in enumerate(updated_data):
-            hist_data[idx] = np.histogram(col_data, bins=bins)[0]
-        
-        # Clear previous data in the plot
-        ax.clear()
-        
-        # Plot the updated stacked histogram
-        ax.hist(updated_data, bins=bins, edgecolor='black', alpha=0.7, label=labels, stacked=True)
-        
-        # Title, labels, and legend
-        ax.set_title(f'{field} Redshifts', fontweight='bold')
-        ax.set_xlabel('Redshift')
-        ax.set_ylabel('Frequency')
-        ax.legend(loc='upper right')
-        
-    # Create the animation
-    anim = animation.FuncAnimation(fig, update_hist, frames=np.arange(0, len(df), 1000), interval=100, repeat=False)
-    
-    # Save the animation if savefig is True
-    if savefig:
-        fn = f"../Plots/{field}/{savename}_stacked_histogram_animation.gif"
-        anim.save(fn, writer='ffmpeg', dpi=300)
-    
-    # Show the animation
-    plt.show()
 
     
 def plot_pairwise_comparisons(field,df, z,savefig=False,subfolder=False,savename="field"):
