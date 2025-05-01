@@ -3,7 +3,7 @@
 ## Summary: XMM-LSS catalogue. Version II. 
 
 We present the final release of the multiwavelength XMM-Large Scale Structure (LSS) data set, covering the full survey area of 11.1deg^2^, with X-ray data processed with the latest XMM-LSS pipeline version. The present publication supersedes the catalogue from the first paper in this series, pertaining to the initial 5deg^2^. We provide X-ray source lists in the customary energy bands (0.5-2 and 2-10keV) for a total of 6721 objects in the deep full-exposure catalogue and 5572 in the catalogue limited to 10ks, above a detection likelihood of 15 in at least one band. We also provide a multiwavelength catalogue, cross-correlating our list with infrared, near-infrared, optical and ultraviolet catalogues. Customary data products, such as X-ray fits images and thumbnail images from the Canada-France-Hawaii Telescope Legacy Survey and the Spitzer Wide-Area Infrared Extragalactic Survey, are made available, together with our data base in Milan, which can be queried interactively.
-
+## Coverage
 ## Catalogue Schema
 
 <details>

@@ -3,7 +3,8 @@
 ## Summary: COSMOS Multi-Wavelength Photometry Catalog 
 
 We present imaging data and photometry for the COSMOS survey in 15 photometric bands between 0.3 and 2.4m. These include data taken on the Subaru 8.3m telescope, the KPNO and CTIO 4m telescopes, and the CFHT 3.6m telescope. Special techniques are used to ensure that the relative photometric calibration is better than 1% across the field of view. The absolute photometric accuracy from standard-star measurements is found to be 6%. The absolute calibration is corrected using galaxy spectra, providing colors accurate to 2% or better. Stellar and galaxy colors and counts agree well with the expected values. Finally, as the first step in the scientific analysis of these data we construct panchromatic number counts which confirm that both the geometry of the universe and the galaxy population are evolving.
-
+## Coverage
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/II-284/Subcatalogues/COSMOS/Plots/fieldcover.png)
 ## Photometric Redshift 
  
 **zphot:** Photometric Redshift from Mobasher et al. 

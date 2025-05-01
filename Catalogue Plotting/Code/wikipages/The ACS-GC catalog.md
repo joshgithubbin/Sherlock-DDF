@@ -3,7 +3,9 @@
 ## Summary: The ACS-GC catalog 
 
 We present the Advanced Camera for Surveys General Catalog (ACS-GC), a photometric and morphological database using publicly available data obtained with the Advanced Camera for Surveys (ACS) instrument on the Hubble Space Telescope. The goal of the ACS-GC database is to provide a large statistical sample of galaxies with reliable structural and distance measurements to probe the evolution of galaxies over a wide range of look-back times. The ACS-GC includes approximately 470000 astronomical sources (stars + galaxies) derived from the AEGIS, COSMOS, GEMS, and GOODS surveys. Galapagos code (Hausler et al. 2011ASPC..442..155H) was used to construct photometric (SExtractor) and morphological (Galfit) catalogs. The analysis assumes a single Sersic model for each object to derive quantitative structural parameters. We include publicly available redshifts from the DEEP2, COMBO-17, TKRS, PEARS, ACES, CFHTLS, and zCOSMOS surveys to supply redshifts (spectroscopic and photometric) for a considerable fraction (~74%) of the imaging sample. The ACS-GC includes color postage stamps, Galfit residual images, and photometry, structural parameters, and redshifts combined into a single catalog.
-
+## Coverage
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-200-9/Subcatalogues/ECDFS/Plots/fieldcover.png)
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-200-9/Subcatalogues/COSMOS/Plots/fieldcover.png)
 ## Spectroscopic Redshift 
  
 **zsp:**  

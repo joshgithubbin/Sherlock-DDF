@@ -3,7 +3,8 @@
 ## Summary: The fourth UltraVISTA data release (DR4) 
 
 UltraVISTA is an ultra-deep near-infrared survey of the central region of the COSMOS field (Scoville+ 2007ApJS..172..196K). In this fourth release (DR4) we provide five stacked images and their corresponding weight maps for Y JHKs and NB118 narrow-band data taken during the first seven years of UltraVISTA survey operations. In addition, single band individual source lists and source lists created in dual-image mode (using the Ks image as a detection image) are provided (note that in ESO terminology, single-band tabular data are referred to as "Source lists" and multi-band merged data are referred to as catalogues). We also provide a five-band catalogue that meets the requirement for a catalogue in the Phase 3 framework. The data volume is ~90GB as in DR3. The total survey area is close to 1.9deg^2^.
-
+## Coverage
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/II-373/Subcatalogues/COSMOS/Plots/fieldcover.png)
 ## Catalogue Schema
 
 <details>

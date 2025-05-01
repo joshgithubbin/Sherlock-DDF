@@ -3,7 +3,10 @@
 ## Summary: FourStar galaxy evolution survey (ZFOURGE) 
 
 The FourStar galaxy evolution survey (ZFOURGE) is a 45 night legacy program with the FourStar near-infrared camera on Magellan and one of the most sensitive surveys to date. ZFOURGE covers a total of 400arcmin^2^ in cosmic fields CDFS, COSMOS and UDS, overlapping the CANDELS fields.
-
+## Coverage
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-830-51/Subcatalogues/XMM-LSS/Plots/fieldcover.png)
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-830-51/Subcatalogues/ECDFS/Plots/fieldcover.png)
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-830-51/Subcatalogues/COSMOS/Plots/fieldcover.png)
 ## Spectroscopic Redshift 
  
 **zspec:** [0.06/6.2]?=-99 Spectroscopic redshift 

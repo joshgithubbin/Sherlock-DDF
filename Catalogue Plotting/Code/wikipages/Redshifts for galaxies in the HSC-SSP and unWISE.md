@@ -3,7 +3,9 @@
 ## Summary: Redshifts for galaxies in the HSC-SSP and unWISE 
 
 We first present a catalogue of photometric redshifts for 14.68 million galaxies derived from the 7-band photometric data of Hyper Suprime-Cam Subaru Strategic Program and the Wide-field Infrared Survey Explorer using the nearest-neighbour algorithm. The redshift uncertainty is about 0.024 for galaxies of z=<0.7, and steadily increases with redshift to about 0.11 at z~2. From such a large data set, we identify 21661 clusters of galaxies, among which 5537 clusters have redshifts z>1 and 642 clusters have z>1.5, significantly enlarging the high redshift sample of galaxy clusters. Cluster richness and mass are estimated, and these clusters have an equivalent mass of M_500_>=0.7x10^14^M_{sun}_. We find that the stellar mass of the brightest cluster galaxies (BCGs) in each richness bin does not significantly evolve with redshift. The fraction of star-forming BCGs increases with redshift, but does not depend on cluster mass.
-
+## Coverage
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-MNRAS-500-1003/Subcatalogues/XMM-LSS/Plots/fieldcover.png)
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-MNRAS-500-1003/Subcatalogues/COSMOS/Plots/fieldcover.png)
 ## Photometric Redshift 
  
 **zph:** Photometric redshift of the galaxy 

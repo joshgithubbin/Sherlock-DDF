@@ -3,7 +3,8 @@
 ## Summary: The COSMOS2020 catalog 
 
 The Cosmic Evolution Survey (COSMOS) has become a cornerstone of extragalactic astronomy. Since the last public catalog in 2015, a wealth of new imaging and spectroscopic data have been collected in the COSMOS field. This paper describes the collection, processing, and analysis of these new imaging data to produce a new reference photometric redshift catalog. Source detection and multiwavelength photometry are performed for 1.7 million sources across the 2 deg^2^ of the COSMOS field, ~966000 of which are measured with all available broadband data using both traditional aperture photometric methods and a new profile-fitting photometric extraction tool, THE FARMER, which we have developed. A detailed comparison of the two resulting photometric catalogs is presented. Photometric redshifts are computed for all sources in each catalog utilizing two independent photometric redshift codes. Finally, a comparison is made between the performance of the photometric methodologies and of the redshift codes to demonstrate an exceptional degree of self-consistency in the resulting photometric redshifts. The i<21 sources have subpercent photometric redshift accuracy and even the faintest sources at 25<i<27 reach a precision of 5%. Finally, these results are discussed in the context of previous, current, and future surveys in the COSMOS field. Compared to COSMOS2015, it reaches the same photometric redshift precision at almost one magnitude deeper. Both photometric catalogs and their photometric redshift solutions and physical parameters will be made available through the usual astronomical archive systems (ESO Phase 3, IPAC-IRSA, and CDS).
-
+## Coverage
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-258-11/Subcatalogues/COSMOS/Plots/fieldcover.png)
 ## Photometric Redshift 
  
 **lpzBEST:**  

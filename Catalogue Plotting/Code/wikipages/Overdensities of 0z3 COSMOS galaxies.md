@@ -3,7 +3,7 @@
 ## Summary: Overdensities of 0<z<3 COSMOS galaxies 
 
 It is well-known that a galaxy's environment has a fundamental influence in shaping its properties. We study the environmental effects on galaxy evolution, with an emphasis on the environment defined as the local number density of galaxies. The density field is estimated with different estimators (weighted adaptive kernel smoothing, 10th and 5th nearest neighbors, Voronoi and Delaunay tessellation) for a K_s_<24 sample of ~190000 galaxies in the COSMOS field at 0.1<z<3.1. The performance of each estimator is evaluated with extensive simulations. We show that overall there is a good agreement between the estimated density fields using different methods over ~2dex in overdensity values. However, our simulations show that adaptive kernel and Voronoi tessellation outperform other methods. Using the Voronoi tessellation method, we assign surface densities to a mass complete sample of quiescent and star-forming galaxies out to z~3. We show that at a fixed stellar mass, the median color of quiescent galaxies does not depend on their host environment out to z~3. We find that the number and stellar mass density of massive (>10^11^M_{sun}_) star-forming galaxies have not significantly changed since z~3, regardless of their environment. However, for massive quiescent systems at lower redshifts (z<~1.3), we find a significant evolution in the number and stellar mass densities in denser environments compared to lower density regions. Our results suggest that the relation between stellar mass and local density is more fundamental than the color-density relation and that environment plays a significant role in quenching star-formation activity in galaxies at z<~1.
-
+## Coverage
 ## Catalogue Schema
 
 <details>

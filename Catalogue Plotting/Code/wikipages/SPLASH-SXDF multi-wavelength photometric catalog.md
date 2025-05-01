@@ -3,7 +3,8 @@
 ## Summary: SPLASH-SXDF multi-wavelength photometric catalog 
 
 We present a multi-wavelength catalog in the Subaru/XMM-Newton Deep Field (SXDF) as part of the Spitzer Large Area Survey with Hyper-Suprime-Cam (SPLASH). We include the newly acquired optical data from the Hyper-Suprime-Cam Subaru Strategic Program, accompanied by IRAC coverage from the SPLASH survey. All available optical and near-infrared data is homogenized and resampled on a common astrometric reference frame. Source detection is done using a multi-wavelength detection image including the u-band to recover the bluest objects. We measure multi-wavelength photometry and compute photometric redshifts as well as physical properties for ~1.17 million objects over ~4.2deg^2^, with ~800000 objects in the 2.4deg^2^ HSC-Ultra-Deep coverage. Using the available spectroscopic redshifts from various surveys over the range of 0<z<6, we verify the performance of the photometric redshifts and we find a normalized median absolute deviation of 0.023 and outlier fraction of 3.2%. The SPLASH-SXDF catalog is a valuable, publicly available resource, perfectly suited for studying galaxies in the early universe and tracing their evolution through cosmic time.
-
+## Coverage
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-235-36/Subcatalogues/XMM-LSS/Plots/fieldcover.png)
 ## Photometric Redshift 
  
 **zBest:** [0/6]?=-99 Best estimate of photometric 

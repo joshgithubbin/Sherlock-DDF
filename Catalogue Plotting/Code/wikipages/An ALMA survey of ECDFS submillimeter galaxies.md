@@ -3,7 +3,8 @@
 ## Summary: An ALMA survey of ECDFS submillimeter galaxies 
 
 We present the first photometric redshift distribution for a large sample of 870 {mu}m submillimeter galaxies (SMGs) with robust identifications based on observations with ALMA. In our analysis we consider 96 SMGs in the Extended Chandra Deep Field South, 77 of which have 4-19 band photometry. We model the SEDs for these 77 SMGs, deriving a median photometric redshift of z_phot_=2.3+/-0.1. The remaining 19 SMGs have insufficient photometry to derive photometric redshifts, but a stacking analysis of Herschel observations confirms they are not spurious. Assuming that these SMGs have an absolute H-band magnitude distribution comparable to that of a complete sample of z~1-2 SMGs, we demonstrate that they lie at slightly higher redshifts, raising the median redshift for SMGs to z_phot_=2.5+/-0.2. Critically we show that the proportion of galaxies undergoing an SMG-like phase at z>=3 is at most 35%+/-5% of the total population. We derive a median stellar mass of M_*_=(8+/-1)x10^10^ M_{sun}_, although there are systematic uncertainties of up to 5x for individual sources. Assuming that the star formation activity in SMGs has a timescale of ~100 Myr, we show that their descendants at z~0 would have a space density and M_H_ distribution that are in good agreement with those of local ellipticals. In addition, the inferred mass-weighted ages of the local ellipticals broadly agree with the look-back times of the SMG events. Taken together, these results are consistent with a simple model that identifies SMGs as events that form most of the stars seen in the majority of luminous elliptical galaxies at the present day.
-
+## Coverage
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-788-125/Subcatalogues/ECDFS/Plots/fieldcover.png)
 ## Spectroscopic Redshift 
  
 **zspec:** ? Spectroscopic redshift 

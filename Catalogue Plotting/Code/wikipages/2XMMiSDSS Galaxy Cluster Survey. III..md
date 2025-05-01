@@ -3,7 +3,8 @@
 ## Summary: 2XMMi/SDSS Galaxy Cluster Survey. III. 
 
 We present a sample of 383 X-ray selected galaxy groups and clusters with spectroscopic redshift measurements (up to z~0.79) from the 2XMMi/SDSS Galaxy Cluster Survey. The X-ray cluster candidates were selected as serendipitously detected sources from the 2XMMi-DR3 catalogue that were located in the footprint of the Sloan Digital Sky Survey (SDSS-DR7). The cluster galaxies with available spectroscopic redshifts were selected from the SDSS-DR10. We developed an algorithm for identifying the cluster candidates that are associated with spectroscopically targeted luminous red galaxies and for constraining the cluster spectroscopic redshift. A cross-correlation of the constructed cluster sample with published optically selected cluster catalogues yielded 264 systems with available redshifts. The present redshift measurements are consistent with the published values. The current cluster sample extends the optically confirmed cluster sample from our cluster survey by 67 objects. Moreover, it provides spectroscopic confirmation for 78 clusters among our published cluster sample, which previously had only photometric redshifts. Of the new cluster sample that comprises 67 systems, 55 objects are newly X-ray discovered clusters and 52 systems are sources newly discovered as galaxy clusters in optical and X-ray wavelengths. Based on the measured redshifts and the fluxes given in the 2XMMi-DR3 catalogue, we estimated the X-ray luminosities and masses of the cluster sample.
-
+## Coverage
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-A+A-564-A54/Subcatalogues/COSMOS/Plots/fieldcover.png)
 ## Spectroscopic Redshift 
  
 **zs:** Cluster spectroscopic redshift (2) 

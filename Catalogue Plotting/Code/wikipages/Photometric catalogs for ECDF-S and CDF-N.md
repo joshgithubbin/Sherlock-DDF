@@ -3,7 +3,8 @@
 ## Summary: Photometric catalogs for ECDF-S and CDF-N 
 
 We present an analysis of deep multiwavelength data for z~0.3-3 starburst galaxies selected by their 70um emission in the Extended-Chandra Deep Field-South and Extended Groth Strip. We identify active galactic nuclei (AGNs) in these infrared sources through their X-ray emission and quantify the fraction that host an AGN. Lastly, we investigate the ratio between the supermassive black hole accretion rate (inferred from the AGN X-ray luminosity) and the bulge growth rate of the host galaxy (approximated as the SFR) and find that, for sources with detected AGNs and star formation (and neglecting systems with low star formation rates to which our data are insensitive), this ratio in distant starbursts agrees well with that expected from the local scaling relation assuming the black holes and bulges grew at the same epoch. These results imply that black holes and bulges grow together during periods of vigorous star formation and AGN activity.
-
+## Coverage
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-742-3/Subcatalogues/ECDFS/Plots/fieldcover.png)
 ## Spectroscopic Redshift 
  
 **zsp:** [0.0/5.5]?=-1 Spectroscopic redshift 

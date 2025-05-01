@@ -3,7 +3,8 @@
 ## Summary: MUSYC optical imaging in ECDF-S 
 
 We present deep optical 18-medium-band photometry from the Subaru telescope over the ~30'x30' Extended Chandra Deep Field-South, as part of the Multiwavelength Survey by Yale-Chile (MUSYC). This field has a wealth of ground- and space-based ancillary data, and contains the GOODS-South field and the Hubble Ultra Deep Field. We combine the Subaru imaging with existing UBVRIzJHK and Spitzer IRAC images to create a uniform catalog. Detecting sources in the MUSYC "BVR" image we find ~40,000 galaxies with R_AB_<25.3, the median 5{sigma} limit of the 18 medium bands. Photometric redshifts are determined using the EAzY code and compared to ~2000 spectroscopic redshifts in this field. The medium-band filters provide very accurate redshifts for the (bright) subset of galaxies with spectroscopic redshifts, particularly at 0.1<z<1.2 and at z~>3.5. For 0.1<z<1.2, we find a 1{sigma} scatter in {DELTA}z/(1+z) of 0.007, similar to results obtained with a similar filter set in the COSMOS field. As a demonstration of the data quality, we show that the red sequence and blue cloud can be cleanly identified in rest-frame color-magnitude diagrams at 0.1<z<1.2. We find that ~20% of the red sequence galaxies show evidence of dust emission at longer rest-frame wavelengths. The reduced images, photometric catalog, and photometric redshifts are provided through the public MUSYC Web site (http://www.astro.yale.edu/MUSYC/).
-
+## Coverage
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-189-270/Subcatalogues/ECDFS/Plots/fieldcover.png)
 ## Spectroscopic Redshift 
  
 **zsp:** ?=-1 Best Spectroscopic redshift 

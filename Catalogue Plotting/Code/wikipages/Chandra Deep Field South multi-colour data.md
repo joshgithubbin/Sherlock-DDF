@@ -1,4 +1,5 @@
-Abstract section not found.
+Abstract section not found.## Coverage
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/II-253A/Subcatalogues/ECDFS/Plots/fieldcover.png)
 ## Catalogue Schema
 
 <details>

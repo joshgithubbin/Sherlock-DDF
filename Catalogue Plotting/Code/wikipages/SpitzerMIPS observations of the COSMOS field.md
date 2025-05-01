@@ -3,7 +3,8 @@
 ## Summary: Spitzer/MIPS observations of the COSMOS field 
 
 We present Spitzer 70 and 160um observations of the COSMOS Spitzer survey (S-COSMOS). The data processing techniques are discussed for the publicly released products consisting of images and source catalogs. We present accurate 70 and 160um source counts of the COSMOS field and find reasonable agreement with measurements in other fields and with model predictions. The previously reported counts for GOODS-North and the extragalactic First Look Survey are updated with the latest calibration, and counts are measured based on the large area SWIRE survey to constrain the bright source counts. We measure an extragalactic confusion noise level of {sigma}_c_=9.4+/-3.3mJy (q=5) for the MIPS 160um band based on the deep S-COSMOS data and report an updated confusion noise level of {sigma}_c_=0.35+/-0.15mJy (q=5) for the MIPS 70um band.
-
+## Coverage
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-AJ-138-1261/Subcatalogues/COSMOS/Plots/fieldcover.png)
 ## Catalogue Schema
 
 <details>

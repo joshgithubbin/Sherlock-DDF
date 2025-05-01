@@ -3,7 +3,8 @@
 ## Summary: XMM-Newton wide-field survey in COSMOS field 
 
 The COSMOS survey is a multiwavelength survey aimed to study the evolution of galaxies, AGN and large scale structures. Within this survey XMM-COSMOS a powerful tool to detect AGN and galaxy clusters. The XMM-COSMOS is a deep X-ray survey over the full 2deg^2^ of the COSMOS area. It consists of 55 XMM-Newton pointings for a total exposure of ~1.5Ms with an average vignetting-corrected depth of 40ks across the field of view and a sky coverage of 2.13deg^2^. The analysis was performed using the XMM-SAS data analysis package in the 0.5-2keV, 2-10keV and 5-10keV energy bands. Source detection has been performed using a maximum likelihood technique especially designed for raster scan surveys. The completeness of the catalogue as well as logN-logS and source density maps have been calibrated using Monte Carlo simulations.
-
+## Coverage
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-A+A-497-635/Subcatalogues/COSMOS/Plots/fieldcover.png)
 ## Catalogue Schema
 
 <details>

@@ -3,7 +3,8 @@
 ## Summary: ECDFS galaxies photometric redshifts & counterparts 
 
 We present photometric redshifts and associated probability distributions for all detected sources in the Extended Chandra Deep Field South (ECDFS). This work makes use of the most up-to-date data from the Cosmic Assembly Near-IR Deep Legacy Survey (CANDELS) and the Taiwan ECDFS Near-Infrared Survey (TENIS) in addition to other data. We also revisit multi-wavelength counterparts for published X-ray sources from the 4Ms CDFS and 250ks ECDFS surveys, finding reliable counterparts for 1207 out of 1259 sources (~96%). Data used for photometric redshifts include intermediate-band photometry deblended using the TFIT method, which is used for the first time in this work. Photometric redshifts for X-ray source counterparts are based on a new library of active galactic nuclei/galaxy hybrid templates appropriate for the faint X-ray population in the CDFS. Photometric redshift accuracy for normal galaxies is 0.010 and for X-ray sources is 0.014 and outlier fractions are 4% and 5.2%, respectively. The results within the CANDELS coverage area are even better, as demonstrated both by spectroscopic comparison and by galaxy-pair statistics. Intermediate-band photometry, even if shallow, is valuable when combined with deep broadband photometry. For best accuracy, templates must include emission lines.
-
+## Coverage
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-796-60/Subcatalogues/ECDFS/Plots/fieldcover.png)
 ## Spectroscopic Redshift 
  
 **zspec:** [0.001/4.8]?=-99 Spectroscopic redshift 

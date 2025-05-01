@@ -3,7 +3,8 @@
 ## Summary: VIMOS Public Extragalactic Survey (VIPERS) DR1 
 
 We present the first Public Data Release (PDR-1) of the VIMOS Public Extragalactic Survey (VIPERS). It comprises 57204 spectroscopic measurements together with all additional information necessary for optimal scientific exploitation of the data, in particular the associated photometric measurements and quantification of the photometric and survey completeness. VIPERS is an ESO Large Programme designed to build a spectroscopic sample of =~100000 galaxies with i_AB_<22.5 and 0.5<z<1.2 with high sampling rate (=~45%). The survey spectroscopic targets are selected from the CFHTLS-Wide five-band catalogues in the W1 and W4 fields. The final survey will cover a total area of nearly 24 deg^2^, for a total comoving volume between z=0.5 and 1.2 of =~4x10^7^(Mpc/h)^3^ and a median galaxy redshift of z=~0.8. The release presented in this paper includes data from virtually the entire W4 field and nearly half of the W1 area, thus representing 64% of the final dataset. We provide a detailed description of sample selection, observations and data reduction procedures; we summarise the global properties of the spectroscopic catalogue and explain the associated data products and their use, and provide all the details for accessing the data through the survey database (http://vipers.inaf.it) where all information can be queried interactively.
-
+## Coverage
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-A+A-562-A23/Subcatalogues/XMM-LSS/Plots/fieldcover.png)
 ## Spectroscopic Redshift 
  
 **zsp:** ?=9.9999 Spectroscopic redshift 

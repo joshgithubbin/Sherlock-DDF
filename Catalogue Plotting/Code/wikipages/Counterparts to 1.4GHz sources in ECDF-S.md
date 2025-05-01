@@ -3,7 +3,7 @@
 ## Summary: Counterparts to 1.4GHz sources in ECDF-S 
 
 We study a sample of 883 sources detected in a deep Very Large Array survey at 1.4GHz in the Extended Chandra Deep Field South. This paper focuses on the identification of their optical and infrared (IR) counterparts. We use a likelihood-ratio technique that is particularly useful when dealing with deep optical images to minimize the number of spurious associations. We find a reliable counterpart for 95% of our radio sources. Most of the counterparts (74%) are detected at optical wavelengths, but there is a significant fraction (21%) that are only detectable in the IR. Combining newly acquired optical spectra with data from the literature, we are able to assign a redshift to 81% of the identified radio sources (37% spectroscopic). We also investigate the X-ray properties of the radio sources using the Chandra 4Ms and 250ks observations. In particular, we use a stacking technique to derive the average properties of radio objects undetected in the Chandra images. The results of our analysis are collected in a new catalog containing the position of the optical/IR counterpart, the redshift information, and the X-ray fluxes. It is the deepest multi-wavelength catalog of radio sources, which will be used for future study of this galaxy population.
-
+## Coverage
 ## Spectroscopic Redshift 
  
 **zsp:** [0/4.5]?=99 Spectroscopic redshift 

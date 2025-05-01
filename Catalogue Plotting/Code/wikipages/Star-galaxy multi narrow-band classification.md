@@ -3,7 +3,8 @@
 ## Summary: Star-galaxy multi narrow-band classification 
 
 Classification of stars and galaxies is a well-known astronomical problem that has been treated using different approaches, most of them relying on morphological information. In this paper, we tackle this issue using the low-resolution spectra from narrow-band photometry, provided by the Physics of the Accelerating Universe survey. We find that, with the photometric fluxes from the 40 narrow-band filters and without including morphological information, it is possible to separate stars and galaxies to very high precision, 98.4 per cent purity with a completeness of 98.8 per cent for objects brighter than I=22.5. This precision is obtained with a convolutional neural network as a classification algorithm, applied to the objects' spectra. We have also applied the method to the ALHAMBRA photometric survey and we provide an updated classification for its Gold sample.
-
+## Coverage
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-MNRAS-483-529/Subcatalogues/COSMOS/Plots/fieldcover.png)
 ## Catalogue Schema
 
 <details>
