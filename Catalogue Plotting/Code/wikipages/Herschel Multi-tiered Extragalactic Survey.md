@@ -4,7 +4,7 @@
 
 The Herschel Multi-tiered Extragalactic Survey (HerMES) is a legacy programme designed to map a set of nested fields totalling ~380deg^2^. Fields range in size from 0.01 to ~20deg^2^, using the Herschel-Spectral and Photometric Imaging Receiver (SPIRE) (at 250, 350 and 500um) and the Herschel-Photodetector Array Camera and Spectrometer (PACS) (at 100 and 160um), with an additional wider component of 270deg^2^ with SPIRE alone. These bands cover the peak of the redshifted thermal spectral energy distribution from interstellar dust and thus capture the reprocessed optical and ultraviolet radiation from star formation that has been absorbed by dust, and are critical for forming a complete multiwavelength understanding of galaxy formation and evolution.
 ## Coverage
-![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/VIII-95/Subcatalogues/ELAIS S1/Plots/fieldcover.png)
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/VIII-95/Subcatalogues/ELAIS%20S1/Plots/fieldcover.png)
 ![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/VIII-95/Subcatalogues/XMM-LSS/Plots/fieldcover.png)
 ![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/VIII-95/Subcatalogues/ECDFS/Plots/fieldcover.png)
 ![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/VIII-95/Subcatalogues/COSMOS/Plots/fieldcover.png)
