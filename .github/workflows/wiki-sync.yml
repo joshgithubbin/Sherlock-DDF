@@ -18,35 +18,12 @@ jobs:
         run: |
           git clone "https://x-access-token:${{ secrets.PERSONAL_TOKEN }}@github.com/${{ github.repository_owner }}/$(basename ${{ github.repository }}).wiki.git" wiki
 
+
+
       - name: Copy markdown files
         run: |
           rm -rf wiki/*
           cp -r "Catalogue Plotting/Code/wikipages/." wiki/
-
-      - name: Rename markdown files based on Summary content
-        run: |
-          # Loop through all markdown files in the wiki directory
-          for file in wiki/*.md; do
-            # Find the line starting with '## Summary:' and extract everything after it
-            summary=$(grep -m 1 '^## Summary:' "$file" | sed 's/^## Summary: //')
-      
-            # Check if the summary line is non-empty
-            if [ -n "$summary" ]; then
-              # Sanitize the summary to use it as a filename:
-              # - Remove slashes and any other problematic characters
-              # - Do not replace spaces, only remove characters that could cause issues
-              new_name=$(echo "$summary" | tr -d '/\\')
-      
-              # Remove leading and trailing spaces from the new filename
-              new_name=$(echo "$new_name" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
-      
-              # Check if the new filename is non-empty, then rename the file
-              if [ -n "$new_name" ]; then
-                mv "$file" "wiki/${new_name}.md"
-              fi
-            fi
-          done
-
 
       - name: Push to wiki
         run: |
