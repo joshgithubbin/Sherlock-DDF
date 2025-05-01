@@ -1,3 +1,11 @@
+<details><summary>A+</summary>
+
+
+- [The ACS-GC catalog](https://github.com/joshgithubbin/Sherlock-DDF/wiki/The-ACS-GC-catalog)
+- [MUSYC optical imaging in ECDF-S](https://github.com/joshgithubbin/Sherlock-DDF/wiki/MUSYC-optical-imaging-in-ECDF-S)
+
+</details>
+
 <details><summary>A</summary>
 
 
@@ -16,14 +24,6 @@
 - [K20 survey: spectroscopic catalogue](https://github.com/joshgithubbin/Sherlock-DDF/wiki/K20-survey:-spectroscopic-catalogue)
 - [KX redshift survey](https://github.com/joshgithubbin/Sherlock-DDF/wiki/KX-redshift-survey)
 - [GOODS-MUSIC sample: multicolour catalog](https://github.com/joshgithubbin/Sherlock-DDF/wiki/GOODS-MUSIC-sample:-multicolour-catalog)
-
-</details>
-
-<details><summary>A+</summary>
-
-
-- [The ACS-GC catalog](https://github.com/joshgithubbin/Sherlock-DDF/wiki/The-ACS-GC-catalog)
-- [MUSYC optical imaging in ECDF-S](https://github.com/joshgithubbin/Sherlock-DDF/wiki/MUSYC-optical-imaging-in-ECDF-S)
 
 </details>
 
@@ -48,6 +48,14 @@
 
 </details>
 
+<details><summary>B+</summary>
+
+
+- [The COSMOS2020 catalog](https://github.com/joshgithubbin/Sherlock-DDF/wiki/The-COSMOS2020-catalog)
+- [SPLASH-SXDF multi-wavelength photometric catalog](https://github.com/joshgithubbin/Sherlock-DDF/wiki/SPLASH-SXDF-multi-wavelength-photometric-catalog)
+
+</details>
+
 <details><summary>B</summary>
 
 
@@ -55,14 +63,6 @@
 - [ALHAMBRA Survey](https://github.com/joshgithubbin/Sherlock-DDF/wiki/ALHAMBRA-Survey)
 - [VIPERS Multi-Lambda Survey](https://github.com/joshgithubbin/Sherlock-DDF/wiki/VIPERS-Multi-Lambda-Survey)
 - [Photometric redshifts of X-ray sources in CDF-S](https://github.com/joshgithubbin/Sherlock-DDF/wiki/Photometric-redshifts-of-X-ray-sources-in-CDF-S)
-
-</details>
-
-<details><summary>B+</summary>
-
-
-- [The COSMOS2020 catalog](https://github.com/joshgithubbin/Sherlock-DDF/wiki/The-COSMOS2020-catalog)
-- [SPLASH-SXDF multi-wavelength photometric catalog](https://github.com/joshgithubbin/Sherlock-DDF/wiki/SPLASH-SXDF-multi-wavelength-photometric-catalog)
 
 </details>
 
@@ -77,20 +77,20 @@
 
 </details>
 
-<details><summary>C</summary>
-
-
-- [MIGHTEE catalogues of COSMOS/XMM-LSS fields](https://github.com/joshgithubbin/Sherlock-DDF/wiki/MIGHTEE-catalogues-of-COSMOS/XMM-LSS-fields)
-- [GOODS-S CANDELS multiwavelength catalog](https://github.com/joshgithubbin/Sherlock-DDF/wiki/GOODS-S-CANDELS-multiwavelength-catalog)
-
-</details>
-
 <details><summary>C+</summary>
 
 
 - [Unknown Title](https://github.com/joshgithubbin/Sherlock-DDF/wiki/Unknown-Title)
 - [CFHQSIR survey](https://github.com/joshgithubbin/Sherlock-DDF/wiki/CFHQSIR-survey)
 - [Chandra Deep Field South: multi-colour data](https://github.com/joshgithubbin/Sherlock-DDF/wiki/Chandra-Deep-Field-South:-multi-colour-data)
+
+</details>
+
+<details><summary>C</summary>
+
+
+- [MIGHTEE catalogues of COSMOS/XMM-LSS fields](https://github.com/joshgithubbin/Sherlock-DDF/wiki/MIGHTEE-catalogues-of-COSMOS/XMM-LSS-fields)
+- [GOODS-S CANDELS multiwavelength catalog](https://github.com/joshgithubbin/Sherlock-DDF/wiki/GOODS-S-CANDELS-multiwavelength-catalog)
 
 </details>
 
