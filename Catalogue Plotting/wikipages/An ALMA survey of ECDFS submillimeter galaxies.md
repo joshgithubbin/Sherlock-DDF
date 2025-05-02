@@ -10,6 +10,7 @@ We present the first photometric redshift distribution for a large sample of 870
 **zspec:** ? Spectroscopic redshift 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-788-125/Subcatalogues/ECDFS/Plots/zspec.png)
 ## Photometric Redshift 
  
 **zphot:** Photometric redshift 

@@ -10,6 +10,7 @@ We present reliable multiwavelength identifications and high-quality photometric
 **zs:** ?=-1 Spectroscopic redshift 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-187-560/Subcatalogues/ECDFS/Plots/zspec.png)
 ## Photometric Redshift 
  
 **zp:** ?=-1 ZEBRA derived photometric redshift (3) 

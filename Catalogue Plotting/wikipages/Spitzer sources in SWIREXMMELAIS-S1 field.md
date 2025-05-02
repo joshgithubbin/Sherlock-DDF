@@ -10,6 +10,7 @@ We present a catalog of optical spectroscopic identifications of sources detecte
 **z:** Redshift (spectroscopic) 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-703-1778/Subcatalogues/ELAIS%20S1/Plots/zspec.png)
 ## Catalogue Schema
 
 <details>

@@ -10,6 +10,7 @@ We present a sample of 383 X-ray selected galaxy groups and clusters with spectr
 **zs:** Cluster spectroscopic redshift (2) 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-A+A-564-A54/Subcatalogues/COSMOS/Plots/zspec.png)
 ## Photometric Redshift 
  
 **zp:** Cluster photometric redshift (2) 

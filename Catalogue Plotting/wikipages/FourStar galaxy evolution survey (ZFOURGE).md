@@ -12,6 +12,9 @@ The FourStar galaxy evolution survey (ZFOURGE) is a 45 night legacy program with
 **zspec:** [0.06/6.2]?=-99 Spectroscopic redshift 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-830-51/Subcatalogues/XMM-LSS/Plots/zspec.png)
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-830-51/Subcatalogues/ECDFS/Plots/zspec.png)
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-830-51/Subcatalogues/COSMOS/Plots/zspec.png)
 ## Photometric Redshift 
  
 **zpk:**  

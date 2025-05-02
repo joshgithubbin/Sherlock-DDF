@@ -10,6 +10,7 @@ We present a spectroscopic survey of galaxies in the COSMOS field using the Fibe
 **z:** [0.7/2.5]?=-99 Best measurement of redshift 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-220-12/Subcatalogues/COSMOS/Plots/zspec.png)
 ## Catalogue Schema
 
 <details>

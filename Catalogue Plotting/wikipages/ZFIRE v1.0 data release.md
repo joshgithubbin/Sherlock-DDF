@@ -11,6 +11,8 @@ We present an overview and the first data release of ZFIRE, a spectroscopic reds
 **zsp:**  
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-828-21/Subcatalogues/XMM-LSS/Plots/zspec.png)
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-828-21/Subcatalogues/COSMOS/Plots/zspec.png)
 ## Catalogue Schema
 
 <details>

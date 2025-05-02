@@ -10,6 +10,7 @@ We present the optical and infrared identifications of the 266 radio sources det
 **zsp:** ? Spectroscopic redshift of counterpart 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-179-95/Subcatalogues/ECDFS/Plots/zspec.png)
 ## Photometric Redshift 
  
 **zph:** ? Photometric redshift of counterpart 

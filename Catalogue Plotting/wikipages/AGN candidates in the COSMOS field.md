@@ -10,6 +10,7 @@ We present spectroscopic redshifts for the first 466 X-ray and radio-selected AG
 **z:** ?=-1.00000 Redshift 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-172-383/Subcatalogues/COSMOS/Plots/zspec.png)
 ## Catalogue Schema
 
 <details>

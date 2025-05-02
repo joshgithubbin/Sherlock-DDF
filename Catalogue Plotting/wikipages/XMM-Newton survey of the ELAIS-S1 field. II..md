@@ -10,6 +10,7 @@ We present the optical identifications and a multi-band catalogue of a sample of
 **z:** ?=-9.0 or -1.0 Spectroscopic redshift 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-A+A-488-417/Subcatalogues/ELAIS%20S1/Plots/zspec.png)
 ## Photometric Redshift 
  
 **zpho:** ?=-1.0 Best fit Photometric redshift 

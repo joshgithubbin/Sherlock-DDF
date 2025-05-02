@@ -10,6 +10,7 @@ We present a multi-wavelength photometric catalog in the COSMOS field as part of
 **zbest:** [0/10]?=-99 Best phot or spectroscopic 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-228-7/Subcatalogues/COSMOS/Plots/zspec.png)
 ## Photometric Redshift 
  
 **zphotl68:** ?=-99 Lower 68% confidence level in zphot 

@@ -10,6 +10,7 @@ We present the results of a program to acquire high-quality optical spectra of X
 **zsp:** Spectroscopic redshift 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-191-124/Subcatalogues/ECDFS/Plots/zspec.png)
 ## Photometric Redshift 
  
 **zph:**  
