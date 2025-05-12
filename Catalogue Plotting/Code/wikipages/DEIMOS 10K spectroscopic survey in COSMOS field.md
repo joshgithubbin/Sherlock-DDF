@@ -10,6 +10,7 @@ We present a catalog of 10718 objects in the COSMOS field, observed through mult
 **zspec:** [0/6.7]? Spectroscopic redshift 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-858-77/Subcatalogues/COSMOS/Plots/zspec.png)
 ## Catalogue Schema
 
 <details>

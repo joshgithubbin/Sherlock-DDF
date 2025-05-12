@@ -10,11 +10,13 @@ We present a catalog covering 1.62deg^2^ of the COSMOS/UltraVISTA field with poi
 **zsp:**  
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-206-8/Subcatalogues/COSMOS/Plots/zspec.png)
 ## Photometric Redshift 
  
 **zpk:** [/6]?=-1 Photometric redshift from the peak of 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-206-8/Subcatalogues/COSMOS/Plots/zphot.png)
 ## Catalogue Schema
 
 <details>

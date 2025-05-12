@@ -10,6 +10,7 @@ In this paper we present preliminary spectroscopic results from a small-area fai
 **z:** ? Redshift 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-MNRAS-328-150/Subcatalogues/ECDFS/Plots/zspec.png)
 ## Catalogue Schema
 
 <details>

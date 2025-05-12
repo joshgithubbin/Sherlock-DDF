@@ -10,6 +10,7 @@ We present optical spectroscopy for an X-ray and optical flux-limited sample of 
 **z:** ?=-1 Spectroscopic redshift 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-696-1195/Subcatalogues/COSMOS/Plots/zspec.png)
 ## Catalogue Schema
 
 <details>

@@ -10,6 +10,7 @@ We present the first Public Data Release (PDR-1) of the VIMOS Public Extragalact
 **zsp:** ?=9.9999 Spectroscopic redshift 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-A+A-562-A23/Subcatalogues/XMM-LSS/Plots/zspec.png)
 ## Catalogue Schema
 
 <details>

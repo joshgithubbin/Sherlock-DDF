@@ -12,6 +12,9 @@ We have revised the Spitzer Wide-Area Infrared Extragalactic survey (SWIRE) Phot
 **zsp:** ?=0.00000 Spectroscopic redshift 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/II-326/Subcatalogues/ELAIS%20S1/Plots/zspec.png)
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/II-326/Subcatalogues/XMM-LSS/Plots/zspec.png)
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/II-326/Subcatalogues/ECDFS/Plots/zspec.png)
 ## Catalogue Schema
 
 <details>

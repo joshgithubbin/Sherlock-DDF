@@ -10,6 +10,7 @@ In order to answer the open questions of modern cosmology and galaxy evolution t
 **zphMl:** [0.02/1.47] Photometric redshift obtained 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-MNRAS-507-5034/Subcatalogues/COSMOS/Plots/zphot.png)
 ## Catalogue Schema
 
 <details>

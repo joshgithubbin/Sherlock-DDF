@@ -10,11 +10,13 @@ We present the initial results and the source catalog from the Nuclear Spectrosc
 **Czsp:** [0.1/2.8]? Spectroscopic redshift of the 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-808-184/Subcatalogues/ECDFS/Plots/zspec.png)
 ## Photometric Redshift 
  
 **Czph:** [0.09/2.8]? Photometric redshift of the 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-808-184/Subcatalogues/ECDFS/Plots/zphot.png)
 ## Catalogue Schema
 
 <details>

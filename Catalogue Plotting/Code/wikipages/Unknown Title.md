@@ -10,6 +10,7 @@ This paper presents the VIMOS VLT Deep Survey around the Chandra Deep Field Sout
 **z:** Redshift 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-A+A-428-1043/Subcatalogues/ECDFS/Plots/zphot.png)
 ## Catalogue Schema
 
 <details>

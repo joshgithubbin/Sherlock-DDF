@@ -11,6 +11,8 @@ We first present a catalogue of photometric redshifts for 14.68 million galaxies
 **zph:** Photometric redshift of the galaxy 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-MNRAS-500-1003/Subcatalogues/XMM-LSS/Plots/zphot.png)
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-MNRAS-500-1003/Subcatalogues/COSMOS/Plots/zphot.png)
 ## Catalogue Schema
 
 <details>

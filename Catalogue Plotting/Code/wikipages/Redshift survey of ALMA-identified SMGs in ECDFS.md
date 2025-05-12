@@ -10,11 +10,13 @@ We present spectroscopic redshifts of S_870{mu}m_>~2mJy submillimeter galaxies (
 **zspec:** [0.6/5]? Spectroscopic redshift 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-840-78/Subcatalogues/ECDFS/Plots/zspec.png)
 ## Photometric Redshift 
  
 **zphot:** [0.3/7]? Photometric redshift 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-840-78/Subcatalogues/ECDFS/Plots/zphot.png)
 ## Catalogue Schema
 
 <details>

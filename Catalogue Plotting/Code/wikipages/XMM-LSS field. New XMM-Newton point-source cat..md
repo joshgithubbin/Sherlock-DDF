@@ -10,11 +10,16 @@ We present an X-ray point-source catalogue from the XMM-Large Scale Structure (X
 **zsp:** ?=-99 Spectroscopic redshift (ZSEPC) 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-MNRAS-478-2132/Subcatalogues/ELAIS%20S1/Plots/zspec.png)
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-MNRAS-478-2132/Subcatalogues/XMM-LSS/Plots/zspec.png)
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-MNRAS-478-2132/Subcatalogues/ECDFS/Plots/zspec.png)
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-MNRAS-478-2132/Subcatalogues/COSMOS/Plots/zspec.png)
 ## Photometric Redshift 
  
 **zph:** Photometric redshift (ZPHOT) 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-MNRAS-478-2132/Subcatalogues/XMM-LSS/Plots/zphot.png)
 ## Catalogue Schema
 
 <details>

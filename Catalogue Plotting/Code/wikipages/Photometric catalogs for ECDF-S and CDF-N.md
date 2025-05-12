@@ -10,11 +10,13 @@ We present an analysis of deep multiwavelength data for z~0.3-3 starburst galaxi
 **zsp:** [0.0/5.5]?=-1 Spectroscopic redshift 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-742-3/Subcatalogues/ECDFS/Plots/zspec.png)
 ## Photometric Redshift 
  
 **b_zph:** Lower 68% confidence interval on zph 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-742-3/Subcatalogues/ECDFS/Plots/zphot.png)
 ## Catalogue Schema
 
 <details>

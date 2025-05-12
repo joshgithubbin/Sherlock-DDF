@@ -10,6 +10,7 @@ zCOSMOS is a large-redshift survey that is being undertaken in the COSMOS field 
 **z:** ?=- Redshift (REDSHIFT) 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-172-70/Subcatalogues/COSMOS/Plots/zspec.png)
 ## Catalogue Schema
 
 <details>

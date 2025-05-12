@@ -10,6 +10,7 @@ We present a multi-wavelength catalog in the Subaru/XMM-Newton Deep Field (SXDF)
 **zBest:** [0/6]?=-99 Best estimate of photometric 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-235-36/Subcatalogues/XMM-LSS/Plots/zphot.png)
 ## Catalogue Schema
 
 <details>

@@ -11,6 +11,8 @@ In this paper, we present photometric redshifts for 2.7 million galaxies in the 
 **zphMLbest:** Machine learning (GPz) based photometric 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-MNRAS-513-3719/Subcatalogues/XMM-LSS/Plots/zphot.png)
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-MNRAS-513-3719/Subcatalogues/COSMOS/Plots/zphot.png)
 ## Catalogue Schema
 
 <details>

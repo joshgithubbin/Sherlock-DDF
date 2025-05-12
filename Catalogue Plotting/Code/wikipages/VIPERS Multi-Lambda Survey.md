@@ -10,6 +10,7 @@ We present observations collected in the CFHTLS-VIPERS region in the ultraviolet
 **zphot:** ?=-99 Most reliable photo-z based on 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-A+A-590-A102/Subcatalogues/XMM-LSS/Plots/zphot.png)
 ## Catalogue Schema
 
 <details>

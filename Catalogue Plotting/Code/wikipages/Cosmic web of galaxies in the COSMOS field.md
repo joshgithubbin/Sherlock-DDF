@@ -10,6 +10,7 @@ We use a mass complete (log(M/M_{sun}_)>=9.6) sample of galaxies with accurate p
 **zph:** [0.1/1.2] Photometric redshift 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-837-16/Subcatalogues/COSMOS/Plots/zphot.png)
 ## Catalogue Schema
 
 <details>

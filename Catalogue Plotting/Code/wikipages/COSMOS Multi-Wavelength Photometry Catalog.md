@@ -10,6 +10,7 @@ We present imaging data and photometry for the COSMOS survey in 15 photometric b
 **zphot:** Photometric Redshift from Mobasher et al. 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/II-284/Subcatalogues/COSMOS/Plots/zphot.png)
 ## Catalogue Schema
 
 <details>

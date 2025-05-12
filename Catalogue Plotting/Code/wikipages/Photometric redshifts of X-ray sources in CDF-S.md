@@ -10,6 +10,7 @@ Based on the photometry of 10 near-ultraviolet, optical, and near-infrared bands
 **z:** Redshift 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-155-73/Subcatalogues/ECDFS/Plots/zphot.png)
 ## Catalogue Schema
 
 <details>

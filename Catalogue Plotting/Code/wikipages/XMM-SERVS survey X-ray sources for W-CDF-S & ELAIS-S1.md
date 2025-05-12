@@ -11,11 +11,15 @@ We present the X-ray point-source catalogs in two of the XMM-Spitzer Extragalact
 **zsp:** [0.00013/4.05]?=-99 Spectroscopic 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-256-21/Subcatalogues/ELAIS%20S1/Plots/zspec.png)
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-256-21/Subcatalogues/ECDFS/Plots/zspec.png)
 ## Photometric Redshift 
  
 **zphot:** [0.01/4.27]?=-99 Suggested photometric 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-256-21/Subcatalogues/ELAIS%20S1/Plots/zphot.png)
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-256-21/Subcatalogues/ECDFS/Plots/zphot.png)
 ## Catalogue Schema
 
 <details>

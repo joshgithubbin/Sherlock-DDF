@@ -10,6 +10,7 @@ The K20 survey is a near infrared-selected, deep (Ks<20) redshift survey targeti
 **z:** ? Spectroscopic redshift 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-A+A-437-883/Subcatalogues/ECDFS/Plots/zspec.png)
 ## Catalogue Schema
 
 <details>

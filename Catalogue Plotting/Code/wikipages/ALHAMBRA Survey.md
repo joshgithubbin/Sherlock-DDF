@@ -10,6 +10,7 @@ The Advance Large Homogeneous Area Medium-Band Redshift Astronomical (ALHAMBRA) 
 **zml:** Maximum Likelihood most likely redshift (z_ml) 
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-MNRAS-441-2891/Subcatalogues/COSMOS/Plots/zphot.png)
 ## Catalogue Schema
 
 <details>

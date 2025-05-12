@@ -10,11 +10,13 @@ We present a high quality multiwavelength (from 0.3 to 8.0 micron) catalog of th
 **zspec:**  
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-A+A-449-951/Subcatalogues/ECDFS/Plots/zspec.png)
 ## Photometric Redshift 
  
 **zphot:**  
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-A+A-449-951/Subcatalogues/ECDFS/Plots/zphot.png)
 ## Catalogue Schema
 
 <details>
