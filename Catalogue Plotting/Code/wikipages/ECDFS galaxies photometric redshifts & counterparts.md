@@ -12,9 +12,9 @@ We present photometric redshifts and associated probability distributions for al
 
 ![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-796-60/Subcatalogues/ECDFS/Plots/zspec.png)
 <details>
-<summary>Quality flag . . .
+<summary>Quality flag . . .</summary>
 
-![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-796-60/Subcatalogues/ECDFS/Plots/q_zspec.png)</summary>
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-796-60/Subcatalogues/ECDFS/Plots/q_zspec.png)</details>
 ## Photometric Redshift 
  
 **zphot:** [0/6.7]?=-99 The photo-z value (zp) as defined 

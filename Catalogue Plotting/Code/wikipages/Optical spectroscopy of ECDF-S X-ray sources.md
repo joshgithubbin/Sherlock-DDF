@@ -12,9 +12,9 @@ We present the results of a program to acquire high-quality optical spectra of X
 
 ![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-191-124/Subcatalogues/ECDFS/Plots/zspec.png)
 <details>
-<summary>Quality flag . . .
+<summary>Quality flag . . .</summary>
 
-![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-191-124/Subcatalogues/ECDFS/Plots/q_zspec.png)</summary>
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-191-124/Subcatalogues/ECDFS/Plots/q_zspec.png)</details>
 ## Photometric Redshift 
  
 **zph:**  

@@ -14,19 +14,19 @@ We have revised the Spitzer Wide-Area Infrared Extragalactic survey (SWIRE) Phot
 
 ![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/II-326/Subcatalogues/ELAIS%20S1/Plots/zspec.png)
 <details>
-<summary>Quality flag . . .
+<summary>Quality flag . . .</summary>
 
-![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/II-326/Subcatalogues/ELAIS%20S1/Plots/q_zspec.png)</summary>
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/II-326/Subcatalogues/ELAIS%20S1/Plots/q_zspec.png)</details>
 ![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/II-326/Subcatalogues/XMM-LSS/Plots/zspec.png)
 <details>
-<summary>Quality flag . . .
+<summary>Quality flag . . .</summary>
 
-![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/II-326/Subcatalogues/XMM-LSS/Plots/q_zspec.png)</summary>
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/II-326/Subcatalogues/XMM-LSS/Plots/q_zspec.png)</details>
 ![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/II-326/Subcatalogues/ECDFS/Plots/zspec.png)
 <details>
-<summary>Quality flag . . .
+<summary>Quality flag . . .</summary>
 
-![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/II-326/Subcatalogues/ECDFS/Plots/q_zspec.png)</summary>
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/II-326/Subcatalogues/ECDFS/Plots/q_zspec.png)</details>
 ## Catalogue Schema
 
 <details>

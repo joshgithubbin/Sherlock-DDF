@@ -21,9 +21,9 @@ We present an X-ray point-source catalogue from the XMM-Large Scale Structure (X
 
 ![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-MNRAS-478-2132/Subcatalogues/XMM-LSS/Plots/zphot.png)
 <details>
-<summary>Quality flag . . .
+<summary>Quality flag . . .</summary>
 
-![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-MNRAS-478-2132/Subcatalogues/XMM-LSS/Plots/q_zphot.png)</summary>
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-MNRAS-478-2132/Subcatalogues/XMM-LSS/Plots/q_zphot.png)</details>
 ## Catalogue Schema
 
 <details>

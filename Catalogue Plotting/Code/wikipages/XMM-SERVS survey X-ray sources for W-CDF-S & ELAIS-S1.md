@@ -13,14 +13,14 @@ We present the X-ray point-source catalogs in two of the XMM-Spitzer Extragalact
 
 ![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-256-21/Subcatalogues/ELAIS%20S1/Plots/zspec.png)
 <details>
-<summary>Quality flag . . .
+<summary>Quality flag . . .</summary>
 
-![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-256-21/Subcatalogues/ELAIS%20S1/Plots/q_zspec.png)</summary>
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-256-21/Subcatalogues/ELAIS%20S1/Plots/q_zspec.png)</details>
 ![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-256-21/Subcatalogues/ECDFS/Plots/zspec.png)
 <details>
-<summary>Quality flag . . .
+<summary>Quality flag . . .</summary>
 
-![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-256-21/Subcatalogues/ECDFS/Plots/q_zspec.png)</summary>
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-256-21/Subcatalogues/ECDFS/Plots/q_zspec.png)</details>
 ## Photometric Redshift 
  
 **zphot:** [0.01/4.27]?=-99 Suggested photometric 

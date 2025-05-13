@@ -12,9 +12,9 @@ We present optical spectroscopy for an X-ray and optical flux-limited sample of 
 
 ![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-696-1195/Subcatalogues/COSMOS/Plots/zspec.png)
 <details>
-<summary>Quality flag . . .
+<summary>Quality flag . . .</summary>
 
-![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-696-1195/Subcatalogues/COSMOS/Plots/q_zspec.png)</summary>
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-696-1195/Subcatalogues/COSMOS/Plots/q_zspec.png)</details>
 ## Catalogue Schema
 
 <details>

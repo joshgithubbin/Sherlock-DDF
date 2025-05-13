@@ -12,9 +12,9 @@ We present a spectroscopic survey of galaxies in the COSMOS field using the Fibe
 
 ![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-220-12/Subcatalogues/COSMOS/Plots/zspec.png)
 <details>
-<summary>Quality flag . . .
+<summary>Quality flag . . .</summary>
 
-![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-220-12/Subcatalogues/COSMOS/Plots/q_zspec.png)</summary>
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-220-12/Subcatalogues/COSMOS/Plots/q_zspec.png)</details>
 ## Catalogue Schema
 
 <details>
