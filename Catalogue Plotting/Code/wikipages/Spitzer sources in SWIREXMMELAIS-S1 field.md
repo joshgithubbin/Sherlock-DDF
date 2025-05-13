@@ -11,6 +11,10 @@ We present a catalog of optical spectroscopic identifications of sources detecte
  
 
 ![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-703-1778/Subcatalogues/ELAIS%20S1/Plots/zspec.png)
+<details>
+<summary>Quality flag . . .
+
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-703-1778/Subcatalogues/ELAIS%20S1/Plots/q_zspec.png)</summary>
 ## Catalogue Schema
 
 <details>

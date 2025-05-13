@@ -11,6 +11,10 @@ We present the first Public Data Release (PDR-1) of the VIMOS Public Extragalact
  
 
 ![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-A+A-562-A23/Subcatalogues/XMM-LSS/Plots/zspec.png)
+<details>
+<summary>Quality flag . . .
+
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-A+A-562-A23/Subcatalogues/XMM-LSS/Plots/q_zspec.png)</summary>
 ## Catalogue Schema
 
 <details>

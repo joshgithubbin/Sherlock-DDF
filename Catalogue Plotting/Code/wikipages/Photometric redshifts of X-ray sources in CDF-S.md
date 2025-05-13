@@ -11,6 +11,10 @@ Based on the photometry of 10 near-ultraviolet, optical, and near-infrared bands
  
 
 ![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-155-73/Subcatalogues/ECDFS/Plots/zphot.png)
+<details>
+<summary>Quality flag . . .
+
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-155-73/Subcatalogues/ECDFS/Plots/q_zphot.png)</summary>
 ## Catalogue Schema
 
 <details>

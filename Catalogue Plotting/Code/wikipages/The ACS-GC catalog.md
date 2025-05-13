@@ -12,7 +12,15 @@ We present the Advanced Camera for Surveys General Catalog (ACS-GC), a photometr
  
 
 ![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-200-9/Subcatalogues/ECDFS/Plots/zspec.png)
+<details>
+<summary>Quality flag . . .
+
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-200-9/Subcatalogues/ECDFS/Plots/q_zspec.png)</summary>
 ![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-200-9/Subcatalogues/COSMOS/Plots/zspec.png)
+<details>
+<summary>Quality flag . . .
+
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-200-9/Subcatalogues/COSMOS/Plots/q_zspec.png)</summary>
 ## Photometric Redshift 
  
 **zph:**  

@@ -10,6 +10,7 @@ The Cosmic Evolution Survey (COSMOS) has become a cornerstone of extragalactic a
 **lpzBEST:**  
  
 
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-258-11/Subcatalogues/COSMOS/Plots/zphot.png)
 ## Catalogue Schema
 
 <details>

@@ -12,7 +12,15 @@ We present an overview and the first data release of ZFIRE, a spectroscopic reds
  
 
 ![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-828-21/Subcatalogues/XMM-LSS/Plots/zspec.png)
+<details>
+<summary>Quality flag . . .
+
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-828-21/Subcatalogues/XMM-LSS/Plots/q_zspec.png)</summary>
 ![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-828-21/Subcatalogues/COSMOS/Plots/zspec.png)
+<details>
+<summary>Quality flag . . .
+
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJ-828-21/Subcatalogues/COSMOS/Plots/q_zspec.png)</summary>
 ## Catalogue Schema
 
 <details>

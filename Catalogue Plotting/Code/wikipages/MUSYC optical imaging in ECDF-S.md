@@ -11,6 +11,10 @@ We present deep optical 18-medium-band photometry from the Subaru telescope over
  
 
 ![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-189-270/Subcatalogues/ECDFS/Plots/zspec.png)
+<details>
+<summary>Quality flag . . .
+
+![image](https://raw.githubusercontent.com/joshgithubbin/Sherlock-DDF/refs/heads/main/Catalogue%20Plotting/Catalogues/J-ApJS-189-270/Subcatalogues/ECDFS/Plots/q_zspec.png)</summary>
 ## Catalogue Schema
 
 <details>
