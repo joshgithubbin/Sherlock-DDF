@@ -4,7 +4,7 @@
 
 - [Catalogue Ranking System](https://github.com/joshgithubbin/Sherlock-DDF/wiki/Catalogue-Ranking-System)
 
-- [Cross-Matching Methodology](https://github.com/joshgithubbin/Sherlock-DDF/wiki/Cross%E2%80%90Matching-Methodology)
+- [Cross-Matching Methodology](https://github.com/joshgithubbin/Sherlock-DDF/wiki/Cross-Matching-Methodology)
 
 - [Lestrade User Guide](https://github.com/joshgithubbin/Sherlock-DDF/wiki/Lestrade-User-Guide)
 
