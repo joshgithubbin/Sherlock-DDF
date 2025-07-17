@@ -1,3 +1,5 @@
+![](https://github.com/joshgithubbin/Sherlock-DDF/blob/main/Catalogue%20Plotting/Code/wikipages/images/Lestrade%20logo.png?raw=true)
+
 ### [Home](https://github.com/joshgithubbin/Sherlock-DDF/wiki)
 
 ### Help
@@ -7,6 +9,12 @@
 - [Cross-Matching Methodology](https://github.com/joshgithubbin/Sherlock-DDF/wiki/Cross-Matching-Methodology)
 
 - [Lestrade User Guide](https://github.com/joshgithubbin/Sherlock-DDF/wiki/Lestrade-User-Guide)
+
+
+***
+
+
+![](https://github.com/joshgithubbin/Sherlock-DDF/blob/main/Catalogue%20Plotting/Code/wikipages/images/lestrade%20autowiki.png?raw=true)
 
 ### Catalogues:
 
