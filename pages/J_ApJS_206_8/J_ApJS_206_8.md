@@ -11,7 +11,7 @@ We present a catalog covering 1.62deg^2^ of the COSMOS/UltraVISTA field with poi
  
 
  
-![](https://github.com/joshgithubbin/Lestrade/blob/main/pages/J_ApJS_206_8/im/coverage.png?raw=true)
+![](https://github.com/joshgithubbin/Sherlock-DDF/blob/main/pages/J_ApJS_206_8/im/coverage.png?raw=true)
 
 ## Spectroscopic Redshift 
 
@@ -24,7 +24,7 @@ We present a catalog covering 1.62deg^2^ of the COSMOS/UltraVISTA field with poi
 
 <details><summary>See Figure . . .</summary>
 
-![](https://github.com/joshgithubbin/Lestrade/blob/main/pages/J_ApJS_206_8/im/ZSP.png?raw=true)
+![](https://github.com/joshgithubbin/Sherlock-DDF/blob/main/pages/J_ApJS_206_8/im/ZSP.png?raw=true)
 
 </details>
 
@@ -39,7 +39,7 @@ We present a catalog covering 1.62deg^2^ of the COSMOS/UltraVISTA field with poi
 
 <details><summary>See Figure . . .</summary>
 
-![](https://github.com/joshgithubbin/Lestrade/blob/main/pages/J_ApJS_206_8/im//ZPH.png?raw=true)
+![](https://github.com/joshgithubbin/Sherlock-DDF/blob/main/pages/J_ApJS_206_8/im//ZPH.png?raw=true)
 
 </details>
 
@@ -58,7 +58,7 @@ We present a catalog covering 1.62deg^2^ of the COSMOS/UltraVISTA field with poi
 
 <details><summary>See Figure . . .</summary>
 
-![](https://github.com/joshgithubbin/Lestrade/blob/main/pages/J_ApJS_206_8/im//morphology.png?raw=true)
+![](https://github.com/joshgithubbin/Sherlock-DDF/blob/main/pages/J_ApJS_206_8/im//morphology.png?raw=true)
 
 </details>
                       
