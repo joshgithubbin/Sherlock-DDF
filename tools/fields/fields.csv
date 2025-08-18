@@ -1,0 +1,7 @@
+﻿Name,RA-Centre,DEC-Centre,Diameter,Colour
+ELAIS S1,"[0, 37, 48]","[-44, 0, 0]",3.6,xkcd:aquamarine
+XMM-LSS,"[2, 22, 50]","[-4, 45, 0]",3.6,xkcd:plum
+ECDFS,"[3, 32, 30]","[-28, 6, 0]",3.6,xkcd:apple green
+COSMOS,"[10, 00, 24]","[2, 10, 55]",3.6,xkcd:amber
+EDFS_a,"[3, 55, 36]","[-49, 19, 12]",3.6,xkcd:purplish pink
+EDFS_b,"[4, 14, 24]","[-47, 36, 0]",3.6,xkcd:purplish pink
