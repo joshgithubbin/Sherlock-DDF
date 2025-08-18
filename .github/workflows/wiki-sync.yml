@@ -3,10 +3,11 @@ name: Sync Wiki
 on:
   push:
     paths:
-      - 'Catalogue Plotting/Code/wikipages/**'
+      - 'pages/**'
     branches:
       - main
   workflow_dispatch: 
+
 jobs:
   sync-wiki:
     runs-on: ubuntu-latest
@@ -18,12 +19,13 @@ jobs:
         run: |
           git clone "https://x-access-token:${{ secrets.PERSONAL_TOKEN }}@github.com/${{ github.repository_owner }}/$(basename ${{ github.repository }}).wiki.git" wiki
 
-
-
-      - name: Copy markdown files
+      - name: Copy wiki base and all markdown pages (flattened)
         run: |
           rm -rf wiki/*
-          cp -r "Catalogue Plotting/Code/wikipages/." wiki/
+          # Copy all markdown files from base folder
+          cp pages/base/*.md wiki/ || true
+          # Copy markdown files from all other subfolders (flattened)
+          find pages -type f -name "*.md" ! -path "pages/base/*" -exec cp {} wiki/ \;
 
       - name: Push to wiki
         run: |
