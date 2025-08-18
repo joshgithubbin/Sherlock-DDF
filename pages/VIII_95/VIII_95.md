@@ -11,7 +11,7 @@ The Herschel Multi-tiered Extragalactic Survey (HerMES) is a legacy programme de
  
 
  
-![](https://github.com/joshgithubbin/Lestrade/blob/main/pages/VIII_95/im/coverage.png?raw=true)
+![](https://github.com/joshgithubbin/Sherlock-DDF/blob/main/pages/VIII_95/im/coverage.png?raw=true)
 
 ## Spectroscopic Redshift 
 
@@ -24,7 +24,7 @@ The Herschel Multi-tiered Extragalactic Survey (HerMES) is a legacy programme de
 
 <details><summary>See Figure . . .</summary>
 
-![](https://github.com/joshgithubbin/Lestrade/blob/main/pages/VIII_95/im/ZSP.png?raw=true)
+![](https://github.com/joshgithubbin/Sherlock-DDF/blob/main/pages/VIII_95/im/ZSP.png?raw=true)
 
 </details>
 
@@ -39,7 +39,7 @@ The Herschel Multi-tiered Extragalactic Survey (HerMES) is a legacy programme de
 
 <details><summary>See Figure . . .</summary>
 
-![](https://github.com/joshgithubbin/Lestrade/blob/main/pages/VIII_95/im//ZPH.png?raw=true)
+![](https://github.com/joshgithubbin/Sherlock-DDF/blob/main/pages/VIII_95/im//ZPH.png?raw=true)
 
 </details>
 
@@ -58,7 +58,7 @@ The Herschel Multi-tiered Extragalactic Survey (HerMES) is a legacy programme de
 
 <details><summary>See Figure . . .</summary>
 
-![](https://github.com/joshgithubbin/Lestrade/blob/main/pages/VIII_95/im//morphology.png?raw=true)
+![](https://github.com/joshgithubbin/Sherlock-DDF/blob/main/pages/VIII_95/im//morphology.png?raw=true)
 
 </details>
                       
