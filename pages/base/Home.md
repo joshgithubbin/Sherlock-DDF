@@ -26,7 +26,7 @@ In addition to the main wide-fast-deep survey (roughly 18,000 deg2), 10-20% of o
 
 <br/>
 
-<img align="left" width="290" src="https://github.com/joshgithubbin/Lestrade/blob/main/Catalogue%20Plotting/Code/wikipages/images/1246549.png?raw=true" />
+<img align="left" width="290" src="https://github.com/joshgithubbin/Sherlock-DDF/blob/main/Catalogue%20Plotting/Code/wikipages/images/1246549.png?raw=true" />
 <br/>
 
 ### Transient-Host Matching
