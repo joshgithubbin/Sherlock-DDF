@@ -19,19 +19,23 @@ from collections import defaultdict
 
 class catalogue:
      
-    def __init__(self,doi,fp='../catalogues/'):
+    def __init__(self,doi,fp='lestrade/catalogues/'):
         
         import re
+        import os
+        import lestrade
         
         self._doi = doi
         self._doi_tidy = re.sub(r'[<>:"/\\|?*]', '_', self._doi).strip()
-        self._directory = fp
+        #self._directory = fp
+        
+        self._directory = os.path.dirname(lestrade.__file__)+'/catalogues/'
         
         #need to get autowiki instance
         
         #best zsp, best zph, associated quality flags, morphology, type flags
     
-        from page import autowiki
+        from lestrade.autowiki.page import autowiki
         
         summary = autowiki(doi=self._doi)
         
@@ -57,10 +61,10 @@ class catalogue:
         
     def get_combined_catalogue(self):
         
-        if os.path.exists(f"../catalogues/{self._doi_tidy}/{self._doi_tidy}_cm.csv"):
+        
+        if os.path.exists(f"{self._directory}{self._doi_tidy}/{self._doi_tidy}_cm.csv"):
                 
-                
-            combined_df = pd.read_csv(f"../catalogues/{self._doi_tidy}/{self._doi_tidy}_cm.csv")
+            combined_df = pd.read_csv(f"{self._directory}{self._doi_tidy}/{self._doi_tidy}_cm.csv")
             
             self._catalogue_concat = combined_df
             
@@ -106,7 +110,7 @@ class catalogue:
             #save combined data
             
             
-            self._catalogue_concat.to_csv(f'../catalogues/{self._doi_tidy}/{self._doi_tidy}_cm.csv')
+            self._catalogue_concat.to_csv(f'{self._directory}{self._doi_tidy}/{self._doi_tidy}_cm.csv')
             
             
     def download_table(self,table_no,save=False):
@@ -133,14 +137,14 @@ class catalogue:
         filename = self._doi_tidy
         
 
-        if not os.path.exists(f'../catalogues/{filename}/'):
-            os.makedirs(f'../catalogues/{filename}/')
+        if not os.path.exists(f'{self._directory}{filename}/'):
+            os.makedirs(f'{self._directory}{filename}/')
         
         
         #searching for table data
-        if exists(f'../catalogues/{filename}/{os.path.basename(table_name)}.csv'):
+        if exists(f'{self._directory}{filename}/{os.path.basename(table_name)}.csv'):
             
-            df = pd.read_csv(f'../catalogues/{filename}/{os.path.basename(table_name)}.csv')
+            df = pd.read_csv(f'{self._directory}{filename}/{os.path.basename(table_name)}.csv')
             
         else:
             
@@ -247,7 +251,7 @@ class catalogue:
             
             if save==True:
 
-                df.to_csv(f'../catalogues/{filename}/{os.path.basename(table_name)}.csv') 
+                df.to_csv(f'{self._directory}{filename}/{os.path.basename(table_name)}.csv') 
                 
                 
             
