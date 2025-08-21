@@ -68,6 +68,8 @@ def apply_method(transients, catalogue, method, metric, radius=15, ms=0.8,n=2): 
         for i in range(min(n, len(transient_host_candidates))):
             
             cand = transient_host_candidates.iloc[i]
+            
+            transients.loc[index,f'{metric} Host {i+1} GalID'] = cand['GalID']
 
             transients.loc[index, f'{metric} Host {i+1} RA']  = cand['RA']
             transients.loc[index, f'{metric} Host {i+1} DEC'] = cand['DEC']

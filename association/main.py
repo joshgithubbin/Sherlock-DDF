@@ -10,6 +10,7 @@ def lestrade(sample,field,catalogues, #list of transients, deep drilling field, 
              metric, #method of association
              overwrite=True, #overwrite relevant columns
              annotate=True, #check for annotations
+             check=False, #compare to true hosts in sample
              
              r=15,
              ms=0.8,
@@ -32,7 +33,7 @@ def lestrade(sample,field,catalogues, #list of transients, deep drilling field, 
                   &&&&&&&&&&&&&&&  & &&  &&& &&&& &&&&    &&&  &&&  &&&&  &&& &&&&&  &              
                   &&&&&&&&&   &&&&&& &&&&&&   &&&&&&&&     &&&&&&&   &&&&&&&&   &&&&&&                                  
                                                                                            
-                                              Version 0.4.1            
+                                              Version 0.5.1            
                                                                                                     
                                               
                                                                                                     
@@ -51,19 +52,10 @@ def lestrade(sample,field,catalogues, #list of transients, deep drilling field, 
     
     fp_c = f'{os.path.splitext(os.path.basename(sample))[0]}_{field}'
     
-    output_file = f"{fp_a}{fp_b}/{fp_c}"
-    
-    if annotate:
-        
-        output_file +='_annotated.csv'     
-        
-    else:   
-        
-        output_file +='.csv'
-        
+    output_file = f"{fp_a}{fp_b}/base/{fp_c}"
     
     # Ensure the directory exists
-    os.makedirs(fp_a+fp_b, exist_ok=True)
+    os.makedirs(f"{fp_a}{fp_b}/base/", exist_ok=True)
     
     #check for overwrite
     if os.path.exists(output_file) and not overwrite:
@@ -96,6 +88,7 @@ def lestrade(sample,field,catalogues, #list of transients, deep drilling field, 
         
         field_cat = l_cinit.gen_ls_cat(rac,dec,d,catalogues)
         
+        field_cat['GalID'] = range(1, len(field_cat) + 1)
         
         #constrain the sample
         subset = search.search(
@@ -115,21 +108,59 @@ def lestrade(sample,field,catalogues, #list of transients, deep drilling field, 
         
         import importlib
 
-        # Correct import of the module:
         
         module = importlib.import_module(association_method)
         
-        # Pass the module, not the function
         subset_output = apply_method(subset, field_cat, module, metric,r,ms,n)
+        
+        subset_output.to_csv(f'{output_file}.csv',index=False)
         
         
         #then we do the annotation
-        if annotate:
-            pass
 
-        #save
-        subset_output.to_csv(output_file) 
+        if annotate:
+            
+            from lestrade.association.annotate import annotate_matches
+            
+            annotation_folder = f"{fp_a}{fp_b}/config"
+            
+            output_file = f"{fp_a}{fp_b}/annotated/{fp_c}_annotated.csv"   
+            
+            # Ensure the directory exists
+            os.makedirs(annotation_folder, exist_ok=True)
+            
+            os.makedirs(f"{fp_a}{fp_b}/annotated/", exist_ok=True)
+            
+            files = ['blended', 'ds']
+            
+            for fname in files:
                 
+                file_path = os.path.join(annotation_folder, f"{fname}.csv")
+                
+                if not os.path.exists(file_path):
+                    # Create empty dataframe and save it
+                    df = pd.DataFrame(columns=['GalID'])
+                    df.to_csv(file_path, index=False)
+                else:
+                    # Read existing dataframe
+                    df = pd.read_csv(file_path)
+                    
+                    #now go through and identify catalogue items to annotate
+                    #for each item in subset_output, if host id exists in catalogue, flag
+                    annotate_matches(subset_output,df,fname)                    
+
+                #save
+                subset_output.to_csv(output_file,index=False)
+        
+        field_cat.to_csv(f"{fp_a}{fp_b}/catalogue.csv",index=False) 
+        
+        if check:
+            
+            #check if the true host exists in the catalogue
+            
+            
+            #if so, check whether the true host is consistent with the method-identified host
+            pass
 
     return subset_output
 
