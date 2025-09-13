@@ -47,3 +47,24 @@ def pipe(transient_host_candidates, row):
     
     return transient_host_candidates
 
+def features(df):
+    
+    #dlr 1-2
+    df['AV 1-2'] = df.apply(
+                lambda df: av_calc(
+                    float(df['AV Host 2 RA']), float(df['AV Host 2 DEC']),
+                    float(df['AV Host 1 RA']), float(df['AV Host 1 DEC']), float(df['AV Host 1 A'])
+                ),
+                axis=1
+                    )
+    
+    #dlr 2-1
+    df['AV 2-1'] = df.apply(
+                lambda df: av_calc(
+                    float(df['AV Host 1 RA']), float(df['AV Host 1 DEC']),
+                    float(df['AV Host 2 RA']), float(df['AV Host 2 DEC']), float(df['AV Host 2 A'])
+                ),
+                axis=1
+                    )
+    
+    return df

@@ -10,9 +10,11 @@ def lestrade(sample,field,catalogues, #list of transients, deep drilling field, 
              metric, #method of association
              overwrite=True, #overwrite relevant columns
              annotate=True, #check for annotations
+             score=True, #get additional features
+             savemodel=False,#save model
              check=False, #compare to true hosts in sample
              compare=False,
-             
+             aides=False,
              
              plot=True,
              
@@ -38,7 +40,7 @@ def lestrade(sample,field,catalogues, #list of transients, deep drilling field, 
                   &&&&&&&&&&&&&&&  & &&  &&& &&&& &&&&    &&&  &&&  &&&&  &&& &&&&&  &              
                   &&&&&&&&&   &&&&&& &&&&&&   &&&&&&&&     &&&&&&&   &&&&&&&&   &&&&&&                                  
                                                                                            
-                                              Version 0.7.5            
+                                              Version 0.10.0            
                                                                                                     
                                               
                                                                                                     
@@ -123,7 +125,9 @@ def lestrade(sample,field,catalogues, #list of transients, deep drilling field, 
         dec = ddfs[field]['DECdeg']
         d = ddfs[field]['Diameter']*1.2
         
-        field_cat = l_cinit.gen_ls_cat(rac,dec,d,catalogues)
+        print(parent_folder)
+        
+        field_cat = l_cinit.gen_ls_cat(rac,dec,d,catalogues,config=f'{parent_folder}config.py')
         
         field_cat['GalID'] = range(1, len(field_cat) + 1)
         
@@ -143,7 +147,7 @@ def lestrade(sample,field,catalogues, #list of transients, deep drilling field, 
         dec = ddfs[field]['DECdeg']
         d = ddfs[field]['Diameter']*1.2
         
-        field_cat = l_cinit.gen_ls_cat(rac,dec,d,catalogues)
+        field_cat = l_cinit.gen_ls_cat(rac,dec,d,catalogues,config=f'{parent_folder}config.py')
         
         field_cat['GalID'] = range(1, len(field_cat) + 1)
         
@@ -163,7 +167,7 @@ def lestrade(sample,field,catalogues, #list of transients, deep drilling field, 
         dec = ddfs[field]['DECdeg']
         d = ddfs[field]['Diameter']*1.2
         
-        field_cat = l_cinit.gen_ls_cat(rac,dec,d,catalogues)
+        field_cat = l_cinit.gen_ls_cat(rac,dec,d,catalogues,f'{parent_folder}config.py')
         
         field_cat['GalID'] = range(1, len(field_cat) + 1)
     
@@ -177,8 +181,10 @@ def lestrade(sample,field,catalogues, #list of transients, deep drilling field, 
             'RA',
             'DEC'
         )
-    
         
+        overwrite = True
+    
+    subset_output = subset #needs fixing more tidily later (v0.8.2)    
     
     #######################################################################
     #
@@ -186,7 +192,7 @@ def lestrade(sample,field,catalogues, #list of transients, deep drilling field, 
     #
     #######################################################################
     
-    
+        
     #now we need to apply the relevant method to the subset
     
     from lestrade.association.base_assoc import apply_method
@@ -200,7 +206,8 @@ def lestrade(sample,field,catalogues, #list of transients, deep drilling field, 
     subset_output = apply_method(subset, field_cat, module, metric,r,ms,n)
     
     subset_output.to_csv(f'{base_folder}{fn}.csv',index=False)
-        
+    
+    
     #######################################################################
     #
     #                           ANNOTATION
@@ -291,6 +298,107 @@ def lestrade(sample,field,catalogues, #list of transients, deep drilling field, 
         
         
     field_cat.to_csv(f"{fp_a}{fp_b}/catalogue.csv",index=False) 
+    
+    #######################################################################
+    #
+    #                               SCORE
+    #
+    #######################################################################
+    
+    if score and n > 1:
+        
+        from lestrade.association.score import get_score_metrics, ls_model
+        import importlib
+        
+        association_method = f'lestrade.association.methods.{metric}'
+             
+        module = importlib.import_module(association_method)
+        
+        subset_output = get_score_metrics(subset_output,metric,module)
+    
+    
+        if annotate:
+            
+            if check:
+            #annotate complete
+                fp = f'{annotated_complete_folder}'
+                                
+            else:
+            #annotate
+                fp = f'{annotated_folder}'
+                           
+        elif complete:
+            #complete
+            fp = f'{complete_folder}'
+            
+        else:
+            #base            
+            fp = f'{base_folder}'
+    
+        mpfp = f'{fp}plots/{metric}/model/'
+        
+        os.makedirs(mpfp,exist_ok=True)
+    
+        if check:
+            
+            model = ls_model(subset_output,metric)
+            
+            model.feature_selection()
+            model.train_test_split()
+            model.train_xgb()
+            model.get_threshold_for_mdr()
+            model.compute_confusion_matrix(plot=True,fp=f'{mpfp}{fn}_{metric}_cm.png')
+            model.plot_feature_importance(fp=f'{mpfp}{fn}_{metric}_fi.png')
+            model.plot_histogram(fp=f'{mpfp}{fn}_{metric}_sd.png')
+            
+            subset_output = model._output
+            
+            
+        else:
+            
+            # Get all matching models
+            pattern = os.path.join(model_dir, f"{model_subname}_*.pkl")
+            files = glob.glob(pattern)
+            
+            if len(files) > 0:
+                
+                import pickle
+                
+                # Sort by filename (timestamp is part of name)
+                files.sort()
+                
+                model_filepath = files[-1]
+                
+                with open(latest_model_path, "rb") as f:
+                    
+                    model = pickle.load(f)
+            
+                    # Grab only the features the model expects
+                    X = df[model.feature_names_in_]
+
+                    
+                    df["score"] = model.predict_proba(X)[:, 1]
+                    
+                    df["prediction"] = model.predict(X)
+                                                            
+                            
+            
+        if savemodel:
+            
+            from datetime import datetime
+            
+            model_folder = f'{os.path.dirname(lestrade.__file__)}/tools/models/{metric}/'
+            
+            os.makedirs(model_folder,exist_ok=True)
+            
+            mn = f'{fn}_{datetime.now().strftime("%y%m%d%H%M%S")}'
+        
+            import pickle
+            
+            with open(f'{model_folder}{mn}.pkl', "wb") as f:
+                
+                    pickle.dump(model._model, f)
+        
         
         
     #######################################################################
@@ -323,8 +431,19 @@ def lestrade(sample,field,catalogues, #list of transients, deep drilling field, 
             
             fp = f'{base_folder}plots/{metric}/'
         
-        os.makedirs(fp, exist_ok=True)
-        plot_method(subset_output,metric,n,fp,annotate,consistency_split)
+        if aides:
+            os.makedirs(fp, exist_ok=True)
+            plot_method(subset_output,metric,n,fp,annotate,consistency_split)
+        
+        if score and n >1:
+            
+            from lestrade.plot.plot_features import plot_features, histplot
+            
+            feature_fp = f'{fp}Features/'
+            os.makedirs(feature_fp, exist_ok=True)
+            
+            #generate histograms for method
+            plot_features(subset_output,metric,feature_fp,consistency_split)
 
 
     #######################################################################
@@ -341,7 +460,6 @@ def lestrade(sample,field,catalogues, #list of transients, deep drilling field, 
 
         # Get the folder path of the package
         methods_path = methods.__path__[0]
-        print('hello')
         # List all .py files except __init__.py
         metrics = [
                     f[:-3]  # strip ".py"
@@ -358,14 +476,11 @@ def lestrade(sample,field,catalogues, #list of transients, deep drilling field, 
             folder = f'{complete_folder}'
         
         for i in metrics:
-            print("HELLO")    
             colname = f"{i} MATCH"
             
             if colname in subset_output:
-                print("HELLOOOOOO")
                 outpath = (f"{folder}plots/summary/")
                 os.makedirs(outpath, exist_ok=True)
-                print(outpath)
                 compare_methods(subset_output, metric, i, fp=f'{outpath}{metric}_vs_{i}.png', cmap="Blues")      
     
     return subset_output

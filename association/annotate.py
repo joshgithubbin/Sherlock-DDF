@@ -38,6 +38,8 @@ def overwrite_matches(transient_matches, annotations, metric):
 
 import numpy as np
 
+import pandas as pd
+
 def annotate_matches(transient_matches, annotations, label):
     matched_columns = [
         col for col in transient_matches.columns 
@@ -47,16 +49,26 @@ def annotate_matches(transient_matches, annotations, label):
     for col in matched_columns:
         label_col = f"{col} Label"
         
-        # If label column doesn't exist yet, initialize with empty string
+        # Ensure label column exists and is string-typed
         if label_col not in transient_matches.columns:
             transient_matches[label_col] = ""
+        else:
+            transient_matches[label_col] = transient_matches[label_col].fillna("").astype(str)
         
-        # Create mask for matches
+        # Mask where GalID is in the annotations
         mask = transient_matches[col].isin(annotations["GalID"])
         
-        # Append label only if it's not already present
-        transient_matches.loc[mask, label_col] = transient_matches.loc[mask, label_col].apply(
-            lambda x: f"{x},{label}" if label not in x.split(",") else x
-        ).str.strip(",")
+        def add_label(x):
+            if not x or pd.isna(x):
+                return label
+            parts = [p for p in str(x).split(",") if p]
+            if label not in parts:
+                parts.append(label)
+            return ",".join(parts)
+        
+        transient_matches.loc[mask, label_col] = (
+            transient_matches.loc[mask, label_col].apply(add_label)
+        )
     
     return transient_matches
+

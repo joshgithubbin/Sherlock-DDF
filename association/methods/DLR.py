@@ -93,98 +93,29 @@ def pipe(transient_host_candidates,row):
         return transient_host_candidates
 
 
-
-def apply_dlr(transients, catalogue,
-              radius=15, # radius in arcseconds
-              ms=0.8,    # minimum separation for hosts to be distinct, in arcseconds
-              n=2):     # number of candidates to return
-
-    from tqdm import tqdm
-    from lestrade.browser import search
-    import pandas as pd
+def features(df):
     
-    pd.options.mode.chained_assignment = None
-
-    for index, row in tqdm(transients.iterrows(), total=len(transients), desc="Creating DLR Associations . . . "):
-    #for index, row in transients.iterrows():
-        # identify nearby hosts from which to calculate dlr values
-        transient_host_candidates = search.search(
-            row['RA'],
-            row['DEC'],
-            radius * 2. * (1./3600.),
-            catalogue,
-            'RA',
-            'DEC'
-        )
-
-        
-        # compute DLR
-        transient_host_candidates['DLR'] = transient_host_candidates.apply(
-                    lambda r_: d_dlr(
-                        float(r_['A']), float(r_['B']), float(r_['THETA']),
-                        float(r_['RA']), float(r_['DEC']),
-                        float(row['RA']), float(row['DEC'])
-                    ),
-                    axis=1
-                        )
+    #dlr 1-2
+    df['DLR 1-2'] = df.apply(
+                lambda df: d_dlr(
+                    float(df['DLR Host 1 A']), float(df['DLR Host 1 B']), float(df['DLR Host 1 PA']),
+                    float(df['DLR Host 1 RA']), float(df['DLR Host 1 DEC']),
+                    float(df['DLR Host 2 RA']), float(df['DLR Host 2 DEC'])
+                ),
+                axis=1
+                    )
+    
+    #dlr 2-1
+    df['DLR 2-1'] = df.apply(
+                lambda df: d_dlr(
+                    float(df['DLR Host 2 A']), float(df['DLR Host 2 B']), float(df['DLR Host 2 PA']),
+                    float(df['DLR Host 2 RA']), float(df['DLR Host 2 DEC']),
+                    float(df['DLR Host 1 RA']), float(df['DLR Host 1 DEC'])
+                ),
+                axis=1
+                    )
+    
+    return df
 
 
-
-        # sort from best (lowest) to worst
-        transient_host_candidates = transient_host_candidates.sort_values(
-            by='DLR', ascending=True
-        ).reset_index(drop=True)
-
-        # initialize Drop column
-        transient_host_candidates['Drop'] = False
-
-        # remove duplicates among neighbouring rows
-        for i in range(len(transient_host_candidates) - 1):
-            
-            
-            from astropy.coordinates import SkyCoord
-            from astropy import units as u
-            
-            
-            ra1, dec1 = transient_host_candidates.iloc[i][['RA', 'DEC']]
-            ra2, dec2 = transient_host_candidates.iloc[i+1][['RA', 'DEC']]
-
-            best_coord = SkyCoord(ra=ra1 * u.deg, 
-                                          dec= dec1 * u.deg)
-            current_coord = SkyCoord(ra=ra2 * u.deg, 
-                                             dec= dec2 * u.deg)
-                    
-            s = best_coord.separation(current_coord).arcsec  # Separation in arcseconds
-            #s = ang_sep(ra1, dec1, ra2, dec2)
-            
-            if s < ms:
-                transient_host_candidates.loc[transient_host_candidates.index[i+1], 'Drop'] = True
-
-        transient_host_candidates = transient_host_candidates[~transient_host_candidates['Drop']]
-
-        # attach top n hosts
-
-        for i in range(min(n, len(transient_host_candidates))):
-            
-            cand = transient_host_candidates.iloc[i]
-
-            transients.loc[index, f'DLR Host {i+1} RA']  = cand['RA']
-            transients.loc[index, f'DLR Host {i+1} DEC'] = cand['DEC']
-            transients.loc[index, f'DLR Host {i+1} A']   = cand['A']
-            transients.loc[index, f'DLR Host {i+1} B']   = cand['B']
-            transients.loc[index, f'DLR Host {i+1} PA']  = cand['THETA']
-            
-            transients.loc[index, f'DLR Host {i+1} DLR'] = cand['DLR']
-
-            if pd.notna(cand['ZSP']):
-                transients.loc[index, f'DLR Host {i+1} z']      = cand['ZSP']
-                transients.loc[index, f'DLR Host {i+1} z type'] = 'ZSP'
-            elif pd.notna(cand['ZPH']):
-                transients.loc[index, f'DLR Host {i+1} z']      = cand['ZPH']
-                transients.loc[index, f'DLR Host {i+1} z type'] = 'ZPH'
-            else:
-                transients.loc[index, f'DLR Host {i+1} z']      = None
-                transients.loc[index, f'DLR Host {i+1} z type'] = None
-
-    return transients
 

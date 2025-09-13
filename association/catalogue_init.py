@@ -7,7 +7,7 @@ Created on Mon Aug 18 09:43:27 2025
 """
 
 
-def gen_ls_cat(rac,dec,d,cats):
+def gen_ls_cat(rac,dec,d,cats,config='config.py'):
     
     #rac - centre of ddf
     #dec - centre of ddf
@@ -17,6 +17,8 @@ def gen_ls_cat(rac,dec,d,cats):
     from lestrade.browser import fields, search
     from lestrade.autowiki.download import catalogue
     import pandas as pd
+    import os
+    import subprocess
     
     df = None
     
@@ -54,7 +56,15 @@ def gen_ls_cat(rac,dec,d,cats):
             #initialize
             df = df_i
 
-    cols = ['RA','DEC','ZSP','ZPH','A','B','THETA','q_ZSP','e_ZSP','q_ZPH','e_ZPH','Classes','catalogue']
+    cols = ['RA','DEC','ZSP','ZPH','A','B','THETA','q_ZSP','e_ZSP','q_ZPH','e_ZPH','Classes','catalogue']   
+    
+    if os.path.exists(config):
+        with open(config) as f:
+            code = f.read()
+        # Execute code with df available
+        exec(code, {"df": df})
+        # The exec() call returns a dict; df may have been modified
+        df = locals()['df']
     
     return df[cols]
 
