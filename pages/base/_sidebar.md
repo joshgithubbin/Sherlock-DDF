@@ -22,6 +22,12 @@
 
 <details><summary>A+</summary>
 
+- [COSMOS2025: The COSMOS-Web galaxy catalog of photometry, morphology, and physical parameters from JWST, HST and ground-based imaging](https://github.com/joshgithubbin/Sherlock-DDF/wiki/COSMOS2025)
+
+- [MIGHTEE: the continuum survey Data Release 1](https://github.com/joshgithubbin/Sherlock-DDF/wiki/MIGHTEE_DR1)
+
+- [The PAU Survey: an improved photo-z sample in the COSMOS field](https://github.com/joshgithubbin/Sherlock-DDF/wiki/PAUS)
+
 - [The ACS-GC catalog](https://github.com/joshgithubbin/Sherlock-DDF/wiki/J_ApJS_200_9)
 
 - [MUSYC optical imaging in ECDF-S](https://github.com/joshgithubbin/Sherlock-DDF/wiki/J_ApJS_189_270)
