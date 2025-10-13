@@ -28,6 +28,8 @@
 
 - [The PAU Survey: an improved photo-z sample in the COSMOS field](https://github.com/joshgithubbin/Sherlock-DDF/wiki/PAUS)
 
+- [Data Release 1 of the Dark Energy Spectroscopic Instrument](https://github.com/joshgithubbin/Sherlock-DDF/wiki/DESI_DR1)
+
 - [The ACS-GC catalog](https://github.com/joshgithubbin/Sherlock-DDF/wiki/J_ApJS_200_9)
 
 - [MUSYC optical imaging in ECDF-S](https://github.com/joshgithubbin/Sherlock-DDF/wiki/J_ApJS_189_270)
